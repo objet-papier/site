@@ -1,5 +1,8 @@
 .logo-fixed-cover {
   position: fixed;
+  @include flexbox;
+  flex-direction: column;
+  justify-content: center;
   z-index: 0;
   top: 0;
   right: 0;
@@ -7,8 +10,7 @@
   left: 0;
 
   .logo {
-    //width: 900px;
-    margin: 200px auto 0;
+    width: 100%;
     display: none;
   }
 
@@ -17,10 +19,31 @@
   }
 }
 
+.baseline {
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+  text-align: center;
+  bottom: 150px;
+  font-size: 20px;
+  opacity: 1;
+  transition: opacity 0.2s;
+  font-family: $gothic-font;
+  //color: #8a8a8a;
+
+  &.hidden {
+    opacity: 0;
+  }
+}
+
 .home-content {
   margin: 4000px auto 200px;
   position: relative;
   z-index: 10;
   text-align: center;
-  font-size: 72px;
+  font-family: $gothic-font;
+
+  h2, h3 {
+    font-size: 35px;
+  }
 }

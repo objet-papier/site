@@ -1,19 +1,67 @@
+@font-face {
+  font-family: 'CrimsonText';
+  src: url("fonts/CrimsonText-Regular.eot");
+  src: url("fonts/CrimsonText-Regular.woff2") format("woff2"), url("fonts/CrimsonText-Regular.woff") format("woff"), url("fonts/CrimsonText-Regular.ttf") format("truetype"), url("fonts/CrimsonText-Regular.svg#CrimsonText-Regular") format("svg"), url("fonts/CrimsonText-Regular.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'CrimsonText';
+  src: url("fonts/CrimsonText-Italic.eot");
+  src: url("fonts/CrimsonText-Italic.woff2") format("woff2"), url("fonts/CrimsonText-Italic.woff") format("woff"), url("fonts/CrimsonText-Italic.ttf") format("truetype"), url("fonts/CrimsonText-Italic.svg#CrimsonText-Italic") format("svg"), url("fonts/CrimsonText-Italic.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: 'MadrasExtraBold';
+  src: url("fonts/MadrasExtraBold.eot");
+  src: url("fonts/MadrasExtraBold.woff2") format("woff2"), url("fonts/MadrasExtraBold.woff") format("woff"), url("fonts/MadrasExtraBold.ttf") format("truetype"), url("fonts/MadrasExtraBold.svg#MadrasExtraBold") format("svg"), url("fonts/MadrasExtraBold.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'MadrasExtraBold';
+  src: url("fonts/MadrasExtraBoldItalic.woff") format("woff"), url("fonts/MadrasExtraBoldItalic.ttf") format("truetype"), url("fonts/MadrasExtraBoldItalic.svg#MadrasExtraBoldItalic") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
 .logo-fixed-cover {
   position: fixed;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   z-index: 0;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0; }
   .logo-fixed-cover .logo {
-    margin: 200px auto 0;
+    width: 100%;
     display: none; }
   .logo-fixed-cover .logo-one {
     display: block; }
+
+.baseline {
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+  text-align: center;
+  bottom: 150px;
+  font-size: 20px;
+  opacity: 1;
+  transition: opacity 0.2s;
+  font-family: "MadrasExtraBold", Helvetica, Arial, sans-serif; }
+  .baseline.hidden {
+    opacity: 0; }
 
 .home-content {
   margin: 4000px auto 200px;
   position: relative;
   z-index: 10;
   text-align: center;
-  font-size: 72px; }
+  font-family: "MadrasExtraBold", Helvetica, Arial, sans-serif; }
+  .home-content h2, .home-content h3 {
+    font-size: 35px; }

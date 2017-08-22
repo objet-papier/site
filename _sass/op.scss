@@ -1,26 +1,57 @@
-// Define defaults for each variable.
+@import "op/fonts";
 
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$base-font-size:   16px !default;
-$base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.5 !default;
+$serif-font: 'CrimsonText', Times, serif !default;
+$gothic-font: 'MadrasExtraBold', Helvetica, Arial, sans-serif !default;
 
-$spacing-unit:     30px !default;
-
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
-
-$grey-color:       #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
 
 // Width of the content area
 $content-width:    800px !default;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin box-shadow($shadow) {
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    -ms-box-shadow: $shadow;
+    box-shadow: $shadow;
+}
+
+@mixin block-shadow {
+    -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
+    -ms-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
+}
+
+@mixin box-sizing($sizing) {
+    -webkit-box-sizing: $sizing;
+    -moz-box-sizing: $sizing;
+    -ms-box-sizing: $sizing;
+    box-sizing: $sizing;
+}
+
+@mixin transform($transform) {
+    -webkit-transform: $transform;
+    -moz-transform: $transform;
+    -ms-transform: $transform;
+    transform: $transform;
+}
+
+@mixin flexbox {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -33,6 +64,10 @@ $on-laptop:        800px !default;
   @media screen and (max-width: $device) {
     @content;
   }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
 }
 
 // Import partials.

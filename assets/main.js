@@ -7,6 +7,14 @@ $(window).on('scroll', function() {
     var triggerFour = 400;
     var triggerFive = 500;
 
+    if(scrollPosition != 0) {
+        $(".baseline").addClass("hidden");
+    }
+
+    if(scrollPosition == 0) {
+        $(".baseline").removeClass("hidden");
+    }
+
     // console.log(scopeIfMultiple);
 
     if(scopeIfMultiple < triggerOne) {
