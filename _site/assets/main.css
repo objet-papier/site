@@ -5,9 +5,11 @@
   right: 0;
   bottom: 0;
   left: 0; }
-  .logo-fixed-cover .logo-one, .logo-fixed-cover .logo-two, .logo-fixed-cover .logo-three, .logo-fixed-cover .logo-four, .logo-fixed-cover .logo-five, .logo-fixed-cover .logo-six {
+  .logo-fixed-cover .logo {
     margin: 200px auto 0;
     display: none; }
+  .logo-fixed-cover .logo-one {
+    display: block; }
 
 .home-content {
   margin: 4000px auto 200px;
