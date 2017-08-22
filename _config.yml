@@ -5,6 +5,9 @@ collections:
   op-release:
     title: Op Release
     output: true
+  op-releases:
+    title: Op Releases
+    output: true
   posts:
     title: Posts
     output: true
