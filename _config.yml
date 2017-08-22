@@ -2,6 +2,9 @@
 title: Objet Papier
 timezone: UTC
 collections:
+  op-release:
+    title: Op Release
+    output: true
   posts:
     title: Posts
     output: true
@@ -14,12 +17,8 @@ description: 'Write an awesome description for your new site here. You can edit 
   results) and in your feed.xml site description.
 
 '
-collections:
-  op-release:
-    output: true
-
-baseurl:
-url:
+baseurl: 
+url: 
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
