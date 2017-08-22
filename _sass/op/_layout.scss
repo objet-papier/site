@@ -1,0 +1,22 @@
+.logo-fixed-cover {
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  .logo-one, .logo-two, .logo-three, .logo-four, .logo-five, .logo-six {
+    //width: 900px;
+    margin: 200px auto 0;
+    display: none;
+  }
+}
+
+.home-content {
+  margin: 4000px auto 200px;
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  font-size: 72px;
+}
