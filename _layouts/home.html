@@ -18,10 +18,37 @@ layout: default
         <a class="release-link" href="{{ release.url }}">
           <img src="uploads/{{ release.cover-image }}" alt="">
         </a>
+        <div class="description-background"></div>
         <div class="release-description-container">
           <h2>{{ release.number }}</h2>
           <h3>{{ release.name }}</h3>
-          <h4>{{ release.impression }}</h4>
+          <h4>par {{ release.auteur }}</h4>
+          <table>
+            <tr>
+              <td>Format</td>
+              <td>{{ release.format }}</td>
+            </tr>
+            <tr>
+              <td>Pages</td>
+              <td>{{ release.pages }}</td>
+            </tr>
+            <tr>
+              <td>Reliure</td>
+              <td>{{ release.reliure }}</td>
+            </tr>
+            <tr>
+              <td>Impression</td>
+              <td>{{ release.impression }}</td>
+            </tr>
+            <tr>
+              <td>Exemplaires</td>
+              <td>{{ release.exemplaires }}</td>
+            </tr>
+            <tr>
+              <td>Prix</td>
+              <td>{{ release.prix }}</td>
+            </tr>
+          </table>
         </div>
       </div>
     {% endfor %}

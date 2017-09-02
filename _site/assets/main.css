@@ -62,25 +62,26 @@ body {
     opacity: 0; }
 
 .home-content {
-  margin: 4000px auto 200px;
+  margin: 2000px auto 100vh;
   position: relative;
   z-index: 10;
   text-align: center;
   font-family: "MadrasExtraBold", Helvetica, Arial, sans-serif; }
   .home-content a {
-    color: #121212;
+    color: #000;
     text-decoration: none; }
     .home-content a:hover {
-      color: #121212;
+      color: #000;
       text-decoration: none; }
     .home-content a:active {
-      color: #121212;
+      color: #000;
       text-decoration: none; }
 
 .release-container {
   width: 100%;
   height: 100vh;
   min-height: 600px;
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-flex;
@@ -92,8 +93,50 @@ body {
     flex-direction: row; }
   .release-container:nth-child(even) {
     flex-direction: row-reverse; }
+  .release-container .description-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    z-index: 0;
+    opacity: 0; }
+  .release-container:nth-child(odd) .release-description-container {
+    padding: 0 0 0 180px; }
+  .release-container:nth-child(even) .release-description-container {
+    padding: 0 180px 0 0; }
+  .release-container .release-description-container {
+    display: block;
+    position: relative;
+    z-index: 10;
+    width: 30%;
+    opacity: 0;
+    color: white;
+    pointer-events: none;
+    text-align: left; }
+    .release-container .release-description-container h2 {
+      font-family: "CrimsonText", Times, serif;
+      font-size: 84px;
+      margin: 0 0 30px; }
+    .release-container .release-description-container h3 {
+      font-family: "MadrasExtraBold", Helvetica, Arial, sans-serif;
+      font-size: 32px;
+      margin: 0 0 10px; }
+    .release-container .release-description-container h4 {
+      font-family: "CrimsonText", Times, serif;
+      font-size: 22px;
+      margin: 0 0 60px; }
+    .release-container .release-description-container table {
+      font-family: "MadrasExtraBold", Helvetica, Arial, sans-serif;
+      font-size: 20px; }
+      .release-container .release-description-container table td {
+        line-height: 24px;
+        padding: 0 15px 0 0; }
   .release-container .release-link {
     display: block;
+    position: relative;
+    z-index: 10;
     width: auto;
     height: 60vh;
     -webkit-transform: rotate(22deg);
@@ -104,6 +147,23 @@ body {
       display: block;
       width: auto;
       height: 100%; }
-  .release-container .release-description-container {
-    display: block;
-    width: 40%; }
+    .release-container .release-link:hover + .description-background {
+      opacity: 1; }
+      .release-container .release-link:hover + .description-background + .release-description-container {
+        opacity: 1;
+        pointer-events: all; }
+
+.site-footer {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s; }
+  .site-footer.visible {
+    opacity: 1;
+    pointer-events: all; }

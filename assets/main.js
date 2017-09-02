@@ -7,6 +7,8 @@ $(window).on('scroll', function() {
     var triggerFour = 400;
     var triggerFive = 500;
 
+
+    // Making disappear the baseline under the logo
     if(scrollPosition != 0) {
         $(".baseline").addClass("hidden");
     }
@@ -16,7 +18,7 @@ $(window).on('scroll', function() {
     }
 
 
-
+    // showing multiples version of the logo at scroll triggers
     if(scopeIfMultiple < triggerOne) {
         $(".logo").css('display', 'none');
         $(".logo-one").css('display', 'block');
@@ -46,6 +48,18 @@ $(window).on('scroll', function() {
         $(".logo").css('display', 'none');
         $(".logo-six").css('display', 'block');
     }
+
+    var contentHeight = $('.home-content').height();
+    var totalHeight = (contentHeight + 1999);
+
+    if(scrollPosition > totalHeight) {
+        $('.site-footer').addClass('visible');
+    }
+
+    if(scrollPosition < totalHeight) {
+        $('.site-footer').removeClass('visible');
+    }
+
 });
 
 $(document).ready(function(){
@@ -60,7 +74,4 @@ $(document).ready(function(){
         $(this).css('transform', 'rotate(' + rollDice + 'deg)');
     });
 
-    //var getRandomNum = Math.random(randomnumber)
-
-    //console.log(arr, getRandomNum)
 });

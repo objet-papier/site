@@ -1,7 +1,7 @@
 ---
 title: Op001 Objet Papier
 number: OP-001
-author: Ronan Deshaie
+auteur: Ronan Deshaie
 name: Objet Papier
 cover-image: op001-cover.jpg
 format: A5
