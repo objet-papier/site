@@ -15,7 +15,7 @@ $(window).on('scroll', function() {
         $(".baseline").removeClass("hidden");
     }
 
-    // console.log(scopeIfMultiple);
+
 
     if(scopeIfMultiple < triggerOne) {
         $(".logo").css('display', 'none');
@@ -46,4 +46,21 @@ $(window).on('scroll', function() {
         $(".logo").css('display', 'none');
         $(".logo-six").css('display', 'block');
     }
+});
+
+$(document).ready(function(){
+
+    $('.release-link').each(function(){
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        var rollDice = getRandomInt(-30, 30)
+        //var a = Math.random() * 1 - 20;
+        $(this).css('transform', 'rotate(' + rollDice + 'deg)');
+    });
+
+    //var getRandomNum = Math.random(randomnumber)
+
+    //console.log(arr, getRandomNum)
 });

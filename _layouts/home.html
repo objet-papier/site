@@ -9,14 +9,21 @@ layout: default
   </div>
 
   <div class="baseline">
-    Label de micro édition
+    Label de micro-édition
   </div>
 
   <div class="home-content">
     {% for release in site.op-release %}
-      <img src="{{ release.cover-image }}" alt="">
-      <h2>{{ release.number }}</h2>
-      <h3>{{ release.name }}</h3>
+      <div class="release-container">
+        <a class="release-link" href="{{ release.url }}">
+          <img src="uploads/{{ release.cover-image }}" alt="">
+        </a>
+        <div class="release-description-container">
+          <h2>{{ release.number }}</h2>
+          <h3>{{ release.name }}</h3>
+          <h4>{{ release.impression }}</h4>
+        </div>
+      </div>
     {% endfor %}
   </div>
 

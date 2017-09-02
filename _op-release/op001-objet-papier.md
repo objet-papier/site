@@ -3,7 +3,7 @@ title: Op001 Objet Papier
 number: OP-001
 author: Ronan Deshaie
 name: Objet Papier
-cover-image: 
+cover-image: op001-cover.jpg
 format: A5
 pages: 24 pages + 1 feuillet
 reliure: Rivets
