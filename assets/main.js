@@ -56,7 +56,7 @@ $(document).ready(function(){
         }
 
         var rollDice = getRandomInt(-30, 30)
-        //var a = Math.random() * 1 - 20;
+
         $(this).css('transform', 'rotate(' + rollDice + 'deg)');
     });
 
