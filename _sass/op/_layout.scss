@@ -95,14 +95,14 @@
 
   &:nth-child(even) {
     .release-description-container {
-      padding: 0 $spacing-unit*6 0 0;
+      padding: 0 $spacing-unit*4 0 $spacing-unit;
     }
   }
 
   .release-description-container {
     display: block;
     position: relative;
-    z-index: 10;
+    z-index: 5;
     width: 30%;
     opacity: 0;
     color: white;

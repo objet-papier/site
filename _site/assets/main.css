@@ -105,11 +105,11 @@ body {
   .release-container:nth-child(odd) .release-description-container {
     padding: 0 0 0 180px; }
   .release-container:nth-child(even) .release-description-container {
-    padding: 0 180px 0 0; }
+    padding: 0 120px 0 30px; }
   .release-container .release-description-container {
     display: block;
     position: relative;
-    z-index: 10;
+    z-index: 5;
     width: 30%;
     opacity: 0;
     color: white;
