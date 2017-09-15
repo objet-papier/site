@@ -13,10 +13,12 @@ layout: default
   </div>
 
   <div class="home-content">
+    <div class="content-fake-padding"></div>
     {% for release in site.op-release %}
       <div class="release-container">
         <a class="release-link" href="{{ release.url }}">
-          <img src="{{ site.baseurl }}uploads/{{ release.cover-image }}" alt="">
+          <img class="black" src="{{ site.baseurl }}uploads/{{ release.cover-image }}-black.jpg" alt="">
+          <img class="white" src="{{ site.baseurl }}uploads/{{ release.cover-image }}-white.jpg" alt="">
         </a>
         <div class="description-background"></div>
         <div class="release-description-container">

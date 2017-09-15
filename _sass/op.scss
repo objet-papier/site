@@ -1,10 +1,11 @@
 @import "op/fonts";
 
 $serif-font: 'CrimsonText', Times, serif !default;
-$gothic-font: 'MadrasExtraBold', Helvetica, Arial, sans-serif !default;
+$gothic-font: 'MadrasBold', Helvetica, Arial, sans-serif !default;
+$title-font: 'MadrasRegular', Helvetica, Arial, sans-serif !default;
 
 //$dark-color: #121212;
-$dark-color: #000;
+$dark-color: #16181a;
 $light-color: #fff;
 
 $spacing-unit: 30px;
@@ -72,6 +73,10 @@ $on-laptop:        800px !default;
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
@@ -79,6 +84,10 @@ h1, h2, h3, h4, h5, h6 {
 body {
   margin: 0;
   padding: 0;
+}
+
+.svg-fill-dark {
+  fill: $dark-color;
 }
 
 // Import partials.

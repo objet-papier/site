@@ -23,22 +23,37 @@
 }
 
 @font-face {
-  font-family: 'MadrasExtraBold';
-  src: url('fonts/MadrasExtraBold.eot');
-  src: url('fonts/MadrasExtraBold.woff2') format('woff2'),
-       url('fonts/MadrasExtraBold.woff') format('woff'),
-       url('fonts/MadrasExtraBold.ttf') format('truetype'),
-       url('fonts/MadrasExtraBold.svg#MadrasExtraBold') format('svg'),
-       url('fonts/MadrasExtraBold.eot?#iefix') format('embedded-opentype');
+  font-family: 'MadrasBold';
+  src: url('fonts/MadrasBold.eot');
+  src: url('fonts/MadrasBold.woff2') format('woff2'),
+       url('fonts/MadrasBold.woff') format('woff'),
+       url('fonts/MadrasBold.ttf') format('truetype'),
+       url('fonts/MadrasBold.svg#MadrasExtraBold') format('svg'),
+       url('fonts/MadrasBold.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'MadrasExtraBold';
-  src: url('fonts/MadrasExtraBoldItalic.woff') format('woff'),
-       url('fonts/MadrasExtraBoldItalic.ttf') format('truetype'),
-       url('fonts/MadrasExtraBoldItalic.svg#MadrasExtraBoldItalic') format('svg');
+  font-family: 'MadrasBold';
+  src: url('fonts/MadrasBoldItalic.eot');
+  src: url('fonts/MadrasBoldItalic.woff2') format('woff2'),
+       url('fonts/MadrasBoldItalic.woff') format('woff'),
+       url('fonts/MadrasBoldItalic.ttf') format('truetype'),
+       url('fonts/MadrasBoldItalic.svg#MadrasExtraBold') format('svg'),
+       url('fonts/MadrasBoldItalic.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: italic;
+}
+
+@font-face {
+  font-family: 'MadrasRegular';
+  src: url('fonts/MadrasRegular.eot');
+  src: url('fonts/MadrasRegular.woff2') format('woff2'),
+       url('fonts/MadrasRegular.woff') format('woff'),
+       url('fonts/MadrasRegular.ttf') format('truetype'),
+       url('fonts/MadrasRegular.svg#MadrasExtraBold') format('svg'),
+       url('fonts/MadrasRegular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 }

@@ -49,8 +49,9 @@ $(window).on('scroll', function() {
         $(".logo-six").css('display', 'block');
     }
 
+
     var contentHeight = $('.home-content').height();
-    var totalHeight = (contentHeight + 1999);
+    var totalHeight = (contentHeight - 1);
 
     if(scrollPosition > totalHeight) {
         $('.site-footer').addClass('visible');

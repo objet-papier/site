@@ -11,22 +11,35 @@
   font-weight: normal;
   font-style: italic; }
 @font-face {
-  font-family: 'MadrasExtraBold';
-  src: url("fonts/MadrasExtraBold.eot");
-  src: url("fonts/MadrasExtraBold.woff2") format("woff2"), url("fonts/MadrasExtraBold.woff") format("woff"), url("fonts/MadrasExtraBold.ttf") format("truetype"), url("fonts/MadrasExtraBold.svg#MadrasExtraBold") format("svg"), url("fonts/MadrasExtraBold.eot?#iefix") format("embedded-opentype");
+  font-family: 'MadrasBold';
+  src: url("fonts/MadrasBold.eot");
+  src: url("fonts/MadrasBold.woff2") format("woff2"), url("fonts/MadrasBold.woff") format("woff"), url("fonts/MadrasBold.ttf") format("truetype"), url("fonts/MadrasBold.svg#MadrasExtraBold") format("svg"), url("fonts/MadrasBold.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
-  font-family: 'MadrasExtraBold';
-  src: url("fonts/MadrasExtraBoldItalic.woff") format("woff"), url("fonts/MadrasExtraBoldItalic.ttf") format("truetype"), url("fonts/MadrasExtraBoldItalic.svg#MadrasExtraBoldItalic") format("svg");
+  font-family: 'MadrasBold';
+  src: url("fonts/MadrasBoldItalic.eot");
+  src: url("fonts/MadrasBoldItalic.woff2") format("woff2"), url("fonts/MadrasBoldItalic.woff") format("woff"), url("fonts/MadrasBoldItalic.ttf") format("truetype"), url("fonts/MadrasBoldItalic.svg#MadrasExtraBold") format("svg"), url("fonts/MadrasBoldItalic.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: italic; }
+@font-face {
+  font-family: 'MadrasRegular';
+  src: url("fonts/MadrasRegular.eot");
+  src: url("fonts/MadrasRegular.woff2") format("woff2"), url("fonts/MadrasRegular.woff") format("woff"), url("fonts/MadrasRegular.ttf") format("truetype"), url("fonts/MadrasRegular.svg#MadrasExtraBold") format("svg"), url("fonts/MadrasRegular.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+* {
+  box-sizing: border-box; }
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal; }
 
 body {
   margin: 0;
   padding: 0; }
+
+.svg-fill-dark {
+  fill: #16181a; }
 
 .logo-fixed-cover {
   position: fixed;
@@ -57,24 +70,27 @@ body {
   font-size: 20px;
   opacity: 1;
   transition: opacity 0.2s;
-  font-family: "MadrasExtraBold", Helvetica, Arial, sans-serif; }
+  font-family: "MadrasBold", Helvetica, Arial, sans-serif; }
   .baseline.hidden {
     opacity: 0; }
 
 .home-content {
-  margin: 2000px auto 100vh;
+  margin: 0 auto 100vh;
   position: relative;
   z-index: 10;
   text-align: center;
-  font-family: "MadrasExtraBold", Helvetica, Arial, sans-serif; }
+  font-family: "MadrasBold", Helvetica, Arial, sans-serif; }
+  .home-content .content-fake-padding {
+    width: 100%;
+    height: 1500px; }
   .home-content a {
-    color: #000;
+    color: #16181a;
     text-decoration: none; }
     .home-content a:hover {
-      color: #000;
+      color: #16181a;
       text-decoration: none; }
     .home-content a:active {
-      color: #000;
+      color: #16181a;
       text-decoration: none; }
 
 .release-container {
@@ -89,9 +105,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center; }
-  .release-container:nth-child(odd) {
-    flex-direction: row; }
   .release-container:nth-child(even) {
+    flex-direction: row; }
+  .release-container:nth-child(odd) {
     flex-direction: row-reverse; }
   .release-container .description-background {
     position: fixed;
@@ -99,54 +115,60 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: #000;
+    background-color: #16181a;
     z-index: 0;
     opacity: 0; }
-  .release-container:nth-child(odd) .release-description-container {
-    padding: 0 0 0 180px; }
   .release-container:nth-child(even) .release-description-container {
+    padding: 0 0 0 180px; }
+  .release-container:nth-child(odd) .release-description-container {
     padding: 0 120px 0 30px; }
   .release-container .release-description-container {
     display: block;
     position: relative;
     z-index: 5;
-    width: 30%;
+    width: 500px;
     opacity: 0;
     color: white;
     pointer-events: none;
     text-align: left; }
     .release-container .release-description-container h2 {
-      font-family: "CrimsonText", Times, serif;
-      font-size: 84px;
-      margin: 0 0 30px; }
+      font-family: "MadrasRegular", Helvetica, Arial, sans-serif;
+      font-size: 70px;
+      margin: 0 0 17px; }
     .release-container .release-description-container h3 {
-      font-family: "MadrasExtraBold", Helvetica, Arial, sans-serif;
+      font-family: "MadrasBold", Helvetica, Arial, sans-serif;
       font-size: 32px;
-      margin: 0 0 10px; }
+      margin: -5px 0 10px; }
     .release-container .release-description-container h4 {
       font-family: "CrimsonText", Times, serif;
-      font-size: 22px;
-      margin: 0 0 60px; }
+      font-size: 24px;
+      margin: 0 0 45px; }
     .release-container .release-description-container table {
-      font-family: "MadrasExtraBold", Helvetica, Arial, sans-serif;
+      font-family: "MadrasBold", Helvetica, Arial, sans-serif;
       font-size: 20px; }
       .release-container .release-description-container table td {
-        line-height: 24px;
+        line-height: 28px;
         padding: 0 15px 0 0; }
   .release-container .release-link {
     display: block;
     position: relative;
     z-index: 10;
-    width: auto;
-    height: 60vh;
+    width: 40%;
+    height: auto;
     -webkit-transform: rotate(22deg);
     -moz-transform: rotate(22deg);
     -ms-transform: rotate(22deg);
     transform: rotate(22deg); }
     .release-container .release-link img {
-      display: block;
-      width: auto;
-      height: 100%; }
+      width: 100%; }
+      .release-container .release-link img.black {
+        display: block; }
+      .release-container .release-link img.white {
+        display: none; }
+    .release-container .release-link:hover img.black {
+      display: none; }
+    .release-container .release-link:hover img.white {
+      display: block; }
     .release-container .release-link:hover + .description-background {
       opacity: 1; }
       .release-container .release-link:hover + .description-background + .release-description-container {
@@ -160,7 +182,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #000;
+  background-color: #16181a;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.2s; }
