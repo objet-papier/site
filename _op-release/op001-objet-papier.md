@@ -1,6 +1,6 @@
 ---
-layout: project
 title: Op001 Objet Papier
+layout: project
 number: OP-001
 auteur: Ronan Deshaie
 name: Objet Papier
