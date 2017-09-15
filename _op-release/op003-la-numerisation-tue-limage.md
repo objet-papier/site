@@ -1,4 +1,5 @@
 ---
+layout: project
 title: Op003 Objet Papier
 number: OP-003
 auteur: Morgane Bartoli
