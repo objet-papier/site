@@ -35,6 +35,15 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal; }
 
 body {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smootthing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
   margin: 0;
   padding: 0; }
 
@@ -117,7 +126,8 @@ body {
     left: 0;
     background-color: #16181a;
     z-index: 0;
-    opacity: 0; }
+    opacity: 0;
+    pointer-events: none; }
   .release-container:nth-child(even) .release-description-container {
     padding: 0 0 0 180px; }
   .release-container:nth-child(odd) .release-description-container {
@@ -153,7 +163,7 @@ body {
     display: block;
     position: relative;
     z-index: 10;
-    width: 40%;
+    width: 48%;
     height: auto;
     -webkit-transform: rotate(22deg);
     -moz-transform: rotate(22deg);
@@ -176,16 +186,43 @@ body {
         pointer-events: all; }
 
 .site-footer {
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   background-color: #16181a;
+  color: #fff;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.2s; }
+  transition: opacity 0.2s;
+  padding: 0 30px 0; }
   .site-footer.visible {
     opacity: 1;
     pointer-events: all; }
+
+.footer-left-column {
+  width: 270px;
+  font-family: "MadrasBold", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 28px; }
+  .footer-left-column a, .footer-left-column a:visited {
+    color: #fff;
+    text-decoration: none; }
+    .footer-left-column a:hover, .footer-left-column a:visited:hover {
+      color: #fff;
+      text-decoration: underline; }
+
+.footer-right-column {
+  width: 590px;
+  font-family: "CrimsonText", Times, serif;
+  font-size: 32px;
+  line-height: 43px;
+  margin: -9px 0 0 180px; }

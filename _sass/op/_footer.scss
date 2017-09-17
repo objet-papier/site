@@ -1,0 +1,47 @@
+.site-footer {
+  @include flexbox;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: $dark-color;
+  color: $light-color;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+  padding: 0 $spacing-unit 0;
+
+  &.visible {
+    opacity: 1;
+    pointer-events: all;
+  }
+}
+
+.footer-left-column {
+  width: 270px;
+  font-family: $gothic-font;
+  font-size: 20px;
+  line-height: 28px;
+
+  a, a:visited {
+    color: $light-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $light-color;
+      text-decoration: underline;
+    }
+  }
+}
+
+.footer-right-column {
+  width: 590px;
+  font-family: $serif-font;
+  font-size: 32px;
+  line-height: 43px;
+  margin: -9px 0 0 $spacing-unit*6;
+  //line-height: 28px;
+}

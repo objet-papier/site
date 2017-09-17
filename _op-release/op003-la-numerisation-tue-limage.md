@@ -1,6 +1,6 @@
 ---
-layout: project
 title: Op003 Objet Papier
+layout: project
 number: OP-003
 auteur: Morgane Bartoli
 name: La numérisation tue l'image
