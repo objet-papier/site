@@ -5,7 +5,17 @@
 
   <body>
 
-    {{ content }}
+    <div class="project-page-content">
+
+      <h1>{{ page.number }}</h1>
+
+      {% for image in page.images %}
+        <img src="{{ site.baseurl }}/uploads/{{ image }}">
+      {% endfor %}
+
+      {{ content }}
+
+    </div>
 
     {% include js.html %}
 
