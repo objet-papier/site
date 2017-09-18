@@ -104,83 +104,83 @@
       padding: 0 $spacing-unit*4 0 $spacing-unit;
     }
   }
+}
 
-  .release-description-container {
-    display: block;
-    position: relative;
-    z-index: 5;
-    width: 500px;
-    opacity: 0;
-    color: white;
-    pointer-events: none;
-    text-align: left;
+.release-description-container {
+  display: block;
+  position: relative;
+  z-index: 5;
+  width: 500px;
+  opacity: 0;
+  color: white;
+  pointer-events: none;
+  text-align: left;
 
-    h2 {
-      font-family: $title-font;
-      font-size: 70px;
-      margin: 0 0 17px;
+  h2 {
+    font-family: $title-font;
+    font-size: 70px;
+    margin: 0 0 17px;
+  }
+
+  h3 {
+    font-family: $gothic-font;
+    font-size: 32px;
+    margin: -5px 0 $spacing-unit/3;
+  }
+
+  h4 {
+    font-family: $serif-font;
+    font-size: 24px;
+    margin: 0 0 $spacing-unit*1.5;
+  }
+
+  table {
+    font-family: $gothic-font;
+    font-size: 20px;
+
+    td {
+      line-height: 28px;
+      padding: 0 $spacing-unit/2 0 0;
     }
+  }
+}
 
-    h3 {
-      font-family: $gothic-font;
-      font-size: 32px;
-      margin: -5px 0 $spacing-unit/3;
+.release-link {
+  display: block;
+  position: relative;
+  z-index: 10;
+  width: 40%;
+  height: auto;
+  //height: 60vh;
+  @include transform(rotate(22deg));
+
+  img {
+    width: 100%;
+
+    &.black {
+      display: block;
     }
-
-    h4 {
-      font-family: $serif-font;
-      font-size: 24px;
-      margin: 0 0 $spacing-unit*1.5;
-    }
-
-    table {
-      font-family: $gothic-font;
-      font-size: 20px;
-
-      td {
-        line-height: 28px;
-        padding: 0 $spacing-unit/2 0 0;
-      }
+    &.white {
+      display: none;
     }
   }
 
-  .release-link {
-    display: block;
-    position: relative;
-    z-index: 10;
-    width: 40%;
-    height: auto;
-    //height: 60vh;
-    @include transform(rotate(22deg));
-
+  &:hover {
     img {
-      width: 100%;
-
       &.black {
-        display: block;
+        display: none;
       }
       &.white {
-        display: none;
+        display: block;
       }
     }
 
-    &:hover {
-      img {
-        &.black {
-          display: none;
-        }
-        &.white {
-          display: block;
-        }
-      }
+    + .description-background {
+      opacity: 1;
 
-      + .description-background {
+      + .release-description-container {
         opacity: 1;
-
-        + .release-description-container {
-          opacity: 1;
-          pointer-events: all;
-        }
+        pointer-events: all;
       }
     }
   }
