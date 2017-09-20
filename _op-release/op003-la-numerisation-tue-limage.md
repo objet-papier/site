@@ -10,6 +10,9 @@ reliure: Dos carré collé
 impression: Numérique quadri
 exemplaires: 50
 prix: 6 €
+Contributor:
+  name: Morgane
+  link: http://morganebartoli.com
 layout: project
 ---
 
