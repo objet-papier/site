@@ -59,7 +59,7 @@
 .project-description-container {
   @include flexbox;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   position: fixed;
   top: 0;
   right: 0;
@@ -70,7 +70,7 @@
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.2s;
-  padding: 0 $spacing-unit 0;
+  padding: 200px $spacing-unit 0;
   z-index: 5;
 
   &.visible {
@@ -85,7 +85,7 @@
   z-index: 10;
   opacity: 1;
   pointer-events: all;
-  margin: $spacing-unit*2 0 0;
+  margin: 0 0 0;
 }
 
 .buy-link, .buy-link:visited {
@@ -107,4 +107,9 @@
   font-size: 22px;
   //line-height: 43px;
   margin: 0 0 0 $spacing-unit*4;
+
+  p {
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+  }
 }

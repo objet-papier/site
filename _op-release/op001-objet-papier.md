@@ -1,7 +1,7 @@
 ---
 title: Op001 Objet Papier
 layout: project
-number: OP-001
+number: OP001
 auteur: Ronan Deshaies
 name: Objet Papier
 cover-image: op001-cover
