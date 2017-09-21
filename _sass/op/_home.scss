@@ -129,9 +129,19 @@
   }
 
   h4 {
+    color: white;
     font-family: $serif-font;
     font-size: 24px;
     margin: 0 0 $spacing-unit*1.5;
+
+    a, a:visited {
+      color: white;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
   }
 
   table {

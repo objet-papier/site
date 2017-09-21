@@ -75,4 +75,15 @@ $(document).ready(function(){
         $(this).css('transform', 'rotate(' + rollDice + 'deg)');
     });
 
+    var contentHeight = $('.home-content').height();
+    var totalHeight = (contentHeight - 1);
+
+    if(scrollPosition > totalHeight) {
+        $('.site-footer').addClass('visible');
+    }
+
+    if(scrollPosition < totalHeight) {
+        $('.site-footer').removeClass('visible');
+    }
+
 });

@@ -1,0 +1,20 @@
+---
+layout: page
+title: Contributions
+permalink: "/contributions/"
+---
+
+<a href="{{ site.baseurl }}/" class="small-logo">
+  {% include logo-anim-small.html %}
+</a>
+
+<div class="contributors-content">
+  {% assign sorted = (site.contributors | sort: 'date') %}
+  {% for contributor in sorted %}
+    <div class="contributor-container">
+      <h2>{{ contributor.name }}</h2>
+      <h3>{{ contributor.role }}</h3>
+      <a href="{{ contributor.link }}">website</a>
+    </div>
+  {% endfor %}
+</div>

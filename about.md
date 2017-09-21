@@ -3,18 +3,6 @@ title: About
 permalink: "/about/"
 footer-title: Organisation à but non lucratif à Montreuil, Ile-De-France, France.
 contact: hello@objetpapier.fr
-
-# contributors:
-#   - ronan:
-#     - name: Ronan Deshaies
-#     - link: http://cargocollective.com/ronandeshaies
-#   - morgane:
-#     - name: Morgane Bartoli
-#     - link: http://morganebartoli.com/
-
-contributors:
-  - ronan
-  - morgane
 ---
 
 Objet Papier est un jeune label de micro-édition montreuillois

@@ -5,6 +5,9 @@ collections:
   op-release:
     title: Op Release
     output: true
+  contributors:
+    title: Contributors
+    output: true
   posts:
     title: Posts
     output: true
@@ -17,8 +20,8 @@ description: 'Write an awesome description for your new site here. You can edit 
   results) and in your feed.xml site description.
 
 '
-baseurl: 
-url: 
+baseurl:
+url:
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown

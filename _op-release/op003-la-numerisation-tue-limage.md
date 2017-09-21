@@ -1,8 +1,10 @@
 ---
 title: Op003 Objet Papier
 layout: project
-number: OP-003
-auteur: Morgane Bartoli
+number: OP003
+auteur:
+  name: Morgane Bartoli
+  website: http://morganebartoli.com
 name: La numérisation tue l'image
 cover-image: op003-cover
 format: 100 x 160 mm

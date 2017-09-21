@@ -95,13 +95,22 @@ body {
   padding: 0;
 }
 
+.dark-bg {
+  background-color: $dark-color;
+}
+
 .svg-fill-dark {
   fill: $dark-color;
+}
+
+.svg-fill-light {
+  fill: $light-color;
 }
 
 // Import partials.
 @import
   "op/home",
   "op/project",
+  "op/contributors",
   "op/footer"
 ;
