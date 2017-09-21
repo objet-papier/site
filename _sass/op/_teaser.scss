@@ -1,5 +1,5 @@
 
-.home {
+.teaser-home {
   display: block;
   text-decoration: none;
   width: 100%;
@@ -13,15 +13,14 @@
   text-align: center;
   padding-top: 50vh;
   cursor: pointer;
-}
 
-
-@media screen and (max-width:640px){
-  .home {
-    width: 100%;
-    height: 100vh;
-    background-image: url(../uploads/mockup-site.jpg);
-    background-size: cover;
-    background-position: center center;
+  @include media-query (640px) {
+    .home {
+      width: 100%;
+      height: 100vh;
+      background-image: url(../uploads/mockup-site.jpg);
+      background-size: cover;
+      background-position: center center;
+    }
   }
 }

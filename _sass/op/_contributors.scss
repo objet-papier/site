@@ -1,0 +1,62 @@
+.contributors {
+  background-color: $dark-color;
+  min-height: 100vh;
+}
+
+.small-logo {
+  display: block;
+  position: fixed;
+  width: 30%;
+  max-width: 500px;
+  top: $spacing-unit;
+  right: 6%;
+
+  .logo {
+    width: 100%;
+    display: none;
+  }
+
+  .logo-one {
+    display: block;
+  }
+}
+
+.contributors-content {
+  width: 64%;
+  margin: 0 30% 0 0;
+  color: $light-color;
+  padding: $spacing-unit*2 $spacing-unit*4;
+  @include flexbox;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+
+.contributor-container {
+  display: block;
+  width: 50%;
+  margin: 0 0 $spacing-unit*2;
+
+  h2 {
+    margin: 0 0 $spacing-unit/4;
+    font-family: $serif-font;
+    font-size: 26px;
+  }
+
+  h3 {
+    margin: 0 0 $spacing-unit/3;
+    font-family: $gothic-font;
+    font-size: 20px;
+  }
+
+  a, a:visited {
+    font-family: $gothic-font;
+    font-size: 20px;
+    color: $light-color;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
