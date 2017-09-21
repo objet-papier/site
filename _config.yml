@@ -20,7 +20,8 @@ collections:
 defaults:
   -
     scope:
-      path: "contributors"
+      path: ""
+      type: "contributors"
     values:
       title:
       position:
