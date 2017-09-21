@@ -1,3 +1,7 @@
+.home {
+  display: none !important;
+}
+
 .logo-fixed-cover {
   position: fixed;
   @include flexbox;
