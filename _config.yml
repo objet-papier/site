@@ -15,20 +15,18 @@ collections:
     title: Uploads
     output: true
 defaults:
-  -
-    scope:
-      path: ""
-      type: "contributors"
-    values:
-      title:
-      role:
-      link:
-
+- scope:
+    path: ''
+    type: contributors
+  values:
+    title: 
+    role: 
+    link: 
 email: hello@objetpapier.fr
 description: Objet Papier est un label de micro édition montreuillois qui publie des
   fanzines de photographies, montages, mots et expérimentations diverses.
-baseurl:
-url:
+baseurl: 
+url: 
 markdown: kramdown
 plugins:
 - jekyll-feed
