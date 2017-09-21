@@ -20,7 +20,7 @@ layout: default
     <div class="content-fake-padding"></div>
     {% for release in site.op-release %}
       <div class="release-container">
-        <a class="release-link" href="{{ site.baseurl }}/{{ release.url }}">
+        <a class="release-link" href="{{ release.url }}">
           <img class="black" src="{{ site.baseurl }}/uploads/{{ release.cover-image }}-black.jpg" alt="">
           <img class="white" src="{{ site.baseurl }}/uploads/{{ release.cover-image }}-white.jpg" alt="">
         </a>
