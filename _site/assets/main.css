@@ -218,7 +218,6 @@ body {
   z-index: 10; }
 
 .back-home-link {
-  position: fixed;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-flex;
