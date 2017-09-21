@@ -26,7 +26,7 @@ email: hello@objetpapier.fr
 description: Objet Papier est un label de micro édition montreuillois qui publie des
   fanzines de photographies, montages, mots et expérimentations diverses.
 baseurl:
-url: http://objetpapier.fr/
+url: http://objetpapier.fr
 markdown: kramdown
 plugins:
 - jekyll-feed
