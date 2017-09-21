@@ -9,7 +9,7 @@
   <meta property="og:url"                content="{{ page.url }}" />
   <meta property="og:title"              content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
   <meta property="og:description"        content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}" />
-  <meta property="og:image"              content="{% if page.cover-image %}{{ site.baseurl }}/uploads/{{ page.cover-image }}-black.jpg{% else %}{{ site.baseurl }}/uploads/op-generic-cover.jpg{% endif %}" />
+  <meta property="og:image"              content="{% if page.cover-image %}{{ site.url }}/uploads/{{ page.cover-image }}-black.jpg{% else %}{{ site.url }}/uploads/op-generic-cover.jpg{% endif %}" />
 
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="icon" href="{{ site.baseurl }}/favicon.gif" type="image/gif" >
