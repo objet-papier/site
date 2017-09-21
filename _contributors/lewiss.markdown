@@ -1,8 +1,6 @@
 ---
-title: Lewiss
-date: 2017-09-21 15:50:00 Z
+title: Lewiss Le Vice
 position: 7
-name: Lewiss Le Vice
+name: Lewiss
 role: Imprimeur
 ---
-

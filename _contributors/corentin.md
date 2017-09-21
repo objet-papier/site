@@ -1,9 +1,6 @@
 ---
-title: Corentin
-date: 2017-01-30 13:42:00 Z
+title: Corentin Moussard
 position: 2
-name: Corentin Moussard
 role: Code stuff
 link: http://alune.fr/
 ---
-

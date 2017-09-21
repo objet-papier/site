@@ -1,8 +1,5 @@
 ---
-title: Juliette
-date: 2017-09-21 15:49:00 Z
+title: Juliette Bernachot
 position: 3
-name: Juliette Bernachot
 role: Auteur
 ---
-

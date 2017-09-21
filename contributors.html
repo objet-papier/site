@@ -9,10 +9,10 @@ layout: page
 </a>
 
 <div class="contributors-content">
-  {% assign sorted = site.contributors | sort: 'date' %}
+  {% assign sorted = site.contributors | sort: 'position' %}
   {% for contributor in sorted %}
     <div class="contributor-container">
-      <h2>{{ contributor.name }}</h2>
+      <h2>{{ contributor.title }}</h2>
       <h3>{{ contributor.role }}</h3>
       {% if contributor.link %}
         <a href="{{ contributor.link }}">website</a>

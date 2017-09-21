@@ -1,8 +1,5 @@
 ---
-title: Sixtyne
+title: Sixtyne Pérez
 position: 8
-name: Sixtyne Pérez
 role: Love
-link: 
 ---
-

@@ -21,8 +21,6 @@ defaults:
       type: "contributors"
     values:
       title:
-      position:
-      name:
       role:
       link:
 
