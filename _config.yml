@@ -18,7 +18,9 @@ collections:
     output: true
 
 defaults:
-  contributors:
+  -
+    scope:
+      path: "contributors"
     values:
       title:
       position:
