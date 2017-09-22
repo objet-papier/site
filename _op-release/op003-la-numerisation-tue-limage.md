@@ -1,6 +1,5 @@
 ---
 title: Op003 Objet Papier
-layout: project
 number: OP003
 auteur:
   name: Morgane Bartoli
@@ -13,6 +12,7 @@ reliure: Dos carré collé
 impression: Numérique quadri
 exemplaires: 50
 prix: 6 €
+layout: project
 ---
 
 tro
