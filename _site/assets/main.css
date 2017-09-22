@@ -1,420 +1,108 @@
-@font-face {
-  font-family: 'CrimsonText';
-  src: url("fonts/CrimsonText-Regular.eot");
-  src: url("fonts/CrimsonText-Regular.woff2") format("woff2"), url("fonts/CrimsonText-Regular.woff") format("woff"), url("fonts/CrimsonText-Regular.ttf") format("truetype"), url("fonts/CrimsonText-Regular.svg#CrimsonText-Regular") format("svg"), url("fonts/CrimsonText-Regular.eot?#iefix") format("embedded-opentype");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'CrimsonText';
-  src: url("fonts/CrimsonText-Italic.eot");
-  src: url("fonts/CrimsonText-Italic.woff2") format("woff2"), url("fonts/CrimsonText-Italic.woff") format("woff"), url("fonts/CrimsonText-Italic.ttf") format("truetype"), url("fonts/CrimsonText-Italic.svg#CrimsonText-Italic") format("svg"), url("fonts/CrimsonText-Italic.eot?#iefix") format("embedded-opentype");
-  font-weight: normal;
-  font-style: italic; }
-@font-face {
-  font-family: 'MadrasBold';
-  src: url("fonts/MadrasBold.eot");
-  src: url("fonts/MadrasBold.woff2") format("woff2"), url("fonts/MadrasBold.woff") format("woff"), url("fonts/MadrasBold.ttf") format("truetype"), url("fonts/MadrasBold.svg#MadrasExtraBold") format("svg"), url("fonts/MadrasBold.eot?#iefix") format("embedded-opentype");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'MadrasBold';
-  src: url("fonts/MadrasBoldItalic.eot");
-  src: url("fonts/MadrasBoldItalic.woff2") format("woff2"), url("fonts/MadrasBoldItalic.woff") format("woff"), url("fonts/MadrasBoldItalic.ttf") format("truetype"), url("fonts/MadrasBoldItalic.svg#MadrasExtraBold") format("svg"), url("fonts/MadrasBoldItalic.eot?#iefix") format("embedded-opentype");
-  font-weight: normal;
-  font-style: italic; }
-@font-face {
-  font-family: 'MadrasRegular';
-  src: url("fonts/MadrasRegular.eot");
-  src: url("fonts/MadrasRegular.woff2") format("woff2"), url("fonts/MadrasRegular.woff") format("woff"), url("fonts/MadrasRegular.ttf") format("truetype"), url("fonts/MadrasRegular.svg#MadrasExtraBold") format("svg"), url("fonts/MadrasRegular.eot?#iefix") format("embedded-opentype");
-  font-weight: normal;
-  font-style: normal; }
-* {
-  box-sizing: border-box; }
+@font-face { font-family: 'CrimsonText'; src: url("fonts/CrimsonText-Regular.eot"); src: url("fonts/CrimsonText-Regular.woff2") format("woff2"), url("fonts/CrimsonText-Regular.woff") format("woff"), url("fonts/CrimsonText-Regular.ttf") format("truetype"), url("fonts/CrimsonText-Regular.svg#CrimsonText-Regular") format("svg"), url("fonts/CrimsonText-Regular.eot?#iefix") format("embedded-opentype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'CrimsonText'; src: url("fonts/CrimsonText-Italic.eot"); src: url("fonts/CrimsonText-Italic.woff2") format("woff2"), url("fonts/CrimsonText-Italic.woff") format("woff"), url("fonts/CrimsonText-Italic.ttf") format("truetype"), url("fonts/CrimsonText-Italic.svg#CrimsonText-Italic") format("svg"), url("fonts/CrimsonText-Italic.eot?#iefix") format("embedded-opentype"); font-weight: normal; font-style: italic; }
+@font-face { font-family: 'MadrasBold'; src: url("fonts/MadrasBold.eot"); src: url("fonts/MadrasBold.woff2") format("woff2"), url("fonts/MadrasBold.woff") format("woff"), url("fonts/MadrasBold.ttf") format("truetype"), url("fonts/MadrasBold.svg#MadrasExtraBold") format("svg"), url("fonts/MadrasBold.eot?#iefix") format("embedded-opentype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'MadrasBold'; src: url("fonts/MadrasBoldItalic.eot"); src: url("fonts/MadrasBoldItalic.woff2") format("woff2"), url("fonts/MadrasBoldItalic.woff") format("woff"), url("fonts/MadrasBoldItalic.ttf") format("truetype"), url("fonts/MadrasBoldItalic.svg#MadrasExtraBold") format("svg"), url("fonts/MadrasBoldItalic.eot?#iefix") format("embedded-opentype"); font-weight: normal; font-style: italic; }
+@font-face { font-family: 'MadrasRegular'; src: url("fonts/MadrasRegular.eot"); src: url("fonts/MadrasRegular.woff2") format("woff2"), url("fonts/MadrasRegular.woff") format("woff"), url("fonts/MadrasRegular.ttf") format("truetype"), url("fonts/MadrasRegular.svg#MadrasExtraBold") format("svg"), url("fonts/MadrasRegular.eot?#iefix") format("embedded-opentype"); font-weight: normal; font-style: normal; }
+* { box-sizing: border-box; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: normal; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 
-body {
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-smootthing: antialiased;
-  -moz-osx-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  -webkit-font-feature-settings: "kern" 1;
-  -moz-font-feature-settings: "kern" 1;
-  -o-font-feature-settings: "kern" 1;
-  font-feature-settings: "kern" 1;
-  font-kerning: normal;
-  margin: 0;
-  padding: 0; }
+body { -webkit-text-size-adjust: 100%; -webkit-font-smootthing: antialiased; -moz-osx-font-smoothing: antialiased; text-rendering: optimizeLegibility; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; margin: 0; padding: 0; }
 
-.dark-bg {
-  background-color: #16181a; }
+.dark-bg { background-color: #16181a; }
 
-.svg-fill-dark {
-  fill: #16181a; }
+.svg-fill-dark { fill: #16181a; }
 
-.svg-fill-light {
-  fill: #fff; }
+.svg-fill-light { fill: #fff; }
 
-.home {
-  display: none !important; }
+.home { display: none !important; }
 
-.logo-fixed-cover {
-  position: fixed;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  z-index: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0; }
-  .logo-fixed-cover .logo {
-    width: 100%;
-    display: none; }
-  .logo-fixed-cover .logo-one {
-    display: block; }
+.logo-fixed-cover { position: fixed; display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; flex-direction: column; justify-content: center; z-index: 0; top: 0; right: 0; bottom: 0; left: 0; }
+.logo-fixed-cover .logo { width: 100%; display: none; }
+.logo-fixed-cover .logo-one { display: block; }
 
-.baseline {
-  position: absolute;
-  width: 100%;
-  z-index: 5;
-  text-align: center;
-  bottom: 150px;
-  font-size: 20px;
-  opacity: 1;
-  transition: opacity 0.2s;
-  font-family: "MadrasBold", Helvetica, Arial, sans-serif; }
-  .baseline.hidden {
-    opacity: 0; }
+.baseline { position: absolute; width: 100%; z-index: 5; text-align: center; bottom: 150px; font-size: 20px; opacity: 1; transition: opacity 0.2s; font-family: "MadrasBold", Helvetica, Arial, sans-serif; }
+.baseline.hidden { opacity: 0; }
 
-.home-content {
-  margin: 0 auto 100vh;
-  position: relative;
-  z-index: 10;
-  text-align: center;
-  font-family: "MadrasBold", Helvetica, Arial, sans-serif; }
-  .home-content .content-fake-padding {
-    width: 100%;
-    height: 1500px; }
-  .home-content a {
-    color: #16181a;
-    text-decoration: none; }
-    .home-content a:hover {
-      color: #16181a;
-      text-decoration: none; }
-    .home-content a:active {
-      color: #16181a;
-      text-decoration: none; }
+.home-content { margin: 0 auto 100vh; position: relative; z-index: 10; text-align: center; font-family: "MadrasBold", Helvetica, Arial, sans-serif; }
+.home-content .content-fake-padding { width: 100%; height: 1500px; }
+.home-content a { color: #16181a; text-decoration: none; }
+.home-content a:hover { color: #16181a; text-decoration: none; }
+.home-content a:active { color: #16181a; text-decoration: none; }
 
-.release-container {
-  width: 100%;
-  height: 100vh;
-  min-height: 600px;
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .release-container:nth-child(even) {
-    flex-direction: row; }
-  .release-container:nth-child(odd) {
-    flex-direction: row-reverse; }
-  .release-container .description-background {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #16181a;
-    z-index: 0;
-    opacity: 0;
-    pointer-events: none; }
-  .release-container:nth-child(even) .release-description-container, .release-container:nth-child(even) .project-metadatas {
-    padding: 0 0 0 180px; }
-  .release-container:nth-child(odd) .release-description-container, .release-container:nth-child(odd) .project-metadatas {
-    padding: 0 120px 0 30px; }
+.release-container { width: 100%; height: 100vh; min-height: 600px; position: relative; display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; justify-content: center; align-items: center; }
+.release-container:nth-child(even) { flex-direction: row; }
+.release-container:nth-child(odd) { flex-direction: row-reverse; }
+.release-container .description-background { position: fixed; top: 0; right: 0; bottom: 0; left: 0; background-color: #16181a; z-index: 0; opacity: 0; pointer-events: none; }
+.release-container:nth-child(even) .release-description-container, .release-container:nth-child(even) .project-metadatas { padding: 0 0 0 180px; }
+.release-container:nth-child(odd) .release-description-container, .release-container:nth-child(odd) .project-metadatas { padding: 0 120px 0 30px; }
 
-.release-description-container, .project-metadatas {
-  display: block;
-  position: relative;
-  z-index: 5;
-  width: 500px;
-  opacity: 0;
-  color: white;
-  pointer-events: none;
-  text-align: left; }
-  .release-description-container h2, .project-metadatas h2 {
-    font-family: "MadrasBold", Helvetica, Arial, sans-serif;
-    font-size: 70px;
-    margin: 0 0 17px; }
-  .release-description-container h3, .project-metadatas h3 {
-    font-family: "MadrasBold", Helvetica, Arial, sans-serif;
-    font-size: 32px;
-    margin: -5px 0 10px; }
-  .release-description-container h4, .project-metadatas h4 {
-    color: white;
-    font-family: "CrimsonText", Times, serif;
-    font-size: 24px;
-    margin: 0 0 45px; }
-    .release-description-container h4 a, .project-metadatas h4 a, .release-description-container h4 a:visited, .project-metadatas h4 a:visited {
-      color: white;
-      text-decoration: none; }
-    .release-description-container h4 a:hover, .project-metadatas h4 a:hover {
-      text-decoration: underline; }
-  .release-description-container table, .project-metadatas table {
-    font-family: "MadrasBold", Helvetica, Arial, sans-serif;
-    font-size: 20px; }
-    .release-description-container table td, .project-metadatas table td {
-      line-height: 28px;
-      padding: 0 15px 0 0; }
+.release-description-container, .project-metadatas { display: block; position: relative; z-index: 5; width: 500px; opacity: 0; color: white; pointer-events: none; text-align: left; }
+.release-description-container h2, .project-metadatas h2 { font-family: "MadrasBold", Helvetica, Arial, sans-serif; font-size: 70px; margin: 0 0 17px; }
+.release-description-container h3, .project-metadatas h3 { font-family: "MadrasBold", Helvetica, Arial, sans-serif; font-size: 32px; margin: -5px 0 10px; }
+.release-description-container h4, .project-metadatas h4 { color: white; font-family: "CrimsonText", Times, serif; font-size: 24px; margin: 0 0 45px; }
+.release-description-container h4 a, .project-metadatas h4 a, .release-description-container h4 a:visited, .project-metadatas h4 a:visited { color: white; text-decoration: none; }
+.release-description-container h4 a:hover, .project-metadatas h4 a:hover { text-decoration: underline; }
+.release-description-container table, .project-metadatas table { font-family: "MadrasBold", Helvetica, Arial, sans-serif; font-size: 20px; }
+.release-description-container table td, .project-metadatas table td { line-height: 28px; padding: 0 15px 0 0; }
 
-.release-link {
-  display: block;
-  position: relative;
-  z-index: 10;
-  width: 40%;
-  height: auto;
-  -webkit-transform: rotate(22deg);
-  -moz-transform: rotate(22deg);
-  -ms-transform: rotate(22deg);
-  transform: rotate(22deg); }
-  .release-link img {
-    width: 100%; }
-    .release-link img.black {
-      display: block; }
-    .release-link img.white {
-      display: none; }
-  .release-link:hover img.black {
-    display: none; }
-  .release-link:hover img.white {
-    display: block; }
-  .release-link:hover + .description-background {
-    opacity: 1; }
-    .release-link:hover + .description-background + .release-description-container, .release-link:hover + .description-background + .project-metadatas {
-      opacity: 1;
-      pointer-events: all; }
+.release-link { display: block; position: relative; z-index: 10; width: 40%; height: auto; -webkit-transform: rotate(22deg); -moz-transform: rotate(22deg); -ms-transform: rotate(22deg); transform: rotate(22deg); }
+.release-link img { width: 100%; }
+.release-link img.black { display: block; }
+.release-link img.white { display: none; }
+.release-link:hover img.black { display: none; }
+.release-link:hover img.white { display: block; }
+.release-link:hover + .description-background { opacity: 1; }
+.release-link:hover + .description-background + .release-description-container, .release-link:hover + .description-background + .project-metadatas { opacity: 1; pointer-events: all; }
 
-.project-header {
-  width: 100%;
-  height: 70px;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: center;
-  z-index: 10; }
+.project-header { width: 100%; height: 70px; position: fixed; top: 0; right: 0; left: 0; display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; justify-content: center; z-index: 10; }
 
-.back-home-link {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 240px;
-  height: 70px;
-  margin: 0px auto; }
-  .back-home-link .logo {
-    width: 100%;
-    display: none; }
-  .back-home-link .logo-one {
-    display: block; }
-  .back-home-link.white .svg-fill-dark {
-    fill: #fff; }
+.back-home-link { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; flex-direction: column; justify-content: center; width: 240px; height: 70px; margin: 0px auto; }
+.back-home-link .logo { width: 100%; display: none; }
+.back-home-link .logo-one { display: block; }
+.back-home-link.white .svg-fill-dark { fill: #fff; }
 
-.project-fake-margin {
-  width: 100%;
-  height: 120px; }
+.project-fake-margin { width: 100%; height: 120px; }
 
-.project-page-content {
-  width: 100%;
-  height: auto;
-  margin: 0 auto 100vh; }
+.project-page-content { width: 100%; height: auto; margin: 0 auto 100vh; }
 
-.project-image {
-  display: block;
-  width: 55%;
-  margin: 240px auto 0; }
-  .project-image:nth-child(2) {
-    margin: 0 auto 0; }
+.project-image { display: block; width: 55%; margin: 240px auto 0; }
+.project-image:nth-child(2) { margin: 0 auto 0; }
 
-.project-description-container {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #16181a;
-  color: #fff;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.2s;
-  padding: 23vh 30px 0;
-  z-index: 5; }
-  .project-description-container.visible {
-    opacity: 1;
-    pointer-events: all; }
+.project-description-container { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; justify-content: center; align-items: flex-start; position: fixed; top: 0; right: 0; bottom: 0; left: 0; background-color: #16181a; color: #fff; opacity: 0; pointer-events: none; transition: opacity 0.2s; padding: 23vh 30px 0; z-index: 5; }
+.project-description-container.visible { opacity: 1; pointer-events: all; }
 
-.project-metadatas {
-  width: 370px;
-  z-index: 10;
-  opacity: 1;
-  pointer-events: all;
-  margin: 0 0 0; }
+.project-metadatas { width: 370px; z-index: 10; opacity: 1; pointer-events: all; margin: 0 0 0; }
 
-.buy-link, .buy-link:visited {
-  font-family: "CrimsonText", Times, serif;
-  font-size: 52px;
-  color: #fff;
-  text-decoration: none;
-  float: right; }
-  .buy-link:hover, .buy-link:visited:hover {
-    text-decoration: underline; }
+.buy-link, .buy-link:visited { font-family: "CrimsonText", Times, serif; font-size: 52px; color: #fff; text-decoration: none; float: right; }
+.buy-link:hover, .buy-link:visited:hover { text-decoration: underline; }
 
-.project-page-description {
-  width: 590px;
-  font-family: "CrimsonText", Times, serif;
-  font-size: 22px;
-  margin: 0 0 0 120px; }
-  .project-page-description p {
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em; }
+.project-page-description { width: 590px; font-family: "CrimsonText", Times, serif; font-size: 22px; margin: 0 0 0 120px; }
+.project-page-description p { -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 
-.contributors {
-  background-color: #16181a;
-  min-height: 100vh; }
+.contributors { background-color: #16181a; min-height: 100vh; }
 
-.small-logo {
-  display: block;
-  position: fixed;
-  width: 30%;
-  max-width: 500px;
-  top: 30px;
-  right: 6%; }
-  .small-logo .logo {
-    width: 100%;
-    display: none; }
-  .small-logo .logo-one {
-    display: block; }
+.small-logo { display: block; position: fixed; width: 30%; max-width: 500px; top: 30px; right: 6%; }
+.small-logo .logo { width: 100%; display: none; }
+.small-logo .logo-one { display: block; }
 
-.contributors-content {
-  width: 64%;
-  margin: 0 30% 0 0;
-  color: #fff;
-  padding: 60px 120px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start; }
+.contributors-content { width: 64%; margin: 0 30% 0 0; color: #fff; padding: 60px 120px; display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; flex-wrap: wrap; justify-content: flex-start; }
 
-.contributor-container {
-  display: block;
-  width: 50%;
-  margin: 0 0 60px; }
-  .contributor-container h2 {
-    margin: 0 0 7.5px;
-    font-family: "CrimsonText", Times, serif;
-    font-size: 26px; }
-  .contributor-container h3 {
-    margin: 0 0 10px;
-    font-family: "MadrasBold", Helvetica, Arial, sans-serif;
-    font-size: 20px; }
-  .contributor-container a, .contributor-container a:visited {
-    font-family: "MadrasBold", Helvetica, Arial, sans-serif;
-    font-size: 20px;
-    color: #fff;
-    text-decoration: none; }
-    .contributor-container a:hover, .contributor-container a:visited:hover {
-      text-decoration: underline; }
+.contributor-container { display: block; width: 50%; margin: 0 0 60px; }
+.contributor-container h2 { margin: 0 0 7.5px; font-family: "CrimsonText", Times, serif; font-size: 26px; }
+.contributor-container h3 { margin: 0 0 10px; font-family: "MadrasBold", Helvetica, Arial, sans-serif; font-size: 20px; }
+.contributor-container a, .contributor-container a:visited { font-family: "MadrasBold", Helvetica, Arial, sans-serif; font-size: 20px; color: #fff; text-decoration: none; }
+.contributor-container a:hover, .contributor-container a:visited:hover { text-decoration: underline; }
 
-.site-footer {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #16181a;
-  color: #fff;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.2s;
-  padding: 23vh 30px 0; }
-  .site-footer.visible {
-    opacity: 1;
-    pointer-events: all; }
+.site-footer { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; justify-content: center; align-items: flex-start; position: fixed; top: 0; right: 0; bottom: 0; left: 0; background-color: #16181a; color: #fff; opacity: 0; pointer-events: none; transition: opacity 0.2s; padding: 23vh 30px 0; }
+.site-footer.visible { opacity: 1; pointer-events: all; }
 
-.footer-left-column {
-  width: 270px;
-  font-family: "MadrasBold", Helvetica, Arial, sans-serif;
-  font-size: 20px;
-  line-height: 28px; }
-  .footer-left-column a, .footer-left-column a:visited {
-    color: #fff;
-    text-decoration: none; }
-    .footer-left-column a:hover, .footer-left-column a:visited:hover {
-      color: #fff;
-      text-decoration: underline; }
+.footer-left-column { width: 270px; font-family: "MadrasBold", Helvetica, Arial, sans-serif; font-size: 20px; line-height: 28px; }
+.footer-left-column a, .footer-left-column a:visited { color: #fff; text-decoration: none; }
+.footer-left-column a:hover, .footer-left-column a:visited:hover { color: #fff; text-decoration: underline; }
 
-.footer-right-column {
-  width: 590px;
-  font-family: "CrimsonText", Times, serif;
-  font-size: 26px;
-  line-height: 43px;
-  margin: 0 0 0 180px;
-  line-height: 36px; }
-  .footer-right-column p {
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0em; }
+.footer-right-column { width: 590px; font-family: "CrimsonText", Times, serif; font-size: 26px; line-height: 43px; margin: 0 0 0 180px; line-height: 36px; }
+.footer-right-column p { -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 
-.teaser-home {
-  display: block;
-  text-decoration: none;
-  width: 100%;
-  height: 100vh;
-  background-image: url(../uploads/mockup-sektop-site.jpg);
-  background-size: cover;
-  background-position: center bottom;
-  font-size: 30px;
-  font-family: 'MadrasBold';
-  color: white;
-  text-align: center;
-  padding-top: 50vh;
-  cursor: pointer; }
-  @media screen and (max-width: 640px) {
-    .teaser-home {
-      width: 100%;
-      height: 100vh;
-      background-image: url(../uploads/mockup-site.jpg);
-      background-size: cover;
-      background-position: center center; } }
+.teaser-home { display: block; text-decoration: none; width: 100%; height: 100vh; background-image: url(../uploads/mockup-sektop-site.jpg); background-size: cover; background-position: center bottom; font-size: 30px; font-family: 'MadrasBold'; color: white; text-align: center; padding-top: 50vh; cursor: pointer; }
+@media screen and (max-width: 640px) { .teaser-home { width: 100%; height: 100vh; background-image: url(../uploads/mockup-site.jpg); background-size: cover; background-position: center center; } }
