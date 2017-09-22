@@ -1,6 +1,5 @@
 ---
 title: Op001 Objet Papier
-layout: project
 number: OP001
 auteur:
   name: Ronan Deshaies
@@ -19,6 +18,7 @@ images:
 - op001-3.jpg
 - op001-4.jpg
 - op001-5.jpg
+layout: project
 ---
 
 «&thinsp;Objet Papier&thinsp;» constitue à la fois la conclusion et la synthèse de la trilogie initiée par les pièces «&thinsp;Rejet&thinsp;/&thinsp;Rejection&thinsp;» et «&thinsp;Et les mouettes…&thinsp;»
