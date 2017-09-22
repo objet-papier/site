@@ -1,5 +1,5 @@
 ---
-title: OP002 Blurring Policies
+title: Op002 Blurring Policies
 date: 2017-09-22 13:00:00 Z
 number: OP002
 auteur:
