@@ -8,7 +8,7 @@ auteur:
 name: Objet Papier
 cover-image: op001-cover
 format: A5
-pages: 24 pages + 1 feuillet
+nb-pages: 24 pages + 1 feuillet
 reliure: Rivets
 impression: Numérique quadri
 exemplaires: 50 numérotés

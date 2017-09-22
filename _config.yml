@@ -35,7 +35,7 @@ defaults:
     name:
     cover-image:
     format:
-    pages:
+    nb-pages:
     reliure:
     impression:
     exemplaires:
@@ -43,7 +43,7 @@ defaults:
     images:
       -
       -
-      - 
+      -
 email: hello@objetpapier.fr
 description: Objet Papier est un label de micro édition montreuillois qui publie des
   fanzines de photographies, montages, mots et expérimentations diverses.
