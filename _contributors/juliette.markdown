@@ -1,6 +1,6 @@
 ---
 title: Juliette Bernachot
-position: 3
+position: 4
 role: Auteur
 ---
 
