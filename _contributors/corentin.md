@@ -1,7 +1,7 @@
 ---
 title: Corentin Moussard
 position: 2
-role: SIte web
+role: Site web
 link: http://alune.fr/
 ---
 
