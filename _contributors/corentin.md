@@ -1,7 +1,7 @@
 ---
 title: Corentin Moussard
 position: 2
-role: Code stuff
+role: SIte web
 link: http://alune.fr/
 ---
 
