@@ -1,7 +1,7 @@
 ---
 title: Aline Roy
 position: 4
-role: Photographie
+role: Photographe
 link: http://www.koreanrunaway.com/
 ---
 
