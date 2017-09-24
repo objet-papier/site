@@ -28,7 +28,7 @@ defaults:
   values:
     title:
     layout: project
-    number:
+    number: OP###
     auteur:
     - name:
       website:
@@ -39,7 +39,7 @@ defaults:
     reliure:
     impression:
     exemplaires:
-    prix: 5 (ne pas ajouter de symbole "€")
+    prix: 5 (ne pas ajouter de symbole "€", si épuisé utiliser "sold-out")
     images:
     - op###-1 (Ne pas ajouter l'extension ".jpg" après le nom du fichier)
     - op###-2
