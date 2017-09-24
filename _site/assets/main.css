@@ -113,7 +113,7 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 .contributor-container a, .contributor-container a:visited { font-family: "MadrasBold", Helvetica, Arial, sans-serif; font-size: 20px; color: #fff; text-decoration: none; }
 .contributor-container a:hover, .contributor-container a:visited:hover { text-decoration: underline; }
 
-.site-footer { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; justify-content: center; align-items: flex-start; position: fixed; top: 0; right: 0; bottom: 0; left: 0; background-color: #16181a; color: #fff; opacity: 0; pointer-events: none; transition: opacity 0.2s; padding: 23vh 30px 0; }
+.site-footer { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; justify-content: center; align-items: flex-start; position: fixed; top: 0; right: 0; bottom: 0; left: 0; background-color: #16181a; color: #fff; opacity: 0; pointer-events: none; transition: opacity 0.2s; padding: 23vh 30px 0; z-index: 20; }
 .site-footer.visible { opacity: 1; pointer-events: all; }
 
 .footer-left-column { width: 270px; font-family: "MadrasBold", Helvetica, Arial, sans-serif; font-size: 20px; line-height: 28px; }

@@ -3,6 +3,8 @@ title: About
 permalink: "/about/"
 footer-title: Label de micro-édition - Montreuil,  France
 contact: hello@objetpapier.fr
+facebook: https://www.facebook.com/objetpapier/
+instagram: https://www.instagram.com/objet_papier/
 ---
 
 Objet Papier est un jeune label de micro-édition montreuillois qui publie des fanzines de photographies, montages, mots et expérimentations diverses.
