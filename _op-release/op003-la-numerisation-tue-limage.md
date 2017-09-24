@@ -1,9 +1,10 @@
 ---
 title: Op003 Objet Papier
+position: 3
 number: OP003
 auteur:
-  name: Morgane Bartoli
-  website: http://morganebartoli.com
+  - name: Morgane Bartoli
+    website: http://morganebartoli.com
 name: La numérisation tue l'image
 cover-image: op003-cover
 format: 100 x 160 mm
@@ -11,7 +12,7 @@ nb-pages: 44 pages
 reliure: Dos carré collé
 impression: Numérique quadri
 exemplaires: 50
-prix: 6 €
+prix: 6
 images:
 - op003-1.jpg
 - op003-2.jpg

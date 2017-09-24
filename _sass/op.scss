@@ -93,10 +93,23 @@ body {
   font-kerning: normal;
   margin: 0;
   padding: 0;
+  transition: background-color 0.5s;
 }
 
 .dark-bg {
   background-color: $dark-color;
+}
+
+a, a:visited, a:hover {
+  color: $light-color;
+}
+
+blockquote {
+  padding: 0 0 0 $spacing-unit/2;
+  font-style: italic;
+  opacity: 0.5;
+  margin: 0 0 $spacing-unit/2;
+  border-left: solid 2px rgba(255,255,255,1);
 }
 
 .svg-fill-dark {
@@ -107,11 +120,50 @@ body {
   fill: $light-color;
 }
 
+
+.landing-video {
+  width: 100%;
+  background-color: $dark-color;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  @include flexbox;
+  justify-content: center;
+  align-items: center;
+
+  .video-container {
+    margin: 0 !important;
+    padding: 0;
+  }
+
+  a {
+    display: block;
+    width: 0;
+    height: 0;
+    position: fixed;
+    right: 50%;
+    bottom: 50px;
+    left: 50%;
+    text-align: center;
+    font-family: $serif-font;
+    font-size: 20px;
+    transform: translateX(-30px);
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+
 // Import partials.
 @import
   "op/home",
   "op/project",
   "op/contributors",
   "op/footer",
-  "op/teaser"
+  "op/teaser",
+  "op/404"
 ;

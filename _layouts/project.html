@@ -5,14 +5,27 @@
 
   <body>
 
-    <div class="project-header">
-      <a class="back-home-link" href="{{ site.baseurl }}/">
-        {% include logo-animation.html %}
-      </a>
-    </div>
+    {% if page.video %}
+    {% include header-video.html %}
 
     <div class="project-page-content">
+        <div class="video-container">
+          <div class='embed-container'>
+            <iframe src='https://player.vimeo.com/video/{{ page.video }}?color={{ page.video-color }}&title=0&byline=0&portrait=0'
+                    frameborder='0'
+                    webkitAllowFullScreen
+                    mozallowfullscreen
+                    allowFullScreen>
+            </iframe>
+          </div>
+        </div>
+      <div class="project-fake-margin small"></div>
+    {% else %}
+    {% include header.html %}
+    <div class="project-page-content">
       <div class="project-fake-margin"></div>
+    {% endif %}
+
       {% for image in page.images %}
         <img class="project-image" src="{{ site.baseurl }}/uploads/{{ image }}">
       {% endfor %}
@@ -22,16 +35,26 @@
       <div class="project-metadatas">
         <h2>{{ page.number }}</h2>
         <h3>{{ page.name }}</h3>
-        <h4>par <a target="_blank" href="{{ page.auteur.website }}">{{ page.auteur.name }}</a></h4>
+        <h4>par
+          {% for auteurs in page.auteur %}
+            <a target="_blank" href="{{ auteurs.website }}">{{ auteurs.name }}</a><br/>
+          {% endfor %}
+        </h4>
         <table>
           <tr><td>Format</td><td>{{ page.format }}</td></tr>
           <tr><td>Pages</td><td>{{ page.nb-pages }}</td></tr>
           <tr><td>Reliure</td><td>{{ page.reliure }}</td></tr>
           <tr><td>Impression</td><td>{{ page.impression }}</td></tr>
           <tr><td>Exemplaires</td><td>{{ page.exemplaires }}</td></tr>
-          <tr><td>Prix</td><td>{{ page.prix }} </td></tr>
+          {% if page.prix == 'sold-out' %}
+          <tr><td>Prix</td><td>{{ page.prix }}</td></tr>
+          {% else %}
+          <tr><td>Prix</td><td>{{ page.prix }}€</td></tr>
+          {% endif %}
         </table>
-        <a class="buy-link" href="#">Acheter</a>
+        {% unless page.prix == 'sold-out' %}
+        <a target="_blank" class="buy-link" href="https://paypal.me/RDeshaies/{{ page.prix }}">Acheter</a>
+        {% endunless %}
       </div>
       <div class="project-page-description">
         {{ content }}

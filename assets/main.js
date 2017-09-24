@@ -75,6 +75,8 @@ $(document).ready(function(){
         $(this).css('transform', 'rotate(' + rollDice + 'deg)');
     });
 
+    var scrollPosition = window.pageYOffset;
+
     var contentHeight = $('.home-content').height();
     var totalHeight = (contentHeight - 1);
 

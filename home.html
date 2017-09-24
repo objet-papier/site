@@ -1,0 +1,47 @@
+---
+layout: default
+permalink: "/home/"
+---
+
+<div class="home">
+
+  <div class="logo-fixed-cover">
+    {% include logo-animation.html %}
+  </div>
+
+  <div class="baseline">
+    Label de micro-édition
+  </div>
+
+  <div class="home-content">
+    <div class="content-fake-padding"></div>
+    {% assign release-sort = site.op-release | sort: 'position' %}
+    {% for release in release-sort %}
+      <div class="release-container">
+        <a class="release-link" href="{{ release.url }}">
+          <img class="black" src="{{ site.baseurl }}/uploads/{{ release.cover-image }}-black.jpg" alt="">
+          <img class="white" src="{{ site.baseurl }}/uploads/{{ release.cover-image }}-white.jpg" alt="">
+        </a>
+        <div class="description-background"></div>
+        <div class="release-description-container">
+          <h2>{{ release.number }}</h2>
+          <h3>{{ release.name }}</h3>
+          <h4>par
+            {% for auteurs in release.auteur %}
+              {{ auteurs.name }}<br/>
+            {% endfor %}
+          </h4>
+          <table>
+            <tr><td>Format</td><td>{{ release.format }}</td></tr>
+            <tr><td>Pages</td><td>{{ release.nb-pages }}</td></tr>
+            <tr><td>Reliure</td><td>{{ release.reliure }}</td></tr>
+            <tr><td>Impression</td><td>{{ release.impression }}</td></tr>
+            <tr><td>Exemplaires</td><td>{{ release.exemplaires }}</td></tr>
+            <tr><td>Prix</td><td>{{ release.prix }} </td></tr>
+          </table>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+</div>
