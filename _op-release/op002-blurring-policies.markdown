@@ -14,10 +14,10 @@ impression: Numérique noir et blanc
 exemplaires: 110 numérotés
 prix: 4
 images:
-- op002-1.jpg
-- op002-2.jpg
-- op002-3.jpg
-- op002-4.jpg
+- op002-1
+- op002-2
+- op002-3
+- op002-4
 layout: project
 ---
 

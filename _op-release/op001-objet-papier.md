@@ -14,11 +14,11 @@ impression: Numérique quadri
 exemplaires: 50 numérotés
 prix: sold-out
 images:
-- op001-1.jpg
-- op001-2.jpg
-- op001-3.jpg
-- op001-4.jpg
-- op001-5.jpg
+- op001-1
+- op001-2
+- op001-3
+- op001-4
+- op001-5
 layout: project
 ---
 
