@@ -3,8 +3,8 @@ title: Op002 Blurring Policies
 position: 2
 number: OP002
 auteur:
-  - name: Ronan Deshaies
-    website: http://cargocollective.com/ronandeshaies
+- name: Ronan Deshaies
+  website: http://cargocollective.com/ronandeshaies
 name: Blurring Policies
 cover-image: op002-cover
 format: A5

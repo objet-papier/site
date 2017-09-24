@@ -3,8 +3,8 @@ title: Op001 Objet Papier
 position: 1
 number: OP001
 auteur:
-  - name: Ronan Deshaies
-    website: http://cargocollective.com/ronandeshaies
+- name: Ronan Deshaies
+  website: http://cargocollective.com/ronandeshaies
 name: Objet Papier
 cover-image: op001-cover
 format: A5
