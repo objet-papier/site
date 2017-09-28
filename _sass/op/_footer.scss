@@ -1,5 +1,6 @@
 .site-footer {
   @include flexbox;
+  flex-direction: row;
   justify-content: center;
   align-items: flex-start;
   position: fixed;
@@ -15,9 +16,34 @@
   padding: 23vh $spacing-unit 0;
   z-index: 20;
 
+  @include media-query($break-medium){
+    flex-direction: column;
+    padding: $spacing-unit*2 $spacing-unit*4 0;
+  }
+
+  @include media-query($break-small){
+    padding: $spacing-unit*4 $spacing-unit 0;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
   &.visible {
     opacity: 1;
     pointer-events: all;
+  }
+}
+
+.footer-column-ception {
+  width: 100%;
+
+  @include media-query($break-medium){
+    width: 100%;
+  }
+
+  @include media-query($break-small){
+    width: 100%;
   }
 }
 
@@ -26,6 +52,29 @@
   font-family: $gothic-font;
   font-size: 20px;
   line-height: 28px;
+  @include flexbox;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  @include media-query($break-medium){
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+
+  @include media-query($break-small){
+    flex-direction: column;
+    width: 100%;
+    margin: $spacing-unit*2 auto;
+    font-size: 18px;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
 
   a, a:visited {
     color: $light-color;
@@ -45,6 +94,18 @@
   line-height: 43px;
   margin: 0 0 0 $spacing-unit*6;
   line-height: 36px;
+
+  @include media-query($break-medium){
+    width: 100%;
+    margin: $spacing-unit auto $spacing-unit*2;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  @include media-query($break-small){
+    font-size: 20px;
+    line-height: 33px;
+  }
 
   p {
     -webkit-margin-before: 0em;

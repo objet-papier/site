@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: "/about/"
-footer-title: Label de micro-édition - Montreuil,  France
+footer-title: Label de micro-édition <br/> Montreuil,  France
 contact: hello@objetpapier.fr
 facebook: https://www.facebook.com/objetpapier/
 instagram: https://www.instagram.com/objet_papier/

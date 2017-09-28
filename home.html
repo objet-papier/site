@@ -12,7 +12,6 @@ layout: default
   <div class="baseline">
     Label de micro-édition
   </div>
-
   <div class="home-content">
     <div class="content-fake-padding"></div>
     {% assign release-sort = site.op-release | sort: 'position' %}
@@ -21,6 +20,9 @@ layout: default
         <a class="release-link" href="{{ release.url }}">
           <img class="black" src="{{ site.baseurl }}/uploads/{{ release.cover-image }}-black.jpg" alt="">
           <img class="white" src="{{ site.baseurl }}/uploads/{{ release.cover-image }}-white.jpg" alt="">
+          <h1 class="mobile-release-title">
+            {{ release.number }}
+          </h1>
         </a>
         <div class="description-background"></div>
         <div class="release-description-container">
