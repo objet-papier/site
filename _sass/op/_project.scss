@@ -47,6 +47,10 @@
   margin: 0 auto;
   padding: $spacing-unit*3 0 0;
 
+  @include media-query($break-small){
+    padding: $spacing-unit*8 0 0;
+  }
+
   &::after {
     content: "";
     display: block;

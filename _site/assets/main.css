@@ -88,6 +88,7 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 .back-home-link.white .svg-fill-dark { fill: #fff; }
 
 .video-container { width: 80%; margin: 0 auto; padding: 90px 0 0; }
+@media screen and (max-width: 670px) { .video-container { padding: 240px 0 0; } }
 .video-container::after { content: ""; display: block; position: fixed; pointer-events: none; z-index: -10; top: 0; right: 0; bottom: 0; left: 0; background-color: #16181a; opacity: 1; transition: opacity 0.4s; }
 .video-container.hidden::after { opacity: 0; }
 
