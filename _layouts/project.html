@@ -33,28 +33,33 @@
 
     <div class="project-description-container">
       <div class="project-metadatas">
-        <h2>{{ page.number }}</h2>
-        <h3>{{ page.name }}</h3>
-        <h4>par
-          {% for auteurs in page.auteur %}
-            <a target="_blank" href="{{ auteurs.website }}">{{ auteurs.name }}</a><br/>
-          {% endfor %}
-        </h4>
-        <table>
-          <tr><td>Format</td><td>{{ page.format }}</td></tr>
-          <tr><td>Pages</td><td>{{ page.nb-pages }}</td></tr>
-          <tr><td>Reliure</td><td>{{ page.reliure }}</td></tr>
-          <tr><td>Impression</td><td>{{ page.impression }}</td></tr>
-          <tr><td>Exemplaires</td><td>{{ page.exemplaires }}</td></tr>
-          {% if page.prix == 'sold-out' %}
-          <tr><td>Prix</td><td>{{ page.prix }}</td></tr>
-          {% else %}
-          <tr><td>Prix</td><td>{{ page.prix }}€</td></tr>
-          {% endif %}
-        </table>
-        {% unless page.prix == 'sold-out' %}
-        <a target="_blank" class="buy-link" href="https://paypal.me/RDeshaies/{{ page.prix }}">Acheter</a>
-        {% endunless %}
+        <div class="column-ception">
+          <h2>{{ page.number }}</h2>
+          <h3>{{ page.name }}</h3>
+          <h4>par
+            {% for auteurs in page.auteur %}
+              <a target="_blank" href="{{ auteurs.website }}">{{ auteurs.name }}</a><br/>
+            {% endfor %}
+          </h4>
+        </div>
+        <div class="column-ception">
+          <table>
+            <tr><td>Format</td><td>{{ page.format }}</td></tr>
+            <tr><td>Pages</td><td>{{ page.nb-pages }}</td></tr>
+            <tr><td>Reliure</td><td>{{ page.reliure }}</td></tr>
+            <tr><td>Impression</td><td>{{ page.impression }}</td></tr>
+            <tr><td>Exemplaires</td><td>{{ page.exemplaires }}</td></tr>
+            {% if page.prix == 'sold-out' %}
+            <tr><td>Prix</td><td>{{ page.prix }}</td></tr>
+            {% else %}
+            <tr><td>Prix</td><td>{{ page.prix }}€</td></tr>
+            {% endif %}
+          </table>
+          {% unless page.prix == 'sold-out' %}
+          <a target="_blank" class="buy-link" href="https://paypal.me/RDeshaies/{{ page.prix }}">Acheter</a>
+          {% endunless %}
+        </div>
+
       </div>
       <div class="project-page-description">
         {{ content }}

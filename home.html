@@ -39,7 +39,11 @@ layout: default
             <tr><td>Reliure</td><td>{{ release.reliure }}</td></tr>
             <tr><td>Impression</td><td>{{ release.impression }}</td></tr>
             <tr><td>Exemplaires</td><td>{{ release.exemplaires }}</td></tr>
+            {% if release.prix == 'sold-out' %}
+            <tr><td>Prix</td><td>{{ release.prix }}</td></tr>
+            {% else %}
             <tr><td>Prix</td><td>{{ release.prix }}€</td></tr>
+            {% endif %}
           </table>
         </div>
       </div>

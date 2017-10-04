@@ -45,6 +45,10 @@
   @include media-query($break-small){
     width: 100%;
   }
+
+  @media screen and (max-width: $break-small) and (orientation: landscape){
+    width: 50%;
+  }
 }
 
 .footer-left-column {
@@ -74,6 +78,10 @@
     -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1;
+  }
+
+  @media screen and (max-width: $break-small) and (orientation: landscape){
+    flex-direction: row;
   }
 
   a, a:visited {

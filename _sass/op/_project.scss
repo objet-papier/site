@@ -110,6 +110,16 @@
   &:nth-child(2) {
     margin: 0 auto 0;
   }
+
+  @include media-query($break-medium){
+    width: 70%;
+    margin: $spacing-unit*6 auto 0;
+  }
+
+  @include media-query($break-small){
+    width: 70%;
+    margin: $spacing-unit*4 auto 0;
+  }
 }
 
 .project-description-container {
@@ -135,6 +145,29 @@
     opacity: 1;
     pointer-events: all;
   }
+
+  @include media-query($break-medium){
+    flex-direction: column;
+    padding: 220px $spacing-unit*2 150px;
+  }
+
+  @include media-query($break-small){
+    flex-direction: column;
+    padding: 220px $spacing-unit 150px;
+  }
+}
+
+.column-ception {
+  width: 100%;
+
+  @include media-query($break-medium) {
+    width: 50%;
+    float: left;
+  }
+
+  @include media-query($break-small) {
+    width: 100%;
+  }
 }
 
 .project-metadatas {
@@ -144,6 +177,45 @@
   opacity: 1;
   pointer-events: all;
   margin: 0 0 0;
+
+  @include media-query($break-medium){
+    display: block; // Because the extend has some display none
+    width: 100%;
+
+    h2 {
+      font-size: 42px;
+    }
+
+    h3 {
+      font-size: 24px;
+    }
+
+    h4 {
+      font-size: 20px;
+    }
+
+    table {
+      font-size: 18px;
+    }
+  }
+
+  @include media-query($break-small){
+    h2 {
+      font-size: 42px;
+    }
+
+    h3 {
+      font-size: 24px;
+    }
+
+    h4 {
+      font-size: 20px;
+    }
+
+    table {
+      font-size: 18px;
+    }
+  }
 }
 
 .buy-link, .buy-link:visited {
@@ -157,6 +229,20 @@
   &:hover {
     text-decoration: underline;
   }
+
+  @include media-query($break-medium) {
+    float: left;
+    margin: $spacing-unit*2 0 0 -30%;
+  }
+
+  @include media-query($break-small){
+    float: left;
+    margin: $spacing-unit auto;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 
 .project-page-description {
@@ -165,6 +251,18 @@
   font-size: 20px;
   //line-height: 43px;
   margin: 0 0 0 $spacing-unit*4;
+
+  @include media-query($break-medium){
+    width: 100%;
+    margin: $spacing-unit*2 0 0 0;
+    font-size: 20px;
+  }
+
+  @include media-query($break-small){
+    width: 100%;
+    margin: $spacing-unit 0 0 0;
+    font-size: 20px;
+  }
 
   a {
     text-decoration: none;
