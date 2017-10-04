@@ -48,7 +48,7 @@
   padding: $spacing-unit*3 0 0;
 
   @include media-query($break-small){
-    padding: $spacing-unit*8 0 0;
+    padding: $spacing-unit*6 0 $spacing-unit*2;
   }
 
   &::after {
