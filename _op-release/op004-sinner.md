@@ -11,7 +11,7 @@ nb-pages: 48
 reliure: Piqûre à cheval
 impression: Numérique quadri
 exemplaires: 100 numérotés
-prix: 7
+prix: 8,50 (fdp compris)
 images:
 - op001-1.jpg
 - op001-2.jpg
