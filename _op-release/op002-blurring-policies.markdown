@@ -9,7 +9,7 @@ name: Blurring Policies
 cover-image: op002-cover
 format: A5
 nb-pages: 20
-reliure: Piqûre a cheval
+reliure: Piqûre à cheval
 impression: Numérique noir et blanc
 exemplaires: 110 numérotés
 prix: 4
