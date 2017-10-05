@@ -1,5 +1,5 @@
 ---
-title: Op003 Objet Papier
+title: Op003 La numérisation tue l'image
 position: 3
 number: OP003
 auteur:
