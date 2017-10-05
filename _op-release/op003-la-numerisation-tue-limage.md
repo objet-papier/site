@@ -22,6 +22,6 @@ images:
 layout: project
 ---
 
-Troisième parution du label, cette création originale de Morgane Bartoli questionne notre rapport à la technologie et au matériel de reproduction. En exhumant et détournant ce lointain souvenir pictural, cet avertissement “Danger : le photocopillage tue le livre” que l’on pensait confiné aux salles de classes et autres centres de documentation, le fanzine impose une réflexion sur l’évolution des méthodes d’édition, du livre imprimé à l’écran.
+Troisième parution du label, *La numérisation tue l'image* questionne notre rapport à la technologie et au matériel de reproduction. En exhumant et détournant ce lointain souvenir pictural, cet avertissement “Danger : le photocopillage tue le livre” que l’on pensait confiné aux salles de classes et autres centres de documentation, et par la démonstration d’une quarantaine de scans, l'édition impose une réflexion sur l’évolution des méthodes d’édition, du livre imprimé à l’écran. 
 
 [Plus d'infos](http://ppdo.fr/2017/05/14/objet-papier-trois.html)
