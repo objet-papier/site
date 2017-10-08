@@ -28,8 +28,8 @@ Tandis que la première création vidéo avait pour sujets l'intégration en mil
 
 Conséquence directe d'un projet de magazine avorté, *Objet Papier*  est le fruit d'un travail commun portant sur les obsessions toxiques, interrogeant la cohérence de la presse papier et revisitant les thématiques précédentes.
 
-*Objet Papier is the first and eponym publication of label. It is both the conclusion and the synthesis of trilogy started by [*Rejet / Rejection*](http://rejet-rejection.tumblr.com/) and [*Et les mouettes…*](https://vimeo.com/162227173)
+**Objet Papier is the first and eponym publication of label. It is both the conclusion and the synthesis of trilogy started by [*Rejet / Rejection*](http://rejet-rejection.tumblr.com/) and [*Et les mouettes…*](https://vimeo.com/162227173)
 
 The first creation was about urban areas integration, adaptation to an unknown environment and the difficulty to embrace a community. The second was asking reappropriation and psychological reconstruction in post-attacks Paris.
 
-Objet Papier is the result of an abandoned magazine project that questions toxic obsessions, consistency of printed press and previous themes revalued.*
+Objet Papier is the result of an abandoned magazine project that questions toxic obsessions, consistency of printed press and previous themes revalued.**
