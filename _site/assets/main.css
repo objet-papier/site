@@ -28,12 +28,12 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 .logo-fixed-cover .logo { width: 100%; display: none; }
 .logo-fixed-cover .logo-one { display: block; }
 
-.baseline { position: absolute; width: 100%; z-index: 5; text-align: center; bottom: 150px; font-size: 20px; opacity: 1; transition: opacity 0.2s; font-family: "MadrasBold", Helvetica, Arial, sans-serif; }
+.baseline { position: absolute; width: 100%; z-index: 5; text-align: center; bottom: 150px; font-size: 20px; color: #fff; opacity: 1; transition: opacity 0.2s; font-family: "MadrasBold", Helvetica, Arial, sans-serif; }
 @media screen and (max-width: 1050px) { .baseline { bottom: 80px; } }
 @media screen and (max-width: 670px) { .baseline { font-size: 16px; } }
 .baseline.hidden { opacity: 0; }
 
-.home-content { margin: 0 auto 100vh; position: relative; z-index: 10; text-align: center; font-family: "MadrasBold", Helvetica, Arial, sans-serif; }
+.home-content { margin: 0 auto; position: relative; z-index: 10; text-align: center; font-family: "MadrasBold", Helvetica, Arial, sans-serif; }
 @media screen and (max-width: 1050px) { .home-content { margin: 0 auto 100vh; } }
 @media screen and (max-width: 670px) { .home-content { margin: 0 auto -80px; } }
 .home-content .content-fake-padding { width: 100%; height: 1500px; }
@@ -47,7 +47,7 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 @media screen and (max-width: 670px) { .release-container { height: auto; padding: 80px 0; min-height: 0; } }
 .release-container:nth-child(even) { flex-direction: row; }
 .release-container:nth-child(odd) { flex-direction: row-reverse; }
-.release-container .description-background { position: fixed; top: 0; right: 0; bottom: 0; left: 0; background-color: #16181a; z-index: 0; opacity: 0; pointer-events: none; }
+.release-container .description-background { position: fixed; top: 0; right: 0; bottom: 0; left: 0; background-color: #fff; z-index: 0; opacity: 0; pointer-events: none; }
 @media screen and (max-width: 1050px) { .release-container .description-background { display: none; } }
 .release-container:nth-child(even) .release-description-container, .release-container:nth-child(even) .project-metadatas { padding: 0 0 0 180px; }
 .release-container:nth-child(odd) .release-description-container, .release-container:nth-child(odd) .project-metadatas { padding: 0 120px 0 30px; }
@@ -56,11 +56,11 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 @media screen and (max-width: 1050px) { .mobile-release-title { display: block; width: 100%; text-align: center; font-size: 32px; } }
 @media screen and (max-width: 670px) { .mobile-release-title { font-size: 22px; } }
 
-.release-description-container, .project-metadatas { display: block; position: relative; z-index: 5; width: 500px; opacity: 0; color: white; pointer-events: none; text-align: left; }
+.release-description-container, .project-metadatas { display: block; position: relative; z-index: 5; width: 500px; opacity: 0; color: #16181a; pointer-events: none; text-align: left; }
 @media screen and (max-width: 1050px) { .release-description-container, .project-metadatas { display: none; } }
 .release-description-container h2, .project-metadatas h2 { font-family: "MadrasBold", Helvetica, Arial, sans-serif; font-size: 70px; margin: 0 0 17px; }
 .release-description-container h3, .project-metadatas h3 { font-family: "MadrasBold", Helvetica, Arial, sans-serif; font-size: 32px; margin: -5px 0 10px; }
-.release-description-container h4, .project-metadatas h4 { color: white; font-family: "CrimsonText", Times, serif; font-size: 24px; margin: 0 0 45px; }
+.release-description-container h4, .project-metadatas h4 { font-family: "CrimsonText", Times, serif; font-size: 24px; margin: 0 0 45px; }
 .release-description-container h4 a, .project-metadatas h4 a, .release-description-container h4 a:visited, .project-metadatas h4 a:visited { color: white; text-decoration: none; }
 .release-description-container h4 a:hover, .project-metadatas h4 a:hover { text-decoration: underline; }
 .release-description-container table, .project-metadatas table { font-family: "MadrasBold", Helvetica, Arial, sans-serif; font-size: 20px; }
@@ -70,11 +70,11 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 @media screen and (max-width: 1050px) { .release-link { width: 60%; } }
 @media screen and (max-width: 670px) { .release-link { width: 70%; } }
 .release-link img { width: 100%; }
-.release-link img.black { display: block; }
-.release-link img.white { display: none; }
-.release-link:hover img.black { display: none; }
-@media screen and (max-width: 1050px) { .release-link:hover img.black { display: block; } }
-.release-link:hover img.white { display: block; }
+.release-link img.black { display: none; }
+.release-link img.white { display: block; }
+.release-link:hover img.black { display: block; }
+@media screen and (max-width: 1050px) { .release-link:hover img.black { display: none; } }
+.release-link:hover img.white { display: none; }
 @media screen and (max-width: 1050px) { .release-link:hover img.white { display: none; } }
 .release-link:hover + .description-background { opacity: 1; }
 .release-link:hover + .description-background + .release-description-container, .release-link:hover + .description-background + .project-metadatas { opacity: 1; pointer-events: all; }
@@ -114,7 +114,7 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 @media screen and (max-width: 1050px) { .column-ception { width: 50%; float: left; } }
 @media screen and (max-width: 670px) { .column-ception { width: 100%; } }
 
-.project-metadatas { width: 370px; z-index: 10; opacity: 1; pointer-events: all; margin: 0 0 0; }
+.project-metadatas { color: #fff; width: 370px; z-index: 10; opacity: 1; pointer-events: all; margin: 0 0 0; }
 @media screen and (max-width: 1050px) { .project-metadatas { display: block; width: 100%; }
   .project-metadatas h2 { font-size: 42px; }
   .project-metadatas h3 { font-size: 24px; }
@@ -125,7 +125,7 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
   .project-metadatas h4 { font-size: 20px; }
   .project-metadatas table { font-size: 18px; } }
 
-.buy-link, .buy-link:visited { font-family: "CrimsonText", Times, serif; font-size: 52px; color: #fff; text-decoration: none; float: right; }
+.buy-link, .buy-link:visited { width: auto; height: auto; background-color: transparent; border: none; cursor: pointer; font-family: "CrimsonText", Times, serif; font-size: 52px; color: #fff; text-decoration: none; float: right; }
 .buy-link:hover, .buy-link:visited:hover { text-decoration: underline; }
 @media screen and (max-width: 1050px) { .buy-link, .buy-link:visited { float: left; margin: 60px 0 0 -30%; } }
 @media screen and (max-width: 670px) { .buy-link, .buy-link:visited { float: left; margin: 30px auto; }
@@ -137,7 +137,7 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 .project-page-description a { text-decoration: none; position: relative; }
 .project-page-description a::after { content: ""; display: block; position: absolute; bottom: 0; right: 0; left: 0; height: 1px; background-color: #fff; }
 .project-page-description a:hover:after { display: none; }
-.project-page-description p { -webkit-margin-before: 0em; -webkit-margin-after: 0em; margin-bottom: 15px; }
+.project-page-description p { -webkit-margin-before: 0em; -webkit-margin-after: 0em; margin: 0 0 15px; }
 
 .contributors { background-color: #16181a; min-height: 100vh; }
 
@@ -149,7 +149,7 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 @media screen and (max-width: 1050px) { .contributors-content { width: 72%; padding: 30px 60px; } }
 @media screen and (max-width: 670px) { .contributors-content { width: 80%; flex-direction: column; padding: 30px; } }
 
-.contributor-container { display: block; width: 50%; margin: 0 0 60px; }
+.contributor-container { display: block; width: 50%; margin: 0 0 30px; }
 @media screen and (max-width: 670px) { .contributor-container { width: 100%; margin: 0 0 30px; } }
 .contributor-container h2 { margin: 0 0 7.5px; font-family: "CrimsonText", Times, serif; font-size: 26px; }
 @media screen and (max-width: 670px) { .contributor-container h2 { font-size: 24px; } }
@@ -158,9 +158,9 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 .contributor-container a, .contributor-container a:visited { font-family: "MadrasBold", Helvetica, Arial, sans-serif; font-size: 20px; color: #fff; text-decoration: none; }
 .contributor-container a:hover, .contributor-container a:visited:hover { text-decoration: underline; }
 
-.site-footer { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; flex-direction: row; justify-content: center; align-items: flex-start; position: fixed; top: 0; right: 0; bottom: 0; left: 0; background-color: #16181a; color: #fff; opacity: 0; pointer-events: none; transition: opacity 0.2s; padding: 23vh 30px 0; z-index: 20; }
-@media screen and (max-width: 1050px) { .site-footer { flex-direction: column; padding: 60px 120px 0; } }
-@media screen and (max-width: 670px) { .site-footer { padding: 120px 30px 0; flex-direction: column; position: relative; width: 100%; height: auto; } }
+.site-footer { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; flex-direction: row; justify-content: center; align-items: flex-start; position: relative; min-height: 100vh; color: #16181a; opacity: 0; pointer-events: none; transition: opacity 0.2s; padding: 220px 30px 170px; z-index: 20; }
+@media screen and (max-width: 1050px) { .site-footer { flex-direction: column; padding: 220px 60px 150px; } }
+@media screen and (max-width: 670px) { .site-footer { position: relative; width: 100%; height: auto; } }
 .site-footer.visible { opacity: 1; pointer-events: all; }
 
 .footer-column-ception { width: 100%; }
@@ -172,12 +172,17 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 @media screen and (max-width: 1050px) { .footer-left-column { flex-direction: row; width: 100%; margin: 0 auto; padding: 0; -webkit-column-count: 2; -moz-column-count: 2; column-count: 2; } }
 @media screen and (max-width: 670px) { .footer-left-column { flex-direction: column; width: 100%; margin: 60px auto; font-size: 18px; -webkit-column-count: 1; -moz-column-count: 1; column-count: 1; } }
 @media screen and (max-width: 670px) and (orientation: landscape) { .footer-left-column { flex-direction: row; } }
-.footer-left-column a, .footer-left-column a:visited { color: #fff; text-decoration: none; }
-.footer-left-column a:hover, .footer-left-column a:visited:hover { color: #fff; text-decoration: underline; }
+.footer-left-column a, .footer-left-column a:visited { color: #16181a; text-decoration: none; }
+.footer-left-column a:hover, .footer-left-column a:visited:hover { color: #16181a; text-decoration: underline; }
 
-.footer-right-column { width: 590px; font-family: "CrimsonText", Times, serif; font-size: 26px; line-height: 43px; margin: 0 0 0 180px; line-height: 36px; }
-@media screen and (max-width: 1050px) { .footer-right-column { width: 100%; margin: 30px auto 60px; font-size: 28px; line-height: 40px; } }
-@media screen and (max-width: 670px) { .footer-right-column { font-size: 20px; line-height: 33px; } }
+.contributor-link { font-family: "CrimsonText", Times, serif; font-size: 52px; color: #fff; text-decoration: none; float: right; }
+.contributor-link:hover { text-decoration: underline; }
+@media screen and (max-width: 1050px) { .contributor-link { float: left; margin: 60px 0 0 -30%; } }
+@media screen and (max-width: 670px) { .contributor-link { float: left; margin: 30px auto; }
+  .contributor-link:hover { text-decoration: none; } }
+
+.footer-right-column { width: 590px; font-family: "CrimsonText", Times, serif; font-size: 20px; margin: 0 0 0 180px; }
+@media screen and (max-width: 1050px) { .footer-right-column { width: 100%; margin: 30px auto 60px; } }
 .footer-right-column p { -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
 
 .teaser-home { display: block; text-decoration: none; width: 100%; height: 100vh; background-image: url(../uploads/mockup-sektop-site.jpg); background-size: cover; background-position: center bottom; font-size: 30px; font-family: 'MadrasBold'; color: white; text-align: center; padding-top: 50vh; cursor: pointer; }

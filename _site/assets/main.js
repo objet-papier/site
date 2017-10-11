@@ -51,13 +51,15 @@ $(window).on('scroll', function() {
 
 
     var contentHeight = $('.home-content').height();
-    var totalHeight = (contentHeight - 1);
+    var totalHeight = (contentHeight - 300);
 
-    if(scrollPosition > totalHeight) {
+    if(scrollPosition >= totalHeight) {
+        $('body').removeClass('dark-bg');
         $('.site-footer').addClass('visible');
     }
 
     if(scrollPosition < totalHeight) {
+        $('body').addClass('dark-bg');
         $('.site-footer').removeClass('visible');
     }
 
@@ -66,6 +68,16 @@ $(window).on('scroll', function() {
 $(document).ready(function(){
 
     $('.release-link').each(function(){
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        var rollDice = getRandomInt(-30, 30)
+
+        $(this).css('transform', 'rotate(' + rollDice + 'deg)');
+    });
+
+    $('.contributor-link').each(function(){
         function getRandomInt(min, max) {
             return Math.floor(Math.random() * (max - min + 1)) + min;
         }

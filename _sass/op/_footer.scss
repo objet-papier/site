@@ -3,27 +3,28 @@
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: $dark-color;
-  color: $light-color;
+  position: relative;
+  // top: 0;
+  // right: 0;
+  // bottom: 0;
+  // left: 0;
+  min-height: 100vh;
+  // background-color: $dark-color;
+  color: $dark-color;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.2s;
-  padding: 23vh $spacing-unit 0;
+  padding: 220px $spacing-unit 170px;
   z-index: 20;
 
   @include media-query($break-medium){
     flex-direction: column;
-    padding: $spacing-unit*2 $spacing-unit*4 0;
+    padding: 220px $spacing-unit*2 150px;
   }
 
   @include media-query($break-small){
-    padding: $spacing-unit*4 $spacing-unit 0;
-    flex-direction: column;
+    //padding: $spacing-unit*4 $spacing-unit 0;
+    //flex-direction: column;
     position: relative;
     width: 100%;
     height: auto;
@@ -85,12 +86,39 @@
   }
 
   a, a:visited {
-    color: $light-color;
+    color: $dark-color;
     text-decoration: none;
 
     &:hover {
-      color: $light-color;
+      color: $dark-color;
       text-decoration: underline;
+    }
+  }
+}
+
+.contributor-link {
+  font-family: $serif-font;
+  font-size: 52px;
+  color: $light-color;
+  text-decoration: none;
+  float: right;
+  //margin: $spacing-unit 0 0;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  @include media-query($break-medium) {
+    float: left;
+    margin: $spacing-unit*2 0 0 -30%;
+  }
+
+  @include media-query($break-small){
+    float: left;
+    margin: $spacing-unit auto;
+
+    &:hover {
+      text-decoration: none;
     }
   }
 }
@@ -98,21 +126,19 @@
 .footer-right-column {
   width: 590px;
   font-family: $serif-font;
-  font-size: 26px;
-  line-height: 43px;
+  font-size: 20px;
   margin: 0 0 0 $spacing-unit*6;
-  line-height: 36px;
 
   @include media-query($break-medium){
     width: 100%;
     margin: $spacing-unit auto $spacing-unit*2;
-    font-size: 28px;
-    line-height: 40px;
+    // font-size: 28px;
+    // line-height: 40px;
   }
 
   @include media-query($break-small){
-    font-size: 20px;
-    line-height: 33px;
+    // font-size: 20px;
+    // line-height: 33px;
   }
 
   p {

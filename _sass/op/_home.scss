@@ -26,6 +26,7 @@
   text-align: center;
   bottom: 150px;
   font-size: 20px;
+  color: $light-color;
   opacity: 1;
   transition: opacity 0.2s;
   font-family: $gothic-font;
@@ -45,7 +46,7 @@
 }
 
 .home-content {
-  margin: 0 auto 100vh;
+  margin: 0 auto;
   position: relative;
   z-index: 10;
   text-align: center;
@@ -119,7 +120,7 @@
     right:0;
     bottom: 0;
     left: 0;
-    background-color: $dark-color;
+    background-color: $light-color;
     z-index: 0;
     opacity: 0;
     pointer-events: none;
@@ -163,7 +164,7 @@
   z-index: 5;
   width: 500px;
   opacity: 0;
-  color: white;
+  color: $dark-color;
   pointer-events: none;
   text-align: left;
 
@@ -184,7 +185,6 @@
   }
 
   h4 {
-    color: white;
     font-family: $serif-font;
     font-size: 24px;
     margin: 0 0 $spacing-unit*1.5;
@@ -231,24 +231,24 @@
     width: 100%;
 
     &.black {
-      display: block;
+      display: none;
     }
     &.white {
-      display: none;
+      display: block;
     }
   }
 
   &:hover {
     img {
       &.black {
-        display: none;
+        display: block;
 
         @include media-query($break-medium){
-          display: block;
+          display: none;
         }
       }
       &.white {
-        display: block;
+        display: none;
 
         @include media-query($break-medium){
           display: none;

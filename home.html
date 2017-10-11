@@ -6,7 +6,7 @@ layout: default
 <div class="home">
 
   <div class="logo-fixed-cover">
-    {% include logo-animation.html %}
+    {% include logo-animation-white.html %}
   </div>
 
   <div class="baseline">
@@ -42,7 +42,7 @@ layout: default
             {% if release.prix == 'sold-out' %}
             <tr><td>Prix</td><td>{{ release.prix }}</td></tr>
             {% else %}
-            <tr><td>Prix</td><td>{{ release.prix }}€</td></tr>
+            <tr><td>Prix</td><td>{{ release.prix }}&thinsp;€</td></tr>
             {% endif %}
           </table>
         </div>

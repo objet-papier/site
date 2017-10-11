@@ -176,6 +176,7 @@
 
 .project-metadatas {
   @extend .release-description-container;
+  color: $light-color;
   width: 370px;
   z-index: 10;
   opacity: 1;
@@ -223,6 +224,11 @@
 }
 
 .buy-link, .buy-link:visited {
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
   font-family: $serif-font;
   font-size: 52px;
   color: $light-color;
@@ -293,6 +299,6 @@
   p {
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
-    margin-bottom: $spacing-unit/2;
+    margin: 0 0 $spacing-unit/2;
   }
 }
