@@ -14,11 +14,11 @@ impression: Numérique quadri
 exemplaires: 50
 prix: 6
 images:
-- /uploads/op003-1.jpg
-- /uploads/op003-2.jpg
-- /uploads/op003-3.jpg
-- /uploads/op003-4.jpg
-- /uploads/op003-5.jpg
+- "/uploads/op003-1.jpg"
+- "/uploads/op003-2.jpg"
+- "/uploads/op003-3.jpg"
+- "/uploads/op003-4.jpg"
+- "/uploads/op003-5.jpg"
 layout: project
 ---
 
