@@ -7,7 +7,7 @@
 
 h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 
-body { -webkit-text-size-adjust: 100%; -webkit-font-smootthing: antialiased; -moz-osx-font-smoothing: antialiased; text-rendering: optimizeLegibility; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; margin: 0; padding: 0; transition: background-color 0.5s; }
+body { -webkit-text-size-adjust: 100%; -webkit-font-smootthing: antialiased; -moz-osx-font-smoothing: antialiased; text-rendering: optimizeLegibility; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; margin: 0; padding: 0; transition: background-color 0.3s; }
 
 .dark-bg { background-color: #16181a; }
 
@@ -89,7 +89,7 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 
 .video-container { width: 80%; margin: 0 auto; padding: 90px 0 0; }
 @media screen and (max-width: 670px) { .video-container { padding: 180px 0 60px; } }
-.video-container::after { content: ""; display: block; position: fixed; pointer-events: none; z-index: -10; top: 0; right: 0; bottom: 0; left: 0; background-color: #16181a; opacity: 1; transition: opacity 0.4s; }
+.video-container::after { content: ""; display: block; position: fixed; pointer-events: none; z-index: -10; top: 0; right: 0; bottom: 0; left: 0; background-color: #16181a; opacity: 1; transition: opacity 0.3s; }
 .video-container.hidden::after { opacity: 0; }
 
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
