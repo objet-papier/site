@@ -15,10 +15,10 @@ exemplaires: 110 numérotés
 prix: 4
 paypal-link: 89JRSZ343WPSC
 images:
-- /uploads/op002-1.jpg
-- /uploads/op002-2.jpg
-- /uploads/op002-3.jpg
-- /uploads/op002-4.jpg
+- "/uploads/op002-1.jpg"
+- "/uploads/op002-2.jpg"
+- "/uploads/op002-3.jpg"
+- "/uploads/op002-4.jpg"
 layout: project
 ---
 

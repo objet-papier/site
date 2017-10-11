@@ -14,13 +14,13 @@ impression: Numérique quadri
 exemplaires: 100 numérotés
 prix: 7
 images:
-- /uploads/op004-1.jpg
-- /uploads/op004-2.jpg
-- /uploads/op004-3.jpg
-- /uploads/op004-4.jpg
-- /uploads/op004-5.jpg
-- /uploads/op004-6.jpg
-- /uploads/op004-7.jpg
+- "/uploads/op004-1.jpg"
+- "/uploads/op004-2.jpg"
+- "/uploads/op004-3.jpg"
+- "/uploads/op004-4.jpg"
+- "/uploads/op004-5.jpg"
+- "/uploads/op004-6.jpg"
+- "/uploads/op004-7.jpg"
 video: 235078540
 video-color: c40018
 layout: project
