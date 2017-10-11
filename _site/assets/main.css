@@ -183,7 +183,7 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 
 .footer-right-column { width: 590px; font-family: "CrimsonText", Times, serif; font-size: 20px; margin: 0 0 0 180px; }
 @media screen and (max-width: 1050px) { .footer-right-column { width: 100%; margin: 30px auto 60px; } }
-.footer-right-column p { -webkit-margin-before: 0em; -webkit-margin-after: 0em; }
+.footer-right-column p { -webkit-margin-before: 0em; -webkit-margin-after: 0em; margin: 0 0 30px; }
 
 .teaser-home { display: block; text-decoration: none; width: 100%; height: 100vh; background-image: url(../uploads/mockup-sektop-site.jpg); background-size: cover; background-position: center bottom; font-size: 30px; font-family: 'MadrasBold'; color: white; text-align: center; padding-top: 50vh; cursor: pointer; }
 @media screen and (max-width: 640px) { .teaser-home { width: 100%; height: 100vh; background-image: url(../uploads/mockup-site.jpg); background-size: cover; background-position: center center; } }
