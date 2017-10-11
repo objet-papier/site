@@ -23,7 +23,7 @@
   }
 
   @include media-query($break-small){
-    //padding: $spacing-unit*4 $spacing-unit 0;
+    padding: 220px $spacing-unit 70px;
     //flex-direction: column;
     position: relative;
     width: 100%;
@@ -131,12 +131,13 @@
 
   @include media-query($break-medium){
     width: 100%;
-    margin: $spacing-unit auto $spacing-unit*2;
+    margin: $spacing-unit*2 auto 0;
     // font-size: 28px;
     // line-height: 40px;
   }
 
   @include media-query($break-small){
+    margin: $spacing-unit auto $spacing-unit*2;
     // font-size: 20px;
     // line-height: 33px;
   }

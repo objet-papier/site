@@ -34,7 +34,7 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 .baseline.hidden { opacity: 0; }
 
 .home-content { margin: 0 auto; position: relative; z-index: 10; text-align: center; font-family: "MadrasBold", Helvetica, Arial, sans-serif; }
-@media screen and (max-width: 1050px) { .home-content { margin: 0 auto 100vh; } }
+@media screen and (max-width: 1050px) { .home-content { margin: 0 auto; } }
 @media screen and (max-width: 670px) { .home-content { margin: 0 auto -80px; } }
 .home-content .content-fake-padding { width: 100%; height: 1500px; }
 @media screen and (max-width: 1050px) { .home-content .content-fake-padding { height: 1100px; } }
@@ -53,7 +53,7 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 .release-container:nth-child(odd) .release-description-container, .release-container:nth-child(odd) .project-metadatas { padding: 0 120px 0 30px; }
 
 .mobile-release-title { display: none; }
-@media screen and (max-width: 1050px) { .mobile-release-title { display: block; width: 100%; text-align: center; font-size: 32px; } }
+@media screen and (max-width: 1050px) { .mobile-release-title { display: block; color: #fff; width: 100%; text-align: center; font-size: 32px; } }
 @media screen and (max-width: 670px) { .mobile-release-title { font-size: 22px; } }
 
 .release-description-container, .project-metadatas { display: block; position: relative; z-index: 5; width: 500px; opacity: 0; color: #16181a; pointer-events: none; text-align: left; }
@@ -75,7 +75,7 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 .release-link:hover img.black { display: block; }
 @media screen and (max-width: 1050px) { .release-link:hover img.black { display: none; } }
 .release-link:hover img.white { display: none; }
-@media screen and (max-width: 1050px) { .release-link:hover img.white { display: none; } }
+@media screen and (max-width: 1050px) { .release-link:hover img.white { display: block; } }
 .release-link:hover + .description-background { opacity: 1; }
 .release-link:hover + .description-background + .release-description-container, .release-link:hover + .description-background + .project-metadatas { opacity: 1; pointer-events: all; }
 
@@ -160,7 +160,7 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 
 .site-footer { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; flex-direction: row; justify-content: center; align-items: flex-start; position: relative; min-height: 100vh; color: #16181a; opacity: 0; pointer-events: none; transition: opacity 0.2s; padding: 220px 30px 170px; z-index: 20; }
 @media screen and (max-width: 1050px) { .site-footer { flex-direction: column; padding: 220px 60px 150px; } }
-@media screen and (max-width: 670px) { .site-footer { position: relative; width: 100%; height: auto; } }
+@media screen and (max-width: 670px) { .site-footer { padding: 220px 30px 70px; position: relative; width: 100%; height: auto; } }
 .site-footer.visible { opacity: 1; pointer-events: all; }
 
 .footer-column-ception { width: 100%; }
@@ -182,7 +182,8 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
   .contributor-link:hover { text-decoration: none; } }
 
 .footer-right-column { width: 590px; font-family: "CrimsonText", Times, serif; font-size: 20px; margin: 0 0 0 180px; }
-@media screen and (max-width: 1050px) { .footer-right-column { width: 100%; margin: 30px auto 60px; } }
+@media screen and (max-width: 1050px) { .footer-right-column { width: 100%; margin: 60px auto 0; } }
+@media screen and (max-width: 670px) { .footer-right-column { margin: 30px auto 60px; } }
 .footer-right-column p { -webkit-margin-before: 0em; -webkit-margin-after: 0em; margin: 0 0 30px; }
 
 .teaser-home { display: block; text-decoration: none; width: 100%; height: 100vh; background-image: url(../uploads/mockup-sektop-site.jpg); background-size: cover; background-position: center bottom; font-size: 30px; font-family: 'MadrasBold'; color: white; text-align: center; padding-top: 50vh; cursor: pointer; }

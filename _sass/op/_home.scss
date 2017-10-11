@@ -53,7 +53,7 @@
   font-family: $gothic-font;
 
   @include media-query($break-medium) {
-    margin: 0 auto 100vh;
+    margin: 0 auto;
   }
 
   @include media-query($break-small) {
@@ -148,6 +148,7 @@
 
   @include media-query($break-medium){
     display: block;
+    color: $light-color;
     width: 100%;
     text-align: center;
     font-size: 32px;
@@ -251,7 +252,7 @@
         display: none;
 
         @include media-query($break-medium){
-          display: none;
+          display: block;
         }
       }
     }
