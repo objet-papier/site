@@ -53,3 +53,8 @@ url: http://objetpapier.fr
 markdown: kramdown
 plugins:
 - jekyll-feed
+- jekyll-assets
+# assets:
+#   compress:
+#     css: true
+#     js: true
