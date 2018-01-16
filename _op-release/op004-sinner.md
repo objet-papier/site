@@ -1,6 +1,6 @@
 ---
 title: Op004 Sinner
-position: 4
+position: 3
 number: OP004
 auteur:
 - name: Guillaume Rossi

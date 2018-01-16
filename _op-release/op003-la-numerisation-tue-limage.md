@@ -1,6 +1,6 @@
 ---
 title: Op003 La numérisation tue l'image
-position: 3
+position: 2
 number: OP003
 auteur:
 - name: Morgane Bartoli
