@@ -13,7 +13,6 @@ reliure: Piqûre à cheval
 impression: Risographie bichromie
 exemplaires: 50 numérotés
 prix: 9
-paypal-link: https://www.paypal.me/RDeshaies/9
 ---
 
 Résultat de deux ans de travail à travers le continent Européen, SKIT, interlude cathartique produit dans l’urgence de l’expression, livre un hommage critique à l’Union perdue. Reflet du mouvement possible, l’édition puise dans toutes les formes de la culture DIY pour livrer le portrait d’une génération tiraillée entre la célébration et l’abandon politique.
