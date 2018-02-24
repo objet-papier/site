@@ -1,0 +1,107 @@
+---
+layout: simple
+---
+
+<div class="skit-container">
+  <div class="skit-video-container">
+    <video src="skit-videos/100_0590.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_1286.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_1399.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_1417.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_1507.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_1654.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_1731.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_1845.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_2107.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_2115.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_2165.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_2230.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_2278.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_2284.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_2354.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_2357.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_2373.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_2471.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_2472.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_2476.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_2479.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_2482.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_2486.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_2494.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_2496.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_2540.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/100_2544.mp4" autoplay loop></video>
+  </div>
+  <div class="skit-video-container">
+    <video src="skit-videos/img_2272.mp4" autoplay loop></video>
+  </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+  $("video").each(function(){
+
+    $(this).prop('muted', true);
+
+    $(this).on("mouseenter",function(){
+      $(this).prop('muted', false);
+    });
+
+    $(this).on("mouseout",function(){
+      $(this).prop('muted', true);
+    });
+  })
+</script>

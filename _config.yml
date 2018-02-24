@@ -1,6 +1,7 @@
 ---
 title: Objet Papier
 timezone: UTC
+
 collections:
   contributors:
     title: Contributors
@@ -14,6 +15,7 @@ collections:
   uploads:
     title: Uploads
     output: true
+
 defaults:
 - scope:
     path: ''
