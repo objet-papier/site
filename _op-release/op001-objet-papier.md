@@ -1,6 +1,6 @@
 ---
 title: Op001 Objet Papier
-position: 1
+position: 0
 number: OP001
 auteur:
 - name: Ronan Deshaies

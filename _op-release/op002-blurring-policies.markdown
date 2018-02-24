@@ -1,6 +1,6 @@
 ---
 title: Op002 Blurring Policies
-position: 2
+position: 1
 number: OP002
 auteur:
 - name: Ronan Deshaies
