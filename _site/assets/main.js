@@ -92,12 +92,14 @@ $(document).ready(function(){
     var contentHeight = $('.home-content').height();
     var totalHeight = (contentHeight - 1);
 
-    if(scrollPosition > totalHeight) {
-        $('.site-footer').addClass('visible');
+    if(scrollPosition >= totalHeight) {
+      $('body').removeClass('dark-bg');
+      $('.site-footer').addClass('visible');
     }
 
     if(scrollPosition < totalHeight) {
-        $('.site-footer').removeClass('visible');
+      $('body').addClass('dark-bg');
+      $('.site-footer').removeClass('visible');
     }
 
 });

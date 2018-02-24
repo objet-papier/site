@@ -19,36 +19,36 @@ defaults:
     path: ''
     type: contributors
   values:
-    title: 
-    role: 
-    link: 
+    title:
+    role:
+    link:
 - scope:
     path: ''
     type: op-release
   values:
-    title: 
+    title:
     layout: project
     number: OP###
     auteur:
-    - name: 
-      website: 
-    name: 
+    - name:
+      website:
+    name:
     cover-image: op###-cover (Ne pas ajouter l'extension ".jpg" après le nom du fichier)
     images:
     - "/uploads/op###-1.jpg"
     - "/uploads/op###-2.jpg"
     - "/uploads/op###-3.jpg"
-    format: 
-    nb-pages: 
-    reliure: 
-    impression: 
-    exemplaires: 
+    format:
+    nb-pages:
+    reliure:
+    impression:
+    exemplaires:
     prix: 5 (ne pas ajouter de symbole "€", si épuisé utiliser "sold-out")
-    paypal-link: 
+    paypal-link:
 email: hello@objetpapier.fr
 description: Objet Papier est un label de micro édition montreuillois qui publie des
   fanzines de photographies, montages, mots et expérimentations diverses.
-baseurl: 
+baseurl:
 url: http://objetpapier.fr
 markdown: kramdown
 plugins:
