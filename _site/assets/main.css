@@ -198,9 +198,25 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 
 .video-container-fs iframe, .video-container-fs object, .video-container-fs embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-.skit-container { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; min-height: 100vh; padding: 20px 0; }
+.message { font-family: monospace; }
+
+.safari-message { display: none; position: fixed; top: 0; right: 0; bottom: 0; left: 0; }
+.safari-message.active { display: flex; justify-content: center; align-items: center; }
+
+.firefox-message { display: none; }
+.firefox-message.active { display: block; position: absolute; top: 30px; left: 0; width: 100%; text-align: center; background-color: white; z-index: 10; }
+.firefox-message code { background-color: #e8e8e8; border-radius: 2px; padding: 0px 2px; }
+
+.skit-container { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center; overflow: hidden; width: 100%; min-height: 100vh; padding: 20px; }
+.skit-container.hidden { display: none; visibility: hidden; }
 
 .skit-video-container { display: flex; justify-content: center; align-items: center; width: 14%; height: 120px; }
 @media screen and (max-width: 670px) { .skit-video-container { width: 25%; } }
-.skit-video-container video { position: relative; width: 100px; transform: scale(1); z-index: 0; }
-.skit-video-container video:hover { transform: scale(5); z-index: 1; }
+.skit-video-container .skit-absolute-maker { position: relative; width: 100px; height: 75px; z-index: 0; mix-blend-mode: multiply; }
+.skit-video-container .skit-absolute-maker:hover { z-index: 1; mix-blend-mode: multiply; transform: scale(5); }
+.skit-video-container .skit-absolute-maker:hover .skit-color-bg { display: none; }
+.skit-video-container .skit-absolute-maker:hover video { z-index: 1; mix-blend-mode: none; }
+.skit-video-container .skit-color-bg { position: absolute; top: 0; right: 0; bottom: 0; left: 0; }
+.skit-video-container .skit-color-bg.red { background-color: #bd2323; }
+.skit-video-container .skit-color-bg.blue { background-color: #1333a8; }
+.skit-video-container video { position: relative; width: 100px; transform: scale(1); z-index: 0; mix-blend-mode: multiply; }

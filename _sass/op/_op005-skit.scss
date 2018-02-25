@@ -1,11 +1,58 @@
+.message {
+  font-family: monospace;
+}
+
+.safari-message {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  &.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.firefox-message {
+  display: none;
+
+  &.active {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    z-index: 10;
+  }
+
+  code {
+    background-color: rgb(232, 232, 232);
+    border-radius: 2px;
+    padding: 0px 2px;
+  }
+}
+
 .skit-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  width: 100%;
   min-height: 100vh;
-  padding: 20px 0;
+  padding: 20px;
+
+  &.hidden {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 .skit-video-container {
@@ -19,15 +66,51 @@
     width: 25%;
   }
 
+  .skit-absolute-maker {
+    position: relative;
+    width: 100px;
+    height: 75px;
+    z-index: 0;
+    mix-blend-mode: multiply;
+
+    &:hover {
+      z-index: 1;
+      mix-blend-mode: multiply;
+      transform: scale(5);
+
+      .skit-color-bg {
+        display: none;
+      }
+
+      video {
+        // transform: scale(5);
+        z-index: 1;
+        mix-blend-mode: none;
+      }
+    }
+  }
+
+  .skit-color-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    &.red {
+      background-color: rgb(189, 35, 35);
+    }
+
+    &.blue {
+      background-color: rgb(19, 51, 168);
+    }
+  }
+
   video {
     position: relative;
     width: 100px;
     transform: scale(1);
     z-index: 0;
-
-    &:hover {
-      transform: scale(5);
-      z-index: 1;
-    }
+    mix-blend-mode: multiply;
   }
 }
