@@ -7,6 +7,11 @@ auteur:
 - name: Ronan Deshaies
   website: http://cargocollective.com/ronandeshaies
 name: SKIT
+cover-image: "/uploads/OP005SKIT-jpeg.jpg"
+images:
+- "/uploads/OP005SKIT-jpeg4.jpg"
+- "/uploads/OP005SKIT-jpeg12.jpg"
+- "/uploads/OP005SKIT-jpeg15.jpg"
 format: A5
 nb-pages: 32
 reliure: Piqûre à cheval
