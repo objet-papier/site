@@ -16,7 +16,7 @@ format: A5
 nb-pages: 32
 reliure: Piqûre à cheval
 impression: Risographie bichromie
-exemplaires: 50 numérotés
+exemplaires: 60 numérotés
 prix: 9
 ---
 
