@@ -220,3 +220,16 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 .skit-video-container .skit-color-bg.red { background-color: #bd2323; }
 .skit-video-container .skit-color-bg.blue { background-color: #1333a8; }
 .skit-video-container video { position: relative; width: 100px; transform: scale(1); z-index: 0; mix-blend-mode: multiply; }
+
+.skit-footer { display: flex; justify-content: center; position: absolute; width: 100%; bottom: 40px; left: 0; color: black; text-decoration: underline; font-family: monospace; }
+.skit-footer .skit-footer-left { margin-right: 100px; }
+.skit-footer a, .skit-footer a:visited { color: black; cursor: pointer; text-decoration: underline; }
+.skit-footer a:hover, .skit-footer a:visited:hover { opacity: 0.7; }
+
+.skit-about-trigger { display: inline !important; color: black; cursor: pointer; text-decoration: underline; }
+.skit-about-trigger:hover { opacity: 0.7; }
+
+.skit-about { display: none; position: fixed; z-index: 200; top: 0; right: 0; bottom: 0; left: 0; background-color: white; font-family: monospace; color: black; }
+.skit-about p { margin: 0; }
+.skit-about.active { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.skit-about span { display: block; width: 100%; max-width: 400px; margin-bottom: 50px; }
