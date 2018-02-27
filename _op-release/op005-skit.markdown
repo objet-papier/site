@@ -9,6 +9,8 @@ auteur:
 name: SKIT
 cover-image: op005-cover
 images:
+- "/uploads/OP005SKIT-jpeg.jpg"
+- "/uploads/Fake-couv-OP005-ok(1).jpeg"
 - "/uploads/OP005SKIT-jpeg4.jpg"
 - "/uploads/OP005SKIT-jpeg12.jpg"
 - "/uploads/OP005SKIT-jpeg15.jpg"
