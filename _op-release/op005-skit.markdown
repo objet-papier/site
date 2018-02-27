@@ -26,7 +26,7 @@ Produit analogiquement par Ronan Deshaies puis retraité numériquement par Morg
 
 [EXPERIENCE TOTALE](https://objetpapier.fr/skit/)
 
-*Skit is the result of two years of work across the european continent. Produced as urgently as a scream, it's a cathartic skit that pays a critical homage to the lost Union. This work is a reflection of freedom of movement inspired by all the DIY culture. It talks about a generation that doesn't want to chose between party and political gloom.
+*SKIT is the result of two years of work across the european continent. Produced as urgently as a scream, it's a cathartic skit that pays a critical homage to the lost Union. This work is a reflection of freedom of movement inspired by all the DIY culture. It talks about a generation that doesn't want to chose between party and political gloom.
 This is an analog work by Ronan Deshaies that is digitally reprocessed by Morgane Bartoli. It goes with a video creation synchronized by Corentin Moussard.*
 
 *[TOTAL EXPERIENCE](https://objetpapier.fr/skit/)*
