@@ -7,6 +7,36 @@ layout: simple
 </a> -->
 
 {% include header-video.html %}
+
+<div class="skit-landing">
+  <video src="{{ site.baseurl }}/skit/skit-videos/100_0590.mp4" autoplay muted loop></video>
+  <div class="landing-description">
+    <span>OP005 SKIT - OUT NOW</span>
+    <a href="{{ site.baseurl }}/op-release/op005-skit.html">Page OP005 SKIT</a> -
+    <a href="{{ site.baseurl }}/skit/">EXPERIENCE TOTALE</a><br>
+    <a href="{{ site.baseurl }}/home/">Entrer</a>
+  </div>
+</div>
+
+<!-- <a class="landing-enter-link" href="{{ site.baseurl }}/home/">Entrer</a> -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+  $("video").each(function(){
+
+    $(this).prop('muted', true);
+
+    $(this).on("mouseenter",function(){
+      $(this).prop('muted', false);
+    });
+
+    $(this).on("mouseout",function(){
+      $(this).prop('muted', true);
+    });
+  })
+</script>
+
+<!-- OP004 landing page
 <div class="landing-video">
   <div class="video-container">
     <div class='embed-container'>
@@ -19,4 +49,4 @@ layout: simple
     </div>
   </div>
   <a href="{{ site.baseurl }}/home/">Entrer</a>
-</div>
+</div> -->

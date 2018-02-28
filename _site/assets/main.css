@@ -21,8 +21,11 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 
 .landing-video { width: 100%; background-color: #16181a; position: fixed; top: 0; right: 0; bottom: 0; left: 0; display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; justify-content: center; align-items: center; }
 .landing-video .video-container { margin: 0 !important; padding: 0; }
-.landing-video a { display: block; width: 0; height: 0; position: fixed; right: 50%; bottom: 50px; left: 50%; text-align: center; font-family: "CrimsonText", Times, serif; font-size: 20px; transform: translateX(-30px); }
-.landing-video a:hover { text-decoration: none; }
+.landing-video a, .landing-video .landing-enter-link { display: block; width: 0; height: 0; position: fixed; right: 50%; bottom: 50px; left: 50%; text-align: center; font-family: "CrimsonText", Times, serif; font-size: 20px; transform: translateX(-30px); }
+.landing-video a:hover, .landing-video .landing-enter-link:hover { text-decoration: none; }
+
+.landing-enter-link { display: block; width: 0; height: 0; position: fixed; right: 50%; bottom: 50px; left: 50%; text-align: center; font-family: "CrimsonText", Times, serif; font-size: 20px; transform: translateX(-30px); color: #16181a !important; }
+.landing-enter-link:hover { text-decoration: none; }
 
 .logo-fixed-cover { position: fixed; display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; flex-direction: column; justify-content: center; z-index: 0; top: 0; right: 0; bottom: 0; left: 0; }
 .logo-fixed-cover .logo { width: 100%; display: none; }
@@ -233,3 +236,10 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 .skit-about p { margin: 0; }
 .skit-about.active { display: flex; flex-direction: column; justify-content: center; align-items: center; }
 .skit-about span { display: block; width: 100%; max-width: 400px; margin-bottom: 50px; }
+
+.skit-landing { background-color: white; font-family: monospace; color: black; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+.skit-landing span { display: block; width: 100%; text-align: center; margin: 40px 0; }
+.skit-landing a, .skit-landing a:visited { color: black; cursor: pointer; text-decoration: underline; }
+.skit-landing a:hover, .skit-landing a:visited:hover { opacity: 0.7; }
+
+.landing-description a:last-child { display: block; margin-top: 40px; }

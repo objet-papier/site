@@ -183,3 +183,43 @@
     margin-bottom: 50px;
   }
 }
+
+
+
+// SKIT landing page
+
+
+.skit-landing {
+  background-color: white;
+  font-family: monospace;
+  color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin:40px 0;
+  }
+
+
+  a, a:visited {
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+.landing-description a:last-child {
+  display: block;
+  margin-top: 40px;
+}
