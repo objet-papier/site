@@ -18,11 +18,11 @@ layout: default
     {% for release in release-sort %}
       <div class="release-container">
         <a class="release-link" href="{{ release.url }}">
-          {%- if release.cover-image-black -%}
-            <img class="white" src="{{ site.baseurl }}/{{ release.cover-image-white }}" alt="">
-            <img class="black" src="{{ site.baseurl }}/{{ release.cover-image-black }}" alt="">
-          {%- else condition -%}
-              <img class="white" src="{{ site.baseurl }}/{{ release.cover-image-white }}" alt="">
+          {%- if release.black-cover-image -%}
+            <img class="white" src="{{ site.baseurl }}/{{ release.white-cover-image }}" alt="">
+            <img class="black" src="{{ site.baseurl }}/{{ release.black-cover-image }}" alt="">
+          {%- else -%}
+              <img class="white" src="{{ site.baseurl }}/{{ release.white-cover-image }}" alt="">
           {%- endif -%}
 
           <h1 class="mobile-release-title">

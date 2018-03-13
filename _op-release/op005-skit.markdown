@@ -7,8 +7,8 @@ auteur:
 - name: Ronan Deshaies
   website: http://cargocollective.com/ronandeshaies
 name: SKIT
-cover-image-black: "/uploads/op005-cover-black.jpg"
-cover-image-white: "/uploads/op005-cover-white.jpg"
+black-cover-image: "/uploads/op005-cover-black.jpg"
+white-cover-image: "/uploads/op005-cover-white.jpg"
 images:
 - "/uploads/OP005SKIT-jpeg.jpg"
 - "/uploads/OP005SKIT-jpeg4.jpg"

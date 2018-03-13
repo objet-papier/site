@@ -6,8 +6,8 @@ auteur:
 - name: Guillaume Rossi
   website: http://guillaumerossi.fr
 name: Sinner
-cover-image-black: "/uploads/op004-cover-black.jpg"
-cover-image-white: "/uploads/op004-cover-white.jpg"
+black-cover-image: "/uploads/op004-cover-black.jpg"
+white-cover-image: "/uploads/op004-cover-white.jpg"
 images:
 - "/uploads/op004-1.jpg"
 - "/uploads/op004-2.jpg"
