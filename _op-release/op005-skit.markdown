@@ -10,10 +10,12 @@ name: SKIT
 black-cover-image: "/uploads/op005-cover-black.jpg"
 white-cover-image: "/uploads/op005-cover-white.jpg"
 images:
-- "/uploads/OP005SKIT-jpeg.jpg"
-- "/uploads/OP005SKIT-jpeg4.jpg"
-- "/uploads/OP005SKIT-jpeg12.jpg"
-- "/uploads/OP005SKIT-jpeg15.jpg"
+- "/uploads/op005-1.jpg"
+- "/uploads/op005-2.jpg"
+- "/uploads/op005-3.jpg"
+- "/uploads/op005-4.jpg"
+- "/uploads/op005-5.jpg"
+- "/uploads/op005-6.jpg"
 format: A5
 nb-pages: 32
 reliure: Piqûre à cheval
