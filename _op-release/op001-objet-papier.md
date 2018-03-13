@@ -8,18 +8,18 @@ auteur:
 name: Objet Papier
 cover-image-black: "/uploads/op001-cover-black.jpg"
 cover-image-white: "/uploads/op001-cover-white.jpg"
-format: A5
-nb-pages: 24 + 1 feuillet
-reliure: Rivets
-impression: Numérique quadri
-exemplaires: 50 numérotés
-prix: sold-out
 images:
 - "/uploads/op001-1.jpg"
 - "/uploads/op001-2.jpg"
 - "/uploads/op001-3.jpg"
 - "/uploads/op001-4.jpg"
 - "/uploads/op001-5.jpg"
+format: A5
+nb-pages: 24 + 1 feuillet
+reliure: Rivets
+impression: Numérique quadri
+exemplaires: 50 numérotés
+prix: sold-out
 layout: project
 ---
 
