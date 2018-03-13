@@ -6,8 +6,8 @@ auteur:
 - name: Ronan Deshaies
   website: http://cargocollective.com/ronandeshaies
 name: Objet Papier
-cover-image-black: op001-cover-black.jpg
-cover-image-white: op001-cover-white.jpg
+cover-image-black: "/uploads/op001-cover-black.jpg"
+cover-image-white: "/uploads/op001-cover-white.jpg"
 format: A5
 nb-pages: 24 + 1 feuillet
 reliure: Rivets

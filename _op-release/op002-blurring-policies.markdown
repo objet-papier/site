@@ -6,8 +6,8 @@ auteur:
 - name: Ronan Deshaies
   website: http://cargocollective.com/ronandeshaies
 name: Blurring Policies
-cover-image-black: op002-cover-black.jpg
-cover-image-white: op002-cover-white.jpg
+cover-image-black: "/uploads/op002-cover-black.jpg"
+cover-image-white: "/uploads/op002-cover-white.jpg"
 format: A5
 nb-pages: 20
 reliure: Piqûre à cheval

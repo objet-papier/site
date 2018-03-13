@@ -19,10 +19,10 @@ layout: default
       <div class="release-container">
         <a class="release-link" href="{{ release.url }}">
           {%- if release.cover-image-black -%}
-            <img class="white" src="{{ site.baseurl }}/uploads/{{ release.cover-image-white }}" alt="">
-            <img class="black" src="{{ site.baseurl }}/uploads/{{ release.cover-image-black }}" alt="">
+            <img class="white" src="{{ site.baseurl }}/{{ release.cover-image-white }}" alt="">
+            <img class="black" src="{{ site.baseurl }}/{{ release.cover-image-black }}" alt="">
           {%- else condition -%}
-              <img class="white" src="{{ site.baseurl }}/uploads/{{ release.cover-image-white }}" alt="">
+              <img class="white" src="{{ site.baseurl }}/{{ release.cover-image-white }}" alt="">
           {%- endif -%}
 
           <h1 class="mobile-release-title">
