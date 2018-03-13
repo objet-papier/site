@@ -6,7 +6,8 @@ auteur:
 - name: Morgane Bartoli
   website: http://morganebartoli.com
 name: La numérisation tue l'image
-cover-image: op003-cover
+cover-image-black: op003-cover-black.jpg
+cover-image-white: op003-cover-white.jpg
 images:
 - "/uploads/op003-1.jpg"
 - "/uploads/op003-2.jpg"
