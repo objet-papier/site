@@ -19,7 +19,7 @@ nb-pages: 44
 reliure: Dos carré collé
 impression: Numérique quadri
 exemplaires: 50
-prix: 6
+prix: sold-out
 layout: project
 ---
 
