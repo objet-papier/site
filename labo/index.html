@@ -1,0 +1,43 @@
+---
+layout: lab-layout
+---
+
+<div class="lab-container">
+  {% for experiment in site.experiments %}
+    <div class="exp-container">
+      <div class="exp-description">
+        <h2>{{ experiment.exp-number }}</h2>
+        <h3>{{ experiment.title }}</h3>
+
+        <table>
+          {% for meta in experiment.exp-meta %}
+            <tr>
+              <td>{{ meta.meta-name }}</td>
+              <td>{{ meta.meta-content }}</td>
+            </tr>
+          {% endfor %}
+        </table>
+      </div>
+      <div class="exp-images">
+        <div class="img-reset">
+
+        </div>
+        {% for image in experiment.images %}
+          <img class="random-rotated-img hide-onclick" src="{{ site.baseurl }}{{ image }}">
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<!-- <div class="fs-video">
+  <div class="video-container-fs">
+    <iframe id="player"
+            type="text/html"
+            width="640"
+            height="360"
+            src="https://www.youtube.com/embed/watch?v=nc90Y8KHpoc&index=22&list=UUt9X-SPUVnEDYHLA1NpuDmA&autoplay=1&loop=1"
+            frameborder="0">
+    </iframe>
+  </div>
+</div> -->

@@ -77,7 +77,7 @@ $(document).ready(function(){
         $(this).css('transform', 'rotate(' + rollDice + 'deg)');
     });
 
-    $('.contributor-link').each(function(){
+    $('.random-rotated-text').each(function(){
         function getRandomInt(min, max) {
             return Math.floor(Math.random() * (max - min + 1)) + min;
         }
@@ -86,6 +86,25 @@ $(document).ready(function(){
 
         $(this).css('transform', 'rotate(' + rollDice + 'deg)');
     });
+
+    $('.random-rotated-img').each(function(){
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        var rollDice = getRandomInt(-20, 20)
+
+        $(this).css('transform', 'rotate(' + rollDice + 'deg)');
+    });
+
+    $('.hide-onclick').click(function(){
+      $(this).addClass('hidden');
+    });
+
+    $('.img-reset').click(function(){
+      $(this).siblings().removeClass('hidden');
+    });
+
 
     var scrollPosition = window.pageYOffset;
 
