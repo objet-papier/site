@@ -18,14 +18,24 @@ layout: lab-layout
           {% endfor %}
         </table>
       </div>
-      <div class="exp-images">
-        <div class="img-reset">
-
+      {% if experiment.video %}
+        <div class="video-container-labo">
+          <div class="video-wrapper">
+            <iframe id="player"
+                    type="text/html"
+                    src="{{ experiment.video }}"
+                    frameborder="0">
+            </iframe>
+          </div>
         </div>
-        {% for image in experiment.images %}
-          <img class="random-rotated-img hide-onclick" src="{{ site.baseurl }}{{ image }}">
-        {% endfor %}
-      </div>
+      {% else %}
+        <div class="exp-images">
+          <div class="img-reset">Reset</div>
+          {% for image in experiment.images %}
+            <img class="random-rotated-img hide-onclick" src="{{ site.baseurl }}{{ image }}">
+          {% endfor %}
+        </div>
+      {% endif %}
     </div>
   {% endfor %}
 </div>

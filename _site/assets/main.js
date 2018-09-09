@@ -101,6 +101,10 @@ $(document).ready(function(){
       $(this).addClass('hidden');
     });
 
+    // $('.hide-onclick:last-child').click(function(){
+    //   $(this).siblings().removeClass('hidden');
+    // });
+
     $('.img-reset').click(function(){
       $(this).siblings().removeClass('hidden');
     });

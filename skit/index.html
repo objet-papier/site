@@ -2,6 +2,8 @@
 layout: simple
 ---
 
+<div class="click-simu"></div>
+
 <div class="message safari-message">
   Safari does not display this website as it should, please visit it in another browser.
 </div>
@@ -227,6 +229,23 @@ layout: simple
   $(".skit-about-trigger").click(function(){
     $(".skit-about").toggleClass("active");
   });
+
+
+  $.fn.simulateClick = function() {
+    return this.each(function() {
+        if('createEvent' in document) {
+            var doc = this.ownerDocument,
+                evt = doc.createEvent('MouseEvents');
+            evt.initMouseEvent('click', true, true, doc.defaultView, 1, 0, 0, 0, 0, false, false, false, false, 0, null);
+            this.dispatchEvent(evt);
+        } else {
+            this.click(); // IE
+        }
+    });
+  }
+  $('.click-simu').simulateClick(); //click simulation to prevent chrome auto pausing videos if no interactions were made
+
+
 
   $("video").each(function(){
 

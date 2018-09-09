@@ -1,5 +1,6 @@
 .message {
   font-family: monospace;
+  font-size: 16px;
 }
 
 .safari-message {
@@ -19,6 +20,7 @@
 
 .firefox-message {
   display: none;
+  font-size: 16px;
 
   &.active {
     display: block;
@@ -48,6 +50,7 @@
   width: 100%;
   min-height: 100vh;
   padding: 20px;
+  font-size: 16px;
 
   &.hidden {
     display: none;
@@ -121,6 +124,7 @@
   position: absolute;
   width: 100%;
   bottom: 40px;
+  font-size: 16px;
   left: 0;
   color: black;
   text-decoration: underline;
@@ -193,6 +197,7 @@
   background-color: white;
   font-family: monospace;
   color: black;
+  font-size: 16px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

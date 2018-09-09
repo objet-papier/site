@@ -94,6 +94,8 @@ body {
   margin: 0;
   padding: 0;
   transition: background-color 0.3s;
+  font-family: $serif-font;
+  font-size: 20px;
 }
 
 .dark-bg {
@@ -176,6 +178,33 @@ blockquote {
   }
 }
 
+.small-logo {
+  width: 30%;
+  max-width: 500px;
+  top: $spacing-unit;
+  right: 6%;
+}
+
+.x-small-logo {
+  max-width: 150px;
+  top: $spacing-unit;
+  right:  $spacing-unit;
+}
+
+.small-logo, .x-small-logo {
+  display: block;
+  position: fixed;
+
+  .logo {
+    width: 100%;
+    display: none;
+  }
+
+  .logo-one {
+    display: block;
+  }
+}
+
 // Import partials.
 @import
   "op/home",
@@ -186,5 +215,6 @@ blockquote {
   "op/404",
   "op/video",
   "op/op005-skit",
+  "op/op006-bali",
   "op/lab"
 ;

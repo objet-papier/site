@@ -4,7 +4,16 @@
   {% include head.html %}
 
   <body class="dark-bg">
+    <a href="{{ site.baseurl }}/" class="x-small-logo">
+      {% include logo-anim-small.html %}
+    </a>
+
     <h1 class="lab-title random-rotated-text">Labo</h1>
+
+    <div class="lab-desc">
+      <p>Suspendisse potenti. Aliquam erat nisl, aliquam pretium libero aliquet, sagittis eleifend nunc. In hac habitasse platea dictumst. Integer turpis augue, tincidunt dignissim mauris id, rhoncus dapibus purus. Maecenas et enim odio. Nullam massa metus, varius quis vehicula sed, pharetra mollis erat. In quis viverra velit.</p>
+    </div>
+
 
     {{ content }}
     {% include js.html %}

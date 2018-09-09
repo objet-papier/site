@@ -7,14 +7,34 @@
   color: $light-color;
 }
 
+.lab-desc {
+  width: 100%;
+  max-width: 600px;
+  margin: 0px auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    display: block;
+    color: white;
+    font-size: 26px;
+  }
+}
+
+
 .lab-container {
   width: 100%;
-  margin-top: $spacing-unit*7;
+  max-width: 1600px;
+  margin: $spacing-unit*7 auto 0;
   padding: 0px $spacing-unit*3;
 }
 
 .exp-container {
   width: 100%;
+  height: 70vh;
+  margin-bottom: 160px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -28,7 +48,7 @@
 
   h3 {
     font-family: $serif-font;
-    font-size: 24px;
+    font-size: 36px;
     margin: 0px 0px $spacing-unit/2;
   }
 
@@ -51,6 +71,26 @@
 
 .exp-description {
   width: 30%;
+  min-width: 400px;
+}
+
+.video-container-labo {
+  width: 70%;
+  padding: 0 $spacing-unit;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .exp-images {
@@ -60,9 +100,12 @@
   .img-reset {
     position: absolute;
     width: 80%;
-    height: 80%;
+    height: 55%;
     top: 10%;
     left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   img {
