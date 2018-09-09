@@ -1,6 +1,6 @@
 ---
-exp-number: OPEXP000
 title: Website
+exp-number: OPEXP000
 exp-meta:
 - meta-name: Conception & développement
   meta-content: Corentin Moussard et Morgane Bartoli
@@ -13,6 +13,7 @@ exp-meta:
 - meta-name: Matériel
   meta-content: MacBook Pro, MacBook Air, Ricoh Printer
 images:
-  - "/uploads/opexp000-1.jpg"
-  - "/uploads/opexp000-2.jpg"
+- "/uploads/opexp000-1.jpg"
+- "/uploads/opexp000-2.jpg"
 ---
+
