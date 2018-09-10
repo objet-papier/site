@@ -16,6 +16,8 @@ exp-meta:
   meta-content: '8,5 x 5,5 cm '
 - meta-name: Pages
   meta-content: 1
+- meta-name: Impression
+  meta-content: Photocopieur
 - meta-name: Façonnage
   meta-content: Déchirure
 - meta-name: Exemplaires
