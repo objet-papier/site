@@ -1,7 +1,7 @@
 ---
 title: Affiche Célébrons 68
 date: 2018-09-10 18:07:00 Z
-position: 10
+position: 11
 exp-number: OPEXP0011
 exp-meta:
 - meta-name: Création
