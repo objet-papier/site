@@ -11,6 +11,12 @@ exp-meta:
 - meta-name: Date
   meta-content: Octobre 2017
 - meta-name: Matériel
-  meta-content: MacBook Pro, scanner
+  meta-content: MacBook Pro, Ricoh Printer
+- meta-name: Format
+  meta-content: Vidéo
+- meta-name: Durée
+  meta-content: Aléatoire X 22 vidéos
+- meta-name: Technologie
+  meta-content: " Scan, photocopie, After Effect"
 ---
 
