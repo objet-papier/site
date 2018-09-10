@@ -1,6 +1,7 @@
 ---
 title: 'Lancement/Vernissage Objet Papier 006: Bali, feuilles rapportées'
 date: 2018-09-10 18:22:00 Z
+position: 12
 exp-number: OPEXP011
 exp-meta:
 - meta-name: Conception
