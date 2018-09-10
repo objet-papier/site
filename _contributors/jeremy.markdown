@@ -1,6 +1,6 @@
 ---
 title: Jérémy Roques
-position: 6
+position: 7
 role: Imprimeur
 ---
 
