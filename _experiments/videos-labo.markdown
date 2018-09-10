@@ -1,6 +1,7 @@
 ---
 title: Vidéos LABO
 date: 2018-09-10 16:59:00 Z
+position: 4
 exp-number: OPEXP004
 exp-meta:
 - meta-name: Création

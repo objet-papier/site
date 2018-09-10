@@ -1,5 +1,6 @@
 ---
 title: Teaser OP003
+position: 1
 exp-number: OPEXP001
 exp-meta:
 - meta-name: Création
