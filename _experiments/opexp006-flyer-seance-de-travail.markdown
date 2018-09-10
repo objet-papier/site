@@ -1,6 +1,7 @@
 ---
 title: OPEXP006 - Flyer SÉANCE DE TRAVAIL
 date: 2018-09-10 17:11:00 Z
+position: 6
 exp-number: OPEXP006
 exp-meta:
 - meta-name: Création
