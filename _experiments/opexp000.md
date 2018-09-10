@@ -1,8 +1,8 @@
 ---
-title: Website
+title: Site web
 exp-number: OPEXP000
 exp-meta:
-- meta-name: Conception & développement
+- meta-name: Conception et développement
   meta-content: Corentin Moussard et Morgane Bartoli
 - meta-name: Contributeurs
   meta-content: Ronan Deshaies (Éditeur)
