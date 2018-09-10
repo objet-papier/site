@@ -11,7 +11,7 @@ exp-meta:
 - meta-name: Date
   meta-content: Avril 2018
 - meta-name: Matériel
-  meta-content: MacBook Pro, scanner
+  meta-content: MacBook Pro, Ricoh Printer
 - meta-name: Format
   meta-content: Vidéo
 - meta-name: Durée
