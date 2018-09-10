@@ -21,6 +21,6 @@ exp-meta:
 - meta-name: Impression
   meta-content: Numérique quadri
 - meta-name: Exemplaires
-  meta-content: 100 exemplaires
+  meta-content: 100
 ---
 
