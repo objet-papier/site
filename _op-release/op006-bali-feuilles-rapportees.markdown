@@ -12,7 +12,7 @@ format: A5
 nb-pages: 36
 reliure: Japonaise
 impression: Numérique quadri
-exemplaires: 60
+exemplaires: 70
 prix: 12
 paypal-link: https://www.paypal.me/RDeshaies/12
 ---
