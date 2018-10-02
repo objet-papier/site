@@ -8,6 +8,14 @@ auteur:
   website: https://mamzelleheing.com/
   Key: 
 name: Bali, feuilles rapportées
+black-cover-image: "/uploads/op006-cover-black.jpg"
+white-cover-image: "/uploads/op006-cover-white.jpg"
+images:
+- "/uploads/op006-1.jpg"
+- "/uploads/op006-2.jpg"
+- "/uploads/op006-3.jpg"
+- "/uploads/op006-4-2132df.jpg"
+- "/uploads/op006-5.jpg"
 format: A5
 nb-pages: 36
 reliure: Japonaise
