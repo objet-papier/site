@@ -1,24 +1,22 @@
 ---
-title: Teaser OP003
-position: 1
-exp-number: OPEXP001
+title: OP003 SOLD OUT
+date: 2018-09-10 17:44:00 Z
+position: 8
+exp-number: OPEXP008
 exp-meta:
 - meta-name: Création
   meta-content: Morgane Bartoli
-- meta-name: 
-  meta-content: 
 - meta-name: Lieu
   meta-content: Paris (création)
 - meta-name: Date
-  meta-content: Avril 2017
+  meta-content: Avril 2018
 - meta-name: Matériel
   meta-content: MacBook Pro, Ricoh Printer
 - meta-name: Format
   meta-content: Vidéo
 - meta-name: Durée
-  meta-content: " 0:12 secondes"
+  meta-content: 0:15 secondes
 - meta-name: Technologie
   meta-content: Scan, photocopie, After Effect
-video: https://www.youtube.com/embed/watch?v=nc90Y8KHpoc&index=22&list=UUt9X-SPUVnEDYHLA1NpuDmA&autoplay=1&loop=1
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Sixtyne Perez
-position: 8
+position: 9
 role: 'Événementiel '
 ---
 

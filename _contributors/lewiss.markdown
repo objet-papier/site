@@ -1,6 +1,6 @@
 ---
 title: Lewiss Le Vice
-position: 7
+position: 8
 name: Lewiss
 role: Imprimeur
 ---
