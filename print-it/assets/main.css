@@ -695,21 +695,13 @@ h1, h2, h3, h4, h5, h6, p {
     margin-top: 0.4cm; }
 
   .image-container-arts {
-    position: absolute;
-    top: 4cm;
-    right: 0.3cm;
-    bottom: 0;
-    left: -4.5cm;
+    width: 100%;
     display: flex;
     flex-direction: column; }
     .image-container-arts img {
       display: block;
       width: 100%; }
     .image-container-arts.column {
-      top: 0;
-      bottom: 0;
-      left: 0;
-      width: 10.3cm;
       justify-content: flex-start; }
       .image-container-arts.column img {
         margin-bottom: 0.4cm; }
@@ -746,9 +738,6 @@ h1, h2, h3, h4, h5, h6, p {
     height: 100%; }
     .art-intro-left img {
       width: 100%; }
-
-  .art-notation {
-    margin-left: -1.9cm; }
 
   .geocities ul {
     padding: 0;
