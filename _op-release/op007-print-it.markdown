@@ -34,3 +34,5 @@ Truffé de références au monde numérique tant sur la forme que sur le fond, t
 *Conceived as the climax of our philosophy that explores the links between paper and digital, this seventh publication appropriates the CSS-Print technique to code a book or print a website. A secret tool that reconciles the paper and the screen to celebrate properly the 30th anniversary of World Wide Web.
 OP007: Print-it, let’s discovering the Internet! offers the reader to become an actor by printing and binding his own magazine with the help of a kit and a user manual directly from a web page.
 Full of digital world references both formally and fundamentally, while having fun of youth press codes, this Unidentified Coded Object printed at home offers a unique experience at the crossroads of knowledges.*
+
+https://objetpapier.fr/print-it-deluxe/
