@@ -6,7 +6,7 @@ number: OP007
 auteur:
 - name: Morgane Bartoli
   website: http://morganebartoli.com/
-- name: Corentin Moussard
+- name: "& Corentin Moussard"
   website: https://alune.fr/
 name: Print-it, à la découverte d’Internet !
 black-cover-image: "/uploads/op007-cover-black.jpg"
