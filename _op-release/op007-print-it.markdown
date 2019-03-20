@@ -18,7 +18,7 @@ images:
 - "/uploads/op007-4.jpg"
 - "/uploads/op007-5.jpg"
 - "/uploads/op007-6.jpg"
-format: A4 non monté, A5 relié
+format: A4 en kit, A5 relié
 nb-pages: 32
 reliure: Baguette
 impression: Maison N&B
