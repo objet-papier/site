@@ -193,6 +193,12 @@ blockquote {
   }
 }
 
+.enter-link {
+  color: black;
+  font-family: $gothic-font;
+  padding-bottom: $spacing-unit;
+}
+
 .small-logo {
   width: 30%;
   max-width: 500px;

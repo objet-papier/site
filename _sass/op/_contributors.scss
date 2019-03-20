@@ -36,7 +36,7 @@
     margin: 0 0 $spacing-unit;
   }
 
-  h2 {
+  h2, h2 a {
     margin: 0 0 $spacing-unit/4;
     font-family: $serif-font;
     font-size: 26px;
@@ -44,6 +44,12 @@
     @include media-query($break-small) {
       font-size: 24px;
     }
+  }
+
+  h2 a img {
+    display: inline-block;
+    height: 22px;
+    margin-left: 4px;
   }
 
   h3 {

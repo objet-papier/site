@@ -30,6 +30,8 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 .landing-generic { display: flex; flex-direction: column; justify-content: space-between; align-items: center; width: 100%; height: 100vh; background-color: #16181a; }
 .landing-generic .enter-link { color: white; padding-bottom: 30px; }
 
+.enter-link { color: black; font-family: "MadrasBold", Helvetica, Arial, sans-serif; padding-bottom: 30px; }
+
 .small-logo { width: 30%; max-width: 500px; top: 30px; right: 6%; }
 
 .x-small-logo { max-width: 150px; top: 30px; right: 30px; }
@@ -153,8 +155,9 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 
 .contributor-container { display: block; width: 50%; margin: 0 0 30px; }
 @media screen and (max-width: 670px) { .contributor-container { width: 100%; margin: 0 0 30px; } }
-.contributor-container h2 { margin: 0 0 7.5px; font-family: "CrimsonText", Times, serif; font-size: 26px; }
-@media screen and (max-width: 670px) { .contributor-container h2 { font-size: 24px; } }
+.contributor-container h2, .contributor-container h2 a { margin: 0 0 7.5px; font-family: "CrimsonText", Times, serif; font-size: 26px; }
+@media screen and (max-width: 670px) { .contributor-container h2, .contributor-container h2 a { font-size: 24px; } }
+.contributor-container h2 a img { display: inline-block; height: 22px; margin-left: 4px; }
 .contributor-container h3 { margin: 0 0 10px; font-family: "MadrasBold", Helvetica, Arial, sans-serif; font-size: 20px; }
 @media screen and (max-width: 670px) { .contributor-container h3 { font-size: 18px; } }
 .contributor-container a, .contributor-container a:visited { font-family: "MadrasBold", Helvetica, Arial, sans-serif; font-size: 20px; color: #fff; text-decoration: none; }
