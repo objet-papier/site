@@ -38,8 +38,12 @@ if ( is_explorer || is_firefox ||  is_safari || is_opera ) {
 
 if (is_touch_device()) {
   hideContent();
-  for (let k = 0; k < touchWarnings.length; k++) {
-    const touchWarning = touchWarnings[k];
+  for (let k = 0; k < chromeWarnings.length; k++) {
+    const chromeWarning = chromeWarnings[k];
+    chromeWarning.classList.remove('visible');
+  }
+  for (let l = 0; l < touchWarnings.length; l++) {
+    const touchWarning = touchWarnings[l];
     touchWarning.classList.add('visible');
   }
 }
