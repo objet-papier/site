@@ -1,3 +1,54 @@
+// Browser detection
+const is_explorer= typeof document !== 'undefined' && !!document.documentMode && !isEdge;
+const is_firefox = typeof window.InstallTrigger !== 'undefined';
+const is_safari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+const is_opera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+const is_chrome = !!window.chrome && !is_opera;
+
+function is_touch_device() {
+  return (('ontouchstart' in window)
+       || (navigator.MaxTouchPoints > 0)
+       || (navigator.msMaxTouchPoints > 0));
+}
+
+const screenContentWrapper = document.querySelectorAll('.screen-content');
+const printContentWrapper = document.querySelectorAll('.print-content');
+const chromeWarnings = document.querySelectorAll('.not-chrome-warning');
+const touchWarnings = document.querySelectorAll('.touch-warning');
+
+function hideContent() {
+  for (let i = 0; i < screenContentWrapper.length; i++) {
+    const screenContent = screenContentWrapper[i];
+    screenContent.classList.add('hidden');
+  }
+  for (let j = 0; j < printContentWrapper.length; j++) {
+    const printContent = printContentWrapper[j];
+    printContent.classList.add('hidden');
+  }
+}
+
+
+if (is_explorer && !is_touch_device()
+    || is_firefox && !is_touch_device()
+    || is_safari && !is_touch_device()
+    || is_opera && !is_touch_device()) {
+  hideContent();
+  for (let k = 0; k < chromeWarnings.length; k++) {
+    const chromeWarning = chromeWarnings[k];
+    chromeWarning.classList.add('visible');
+  }
+}
+
+if (is_touch_device()) {
+  hideContent();
+  
+  for (let l = 0; l < touchWarnings.length; l++) {
+    const touchWarning = touchWarnings[l];
+    touchWarning.classList.add('visible');
+  }
+}
+
+
 
 
 
@@ -99,7 +150,7 @@ for (let i = 0; i < annotationsBottom.length; i++) {
 
 
 // Print function
-const printButton = document.querySelector('#print-button');
+const printButtons = document.querySelectorAll('.print-button');
 
 const firstnameInput = document.querySelector('#printer-firstname-input');
 const nameInput = document.querySelector('#printer-name-input');
@@ -108,7 +159,7 @@ const numberInput = document.querySelector('#print-number-input');
 const placeToAddName = document.querySelectorAll('.name-to-append');
 const placeToAddNumber = document.querySelectorAll('.number-to-append');
 
-const placeToAddDate = document.querySelector('.date-to-append');
+const placesToAddDate = document.querySelectorAll('.date-to-append');
 
 function appendName() {
   const printerFirstname = firstnameInput.value;
@@ -131,7 +182,10 @@ function appendNumber() {
 // const dateNow = new Date(Date.now()).toLocaleString();
 // console.log( dateNow);
 function appendDate() {
-  placeToAddDate.innerHTML = new Date(Date.now()).toLocaleString('en-GB');
+  for (let i = 0; i < placesToAddDate.length; i++) {
+    const placeToAddDate = placesToAddDate[i];
+    placeToAddDate.innerHTML = new Date(Date.now()).toLocaleString('en-GB'); 
+  }
 }
 
 
@@ -151,7 +205,11 @@ function keysToPrint() {
 }
 
 window.addEventListener('beforeprint', keysToPrint, false);
-printButton.addEventListener('click', clickToPrint, false);
+
+for (let i = 0; i < printButtons.length; i++) {
+  const printButton = printButtons[i];
+  printButton.addEventListener('click', clickToPrint, false); 
+}
 
 
 
