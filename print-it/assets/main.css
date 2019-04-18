@@ -940,6 +940,9 @@ h1, h2, h3, h4, h5, h6, p {
       align-items: center; } }
 
 @media screen {
+  .test {
+    display: block; }
+
   .warning-wrapper {
     justify-content: center;
     align-items: flex-start; }
