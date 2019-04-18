@@ -54,6 +54,7 @@
     <div class="screen-content-wrapper">
   
   <div class="print-it-hero">
+    
     <div class="logo-container side">
         <div class="logo-print-it">
     <img class="logo-font" src=" /print-it/assets/images/logo-3d.svg " alt="Logo Print-it">
@@ -66,6 +67,7 @@
     </div>
 </div>
     </div>
+    
   </div>
   
   <a href="/print-it/" class="back-button">Retour</a>
@@ -85,6 +87,9 @@
             continue à te fier à la notice.
         </div>
       
+      
+      
+        
     </div>
 
 
@@ -110,11 +115,18 @@
 
         
           <div class="landing-input-container">
-            <label for="print-number-input">
+            <label for="printNbOne">
               Numéro de ton édition <span class="wingding-3 rotate align-right"></span>
             </label>
-            
-            <input name="print-number-input" id="print-number-input" class="print-number-input" type="text">
+            OP007&nbsp;
+            <input name="printNbOne" id="print-number-input-one" class="print-number-input" type="text"
+                   onKeyup="autotab(this, document.querySelector('#print-number-input-two'))" maxlength=2>
+            -
+            <input name="printNbTwo" id="print-number-input-two" class="print-number-input" type="text"
+                   onKeyup="autotab(this, document.querySelector('#print-number-input-three'))" maxlength=2>
+            -
+            <input name="printNbThree" id="print-number-input-three" class="print-number-input" type="text" maxlength=2> 
+            / 42
           </div>
         
     
@@ -323,23 +335,34 @@
     
   </div>
 
-  <img class="skull-vector" src="/print-it/assets/images/skull.svg" alt="skull">
-  <img class="skull-vector" src="/print-it/assets/images/skull.svg" alt="skull">
-  <img class="skull-vector" src="/print-it/assets/images/skull.svg" alt="skull">
-  <img class="skull-vector" src="/print-it/assets/images/skull.svg" alt="skull">
-  <img class="skull-vector" src="/print-it/assets/images/skull.svg" alt="skull">
-  <img class="skull-vector" src="/print-it/assets/images/skull.svg" alt="skull">
-  <img class="skull-vector" src="/print-it/assets/images/skull.svg" alt="skull">
-  <img class="skull-vector" src="/print-it/assets/images/skull.svg" alt="skull">
+  <img class="random-icon" src="/print-it/assets/images/skull.svg" alt="skull">
+  <img class="random-icon" src="/print-it/assets/images/skull.svg" alt="skull">
+  <img class="random-icon" src="/print-it/assets/images/skull.svg" alt="skull">
+  <img class="random-icon" src="/print-it/assets/images/skull.svg" alt="skull">
+  <img class="random-icon" src="/print-it/assets/images/skull.svg" alt="skull">
+  <img class="random-icon" src="/print-it/assets/images/skull.svg" alt="skull">
+  <img class="random-icon" src="/print-it/assets/images/skull.svg" alt="skull">
+  <img class="random-icon" src="/print-it/assets/images/skull.svg" alt="skull">
   
 
   <div class="print-is-dead-paragraph">
       à partir du moment où l'on a demandé aux lecteurs d'imprimer eux-même leur magazine.
   </div>
 
-  <div class="print-is-dead-cut" style="background-image: url(/print-it/assets/images/trashcan.gif);">
-    <img class="cisors-icon" src="/print-it/assets/images/cisors.svg" alt="Cisors">
-  </div>
+  <div class="print-is-dead-cut">
+  <img class="print-is-dead-trashcan" src="/print-it/assets/images/trashcan.gif" alt="cut-trashcan">
+  <img class="print-is-dead-trashcan" src="/print-it/assets/images/trashcan.gif" alt="cut-trashcan">
+  <img class="print-is-dead-trashcan" src="/print-it/assets/images/trashcan.gif" alt="cut-trashcan">
+  <img class="print-is-dead-trashcan" src="/print-it/assets/images/trashcan.gif" alt="cut-trashcan">
+  <img class="print-is-dead-trashcan" src="/print-it/assets/images/trashcan.gif" alt="cut-trashcan">
+  <img class="print-is-dead-trashcan" src="/print-it/assets/images/trashcan.gif" alt="cut-trashcan">
+  <img class="print-is-dead-trashcan" src="/print-it/assets/images/trashcan.gif" alt="cut-trashcan">
+  <img class="print-is-dead-trashcan" src="/print-it/assets/images/trashcan.gif" alt="cut-trashcan">
+  <img class="print-is-dead-trashcan" src="/print-it/assets/images/trashcan.gif" alt="cut-trashcan">
+
+  
+  <img class="cisors-icon" src="/print-it/assets/images/cisors.svg" alt="Cisors">
+</div>
 </div>
 
           </div>
@@ -1427,12 +1450,16 @@
   </div>
 </div>
   <img class="section-icon" src="/print-it/assets/images/art-icon.svg" alt="art-icon">
+  
+  <img class="art-cover" src="/print-it/assets/images/art-cover.gif" alt="art cover image">
 
-  <div class="art-full" style="background-image: url(/print-it/assets/images/rossi-full-2.gif);">
-    <!-- <img src="../assets/images/rossi-full-2.gif" alt="rossi-1"> -->
+  <div class="art-full">
+    
   </div>
 </div>
 
+
+<!-- style="background-image: url(/print-it/assets/images/rossi-full-2.gif);" -->
           </div>
 
           <div class="page-footer">
@@ -2558,6 +2585,7 @@
 
           <div class="print-page-content-wrapper">
             <div class="page-content-text">
+  <img class="section-icon right" src="/print-it/assets/images/follow-icon.svg" alt="social-icon">
   <div class="table-text">
     <div class="table-title capital">Abonne toi !</div>
     <div class="table-text-content">

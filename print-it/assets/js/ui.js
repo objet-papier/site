@@ -147,6 +147,23 @@ for (let i = 0; i < annotationsBottom.length; i++) {
 
 
 
+// Input auto tab
+
+function autotab(current,to){
+  if (current.getAttribute && 
+    current.value.length==current.getAttribute("maxlength")) {
+      to.focus() 
+      }
+}
+
+const numberInputs = document.querySelectorAll('.print-number-input');
+for (let i = 0; i < numberInputs.length; i++) {
+  const numberInput = numberInputs[i];
+  numberInput.addEventListener('focus', function() {
+    this.value = "";
+  })
+}
+
 
 
 // Print function
@@ -154,7 +171,10 @@ const printButtons = document.querySelectorAll('.print-button');
 
 const firstnameInput = document.querySelector('#printer-firstname-input');
 const nameInput = document.querySelector('#printer-name-input');
-const numberInput = document.querySelector('#print-number-input');
+
+const numberInputOne = document.querySelector('#print-number-input-one');
+const numberInputTwo = document.querySelector('#print-number-input-two');
+const numberInputThree = document.querySelector('#print-number-input-three');
 
 const placeToAddName = document.querySelectorAll('.name-to-append');
 const placeToAddNumber = document.querySelectorAll('.number-to-append');
@@ -171,10 +191,12 @@ function appendName() {
 }
 
 function appendNumber() {
-  const printNumber = numberInput.value;
+  const printNumberOne = numberInputOne.value;
+  const printNumberTwo = numberInputTwo.value;
+  const printNumberThree = numberInputThree.value;
   for (let i = 0; i < placeToAddNumber.length; i++) {
     const appendNumber = placeToAddNumber[i];
-    appendNumber.innerHTML = printNumber;
+    appendNumber.innerHTML = printNumberOne + "." + printNumberTwo + "." + printNumberThree;
   }
 }
 
@@ -217,26 +239,26 @@ for (let i = 0; i < printButtons.length; i++) {
 
 // Skulls
 
-const skulls = document.querySelectorAll('.skull-vector');
+const randomIcons = document.querySelectorAll('.random-icon');
 
-for (let i = 0; i < skulls.length; i++) {
-  const skull = skulls[i];
+for (let i = 0; i < randomIcons.length; i++) {
+  const icon = randomIcons[i];
   
-  const randomSkullPositionX = getRandomInt(267);
-  const randomSkullPositionY = getRandomInt(175);
-  const randomSkullRotation = getRandomArbitrary(-40, 40);
-  const randomSkullScale = getRandomArbitrary(80, 130)/100;
+  const randomIconPositionX = getRandomInt(267);
+  const randomIconPositionY = getRandomInt(175);
+  const randomIconRotation = getRandomArbitrary(-40, 40);
+  const randomIconScale = getRandomArbitrary(80, 130)/100;
 
-  skull.style.left = randomSkullPositionX + "mm";
-  skull.style.top = randomSkullPositionY + "mm";
-  skull.style.transform = "rotate(" + randomSkullRotation + "deg) scale(" + randomSkullScale + ")";
+  icon.style.left = randomIconPositionX + "mm";
+  icon.style.top = randomIconPositionY + "mm";
+  icon.style.transform = "rotate(" + randomIconRotation + "deg) scale(" + randomIconScale + ")";
 }
 
 
 
 
 
-// Randomizing top 10 > found code here https://stackoverflow.com/questions/19269545/how-to-get-n-no-elements-randomly-from-an-array
+// Randomizing content > found code here https://stackoverflow.com/questions/19269545/how-to-get-n-no-elements-randomly-from-an-array
 
 function getRandomFromList(arr, n) {
   var result = new Array(n),
@@ -251,6 +273,8 @@ function getRandomFromList(arr, n) {
   }
   return result;
 }
+
+// TOP 10
 
 document.addEventListener("DOMContentLoaded",function(){
   const topList = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
@@ -278,5 +302,24 @@ document.addEventListener("DOMContentLoaded",function(){
   }
   
   removeElementsByClass('remove');
-
 });
+
+
+// Grrrls content
+
+document.addEventListener("DOMContentLoaded", function() {
+  const randomGrrrlsInteger = getRandomArbitrary(1,24);
+  
+  const allGrrrlsItems = document.querySelectorAll('.grrrls-content');
+
+  for (let i = 0; i < allGrrrlsItems.length; i++) {
+    const grrrlsItem = allGrrrlsItems[i];
+    const grrrlsItemID = grrrlsItem.getAttribute('id');
+    
+    if (grrrlsItemID === randomGrrrlsInteger.toString()) {
+      grrrlsItem.classList.add('active');
+    } 
+    
+  }
+
+})
