@@ -235,8 +235,6 @@ for (let i = 0; i < printButtons.length; i++) {
 
 
 
-
-
 // Skulls
 
 const randomIcons = document.querySelectorAll('.random-icon');

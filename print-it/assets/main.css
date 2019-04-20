@@ -257,6 +257,8 @@ h1, h2, h3, h4, h5, h6, p {
       top: 66px; }
     .title-1-item:nth-child(5) {
       top: 88px; }
+    .title-1-item:nth-child(6) {
+      top: 100px; }
 
   .section-icon {
     position: absolute;
@@ -513,6 +515,8 @@ h1, h2, h3, h4, h5, h6, p {
     left: -3.5cm;
     z-index: 2;
     font-size: 7pt; }
+    .business-caption.lower {
+      top: 6.8cm; }
 
   .summary-item {
     margin-bottom: 0.7cm;
@@ -1004,6 +1008,8 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     flex-direction: column;
     flex-shrink: 0; }
+    .home-card.large {
+      width: 100%; }
     .home-card:not(:last-child) {
       margin-right: 20px; } }
   @media screen and (max-width: 700px) {
@@ -1152,7 +1158,7 @@ h1, h2, h3, h4, h5, h6, p {
       width: 40px;
       text-align: center; }
 
-  button, .button, .back-button {
+  button, .button, .back-button, .exposition-button {
     height: 40px;
     border: none;
     padding: 0px 15px;
@@ -1163,14 +1169,14 @@ h1, h2, h3, h4, h5, h6, p {
     cursor: pointer;
     margin-top: 10px;
     text-transform: uppercase; }
-    button:focus, button:hover, .button:focus, .back-button:focus, .button:hover, .back-button:hover {
+    button:focus, button:hover, .button:focus, .back-button:focus, .exposition-button:focus, .button:hover, .back-button:hover, .exposition-button:hover {
       border: solid 2px black;
       outline: none; }
-    button:active, .button:active, .back-button:active {
+    button:active, .button:active, .back-button:active, .exposition-button:active {
       background-color: black;
       color: white; }
 
-  .print-button {
+  .print-button, .print-button-grrrls {
     margin: 15px auto 0; }
 
   .back-button {
@@ -1189,6 +1195,24 @@ h1, h2, h3, h4, h5, h6, p {
     .back-button {
       top: 40px;
       left: 40px; } }
+
+@media screen {
+  .exposition-button {
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+    margin: 0;
+    line-height: 36px;
+    text-decoration: none;
+    border: solid 1px black; }
+    .exposition-button:hover {
+      color: white;
+      background-color: black;
+      border: solid 1px white; } }
+  @media screen and (max-height: 1000px) {
+    .exposition-button {
+      left: 40px;
+      bottom: 40px; } }
 
 @media screen {
   .hidden-content {
