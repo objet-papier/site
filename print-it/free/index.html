@@ -11,7 +11,7 @@
   <link rel="icon" href="/print-it/favicon.ico" />
 
   <!-- <link rel="stylesheet" href="/print-it/assets/main.css"> -->
-  <link href="/print-it/assets/main.css?1555757880244588000" rel="stylesheet">
+  <link href="/print-it/assets/main.css?1555842203799694000" rel="stylesheet">
   <link rel="canonical" href="https://objetpapier.fr/print-it/free/">
   <link rel="alternate" type="application/rss+xml" title="Print-it" href="/print-it/feed.xml">
 
@@ -123,7 +123,12 @@
         </div>
 
         
-          <input name="print-number-input" id="print-number-input" class="hidden" type="text" value="02.00.00 (free version)">
+          <input name="printNbOne" id="print-number-input-one" class="hidden" type="text"
+                 onKeyup="autotab(this, document.querySelector('#print-number-input-two'))" value="02." >
+          <input name="printNbTwo" id="print-number-input-two" class="hidden" type="text"
+                onKeyup="autotab(this, document.querySelector('#print-number-input-three'))" value="00.">
+          <input name="printNbThree" id="print-number-input-three" class="hidden" type="text" value="00"/>
+          
         
     
       
