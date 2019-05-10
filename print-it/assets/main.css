@@ -1238,6 +1238,36 @@ h1, h2, h3, h4, h5, h6, p {
     display: none;
     border: none; }
 
+  .en-version-warning {
+    position: absolute;
+    z-index: 10;
+    top: 100px;
+    left: 50px;
+    width: 400px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 70px;
+    transform: rotate(-17deg);
+    text-align: center;
+    font-size: 28px;
+    color: white; }
+    .en-version-warning svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 0; }
+    .en-version-warning a {
+      color: white; }
+    .en-version-warning p {
+      position: relative;
+      z-index: 1; }
+    .en-version-warning .bulle {
+      fill: black;
+      stroke: white; }
+
   .bulle {
     fill: white;
     stroke: black;

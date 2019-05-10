@@ -12,7 +12,7 @@
 
   <!-- <link rel="stylesheet" href="/print-it/assets/main.css"> -->
   <link href="/print-it/assets/main.css?1557516973450632000" rel="stylesheet">
-  <link rel="canonical" href="https://objetpapier.fr/print-it/free/">
+  <link rel="canonical" href="https://objetpapier.fr/print-it/en/">
   <link rel="alternate" type="application/rss+xml" title="Print-it" href="/print-it/feed.xml">
 
 </head>
@@ -65,7 +65,7 @@
   <path class="bulle" d="M190.4 107.2l-24.6-2.7 6.7 19.5 -30.1-6.7 -3.3 17 -20.5-14.5 -2.7 29.1 -22.4-27.5 -9 25.6 -10.8-25.6 -34.5 15 7.4-29.2L16 106.6l12.7-17 -27.5-14 30.7-14.2L20.4 42.1l25.3 6.6 -8.5-24.7 33.6 6.9 7.1-31.1 17.2 29.8L115.3 14l13 20.3 28.4-22.1 0.9 26.9 28.4-1.9 -19.3 25.3 23.6 12.4L169.6 87 190.4 107.2z"/>
 </svg>
 
-      <p>À la découverte d'Internet&nbsp;!</p>
+      <p>Let's discover the Internet&nbsp;!</p>
     </div>
 </div>
     </div>
@@ -73,7 +73,7 @@
   </div>
   
   
-  <a href="/print-it/" class="back-button">Retour</a>
+  <a href="/print-it/" class="back-button">Back</a>
   
 
   
@@ -83,19 +83,14 @@
     <div class="form-section">
       
         <div class="section-title">
-          OP007 <span class="wingding-3"></span> Free version
+          OP007 <span class="wingding-3"></span> Deluxe english version
         </div>
         <div class="section-content">
-            Bienvenue sur le site de Print-it, 
-            le magazine à imprimer soi-même.
-            Met 18 feuilles dans ton imprimante,
-            écris ton prénom et ton nom ci-dessous, 
-            puis lance l'impression. <br/><br/>
-            Dans "plus de paramètres" pense à : <br/>
-            - choisir le format A4<br/>
-            - laisser les marges par défaut<br/>
-            - cocher graphiques d'arrière-plan<br/>
-
+            Congratulations you completed 
+            the first step, You did it ! 
+            To continue your adventure,
+            fill the form below and continue 
+            to follow the manual.
         </div>
       
       
@@ -111,7 +106,7 @@
         <div class="landing-input-container">
           <label for="printer-firstname-input">
             
-              Ton prénom
+              Your first name
              
             <span class="wingding-3 rotate align-right"></span>
           </label>
@@ -122,7 +117,7 @@
         <div class="landing-input-container">
           <label for="printer-name-input">
             
-              Ton nom
+              Your last name
              
             <span class="wingding-3 rotate align-right"></span>
           </label>
@@ -131,12 +126,23 @@
         </div>
 
         
-          <input name="printNbOne" id="print-number-input-one" class="hidden" type="text"
-                 onKeyup="autotab(this, document.querySelector('#print-number-input-two'))" value="02." >
-          <input name="printNbTwo" id="print-number-input-two" class="hidden" type="text"
-                onKeyup="autotab(this, document.querySelector('#print-number-input-three'))" value="00.">
-          <input name="printNbThree" id="print-number-input-three" class="hidden" type="text" value="00"/>
-          
+          <div class="landing-input-container">
+            <label for="printNbOne">
+              
+                Number of your print
+               
+              <span class="wingding-3 rotate align-right"></span>
+            </label>
+            OP007&nbsp;
+            <input name="printNbOne" id="print-number-input-one" class="print-number-input" type="text"
+                   onKeyup="autotab(this, document.querySelector('#print-number-input-two'))" maxlength=2>
+            -
+            <input name="printNbTwo" id="print-number-input-two" class="print-number-input" type="text"
+                   onKeyup="autotab(this, document.querySelector('#print-number-input-three'))" maxlength=2>
+            -
+            <input name="printNbThree" id="print-number-input-three" class="print-number-input" type="text" maxlength=2> 
+            / 42
+          </div>
         
     
       
@@ -147,7 +153,7 @@
         <div class="section-content center-column">
           <span class="section-text-line uppercase">
             
-              C՚est parti ! 
+              Let's go !
              
             <span class="wingding-3 align-right">
               <img src=" /print-it/assets/images/printer-icon.svg " alt="printer">
@@ -155,7 +161,7 @@
           </span>
           <button id="print-button" class="print-button">
             
-              Imprimer
+              Print
             
           </button>
         </div>
@@ -175,23 +181,9 @@
 
 
   </div>
-
+  
   <div class="print-content">
     
-<div class="page cover">
-  <div class="left-side cover-left">
-      <img src="/print-it/assets/images/back-cover-typo.svg" alt="Print-it 3D type">
-  </div>
-  <div class="right-side cover-right">
-      <img src="/print-it/assets/images/cover-typo.svg" alt="Print-it 3D type">
-  </div>
-</div>
-
-<div class="page manual">
-  <img src="/print-it/assets/images/manual.svg" alt="Print-it manual">
-</div>
-
-
 
 
 
@@ -211,11 +203,11 @@
           <div class="print-page-content-wrapper">
             <div class="page-content-text">
   <div class="title-1">
-  <div class="title-1-item">Édito</div>
-  <div class="title-1-item">Édito</div>
-  <div class="title-1-item">Édito</div>
-  <div class="title-1-item">Édito</div>
-  <div class="title-1-item">Édito</div>
+  <div class="title-1-item">Editorial</div>
+  <div class="title-1-item">Editorial</div>
+  <div class="title-1-item">Editorial</div>
+  <div class="title-1-item">Editorial</div>
+  <div class="title-1-item">Editorial</div>
 </div>
 
   <div class="title-2 small">
@@ -224,7 +216,7 @@
 </svg>
 
   <div class="title-2-text">
-    Le mot du rédacteur en chef
+    The editor’s note
   </div>
 </div>
 
@@ -236,44 +228,44 @@
   <p>
      <br/><br/><br/>
 
-    Chez Objet Papier, vous le savez, nous n’aimons rien de moins que d’explorer 
-    les liens qui existent entre le physique et le numérique, entre le fabuleux univers 
-    virtuel qui offre tant de possibilités et la noblesse de l’objet palpable, 
-    façonné par la main humaine, fruit de traditions parfois millénaires.
-    Pour ce nouveau numéro, et pour tâcher de célébrer dignement les 30 ans du 
+     You know us, at Objet Papier, we love nothing more than exploring the 
+     links between paper and digital, between the fabulous virtual universe 
+     that offers so many possibilities and the greatness of physical shaped objects.
+     For this new issue that celebrates the 30th anniversary of the 
     <span class="annotation-origin">World Wide Web</span>
     <span class="annotation-content annotation-bottom">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <path class="arrow-stroke" d="M98.5 6.5c-42 0-80 32-83 80"/>
   <polygon class="arrow-head" points="1.9 81.2 29.9 82.8 15.1 96 "/>
 </svg>
-      Une toile d’araignée tissée par Tim Berners-Lee en 1989 à Genève.
+      Tim Berners-Lee wove it in 1989 in Geneva.
     </span>, 
-    nous avons demandé à nos ingénieurs de porter cette idée à son paroxysme. <br/>
-    En poussant les curseurs à fond de notre philosophie, ils ont réalisé cet 
-    étonnant Objet Codé Non Identifié que vous tenez entre les mains.
-    Équipé de votre surf, partez donc à la rencontre des vastes mondes des Internets, 
-    vous y découvrirez des traditions curieuses, des techniques abruptes et des personnages 
-    fascinants. Vous croiserez peut-être l’âme et le squelette de notre label, mais 
-    toujours de manière ludique ! Ici et là, des codes et des références binaires 
-    vous aiguilleront sur la toile du savoir.<br/><br/>
+    we asked our engineers to bring our philosophy to its climax.<br/>
+    That’s how they created this amazing Unidentified Coded Object that 
+    you hold now in your hands.
+    Bring your surfboard and go meet the vast worlds of Internets! 
+    You will discover curious traditions, hard techniques and fascinating 
+    characters. You may come across the soul and the skeleton of our label, 
+    but always in a fun way! Here and there, codes and binary references will 
+    guide you on the web of knowledge.
+    <br/><br/>
 
-    Cerise sur le gâteau, en participant à la réalisation de votre propre magazine, 
-    vous venez de faire un premier pas dans le monde du 
+    Icing on the cake, by participating in the realization of your own magazine, 
+    you have taken your first steps in the world of
     <span class="annotation-origin">CSS&nbsp;Print&nbsp;!</span>
     <span class="annotation-content annotation-top">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <path class="arrow-stroke" d="M98.5 6.5c-42 0-80 32-83 80"/>
   <polygon class="arrow-head" points="1.9 81.2 29.9 82.8 15.1 96 "/>
 </svg>
-      Bien joué ! Tu as franchi toutes les étapes dans la création de 
-      ton numéro de Print-it !
+      Well done! You have gone through all the steps to create your own Print-it copy!
     </span> <br>
-    Nous vous avons codé un livre, vous avez imprimé un site ! Et si l’envie vous en 
-    prend, agrémentez-le de vos propres rubriques et créations. Les plus curieux iront 
-    jusqu’à réaliser leur propre magazine et pourront participer pleinement à 
-    la grande réconciliation des mondes numériques et physiques.<br><br>
-    Bonne lecture !
+    We coded a book, you printed a website! And if you feel like a deep adventurer, 
+    you can personalize it with your own headings and creations. The most 
+    curious will make their own entire magazine and will be able to participate 
+    fully in the great reconciliation of digital and physical worlds.<br/><br/>
+    
+    Farewell on your reading journey.
 
   </p>
 
@@ -285,9 +277,9 @@
             <div class="running-title">
               Print-it
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              À la découverte d'Internet !
+              Let's discover the Internet !
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              Édito
+              Editorial
             </div>
             <div class="page-number">
               
@@ -357,8 +349,8 @@
           <div class="print-page-content-wrapper">
             <div class="page-content print-is-dead-wrapper">
   <div class="print-is-dead-title">
-    La presse<br/>
-    est morte*<br/>
+    Press<br/>
+    is dead*<br/>
     
   </div>
 
@@ -373,7 +365,7 @@
   
 
   <div class="print-is-dead-paragraph">
-      à partir du moment où l'on a demandé aux lecteurs d'imprimer eux-même leur magazine.
+      The day readers were asked to print their own magazine..
   </div>
 
   <div class="print-is-dead-cut">
@@ -398,9 +390,9 @@
             <div class="running-title">
               Print-it
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              À la découverte d'Internet !
+              Let's discover the Internet !
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              Édito
+              Editorial
             </div>
             <div class="page-number">
               
@@ -465,11 +457,11 @@
           <div class="print-page-content-wrapper">
             <div class="page-content-text">
   <div class="title-1">
-  <div class="title-1-item">Sommaire</div>
-  <div class="title-1-item">Sommaire</div>
-  <div class="title-1-item">Sommaire</div>
-  <div class="title-1-item">Sommaire</div>
-  <div class="title-1-item">Sommaire</div>
+  <div class="title-1-item">Summary</div>
+  <div class="title-1-item">Summary</div>
+  <div class="title-1-item">Summary</div>
+  <div class="title-1-item">Summary</div>
+  <div class="title-1-item">Summary</div>
 </div>
 
 
@@ -479,10 +471,10 @@
         <img src="/print-it/assets/images/zoom-icon.svg" alt="zoom-icon">
       </div>
       <div class="summary-item-title title-3">
-        Zoom sur…
+        Focus on…
       </div>
       <div class="summary-item-subtitle">
-        La création d'OP007 Print-it.
+        The creation of OP007 Print-it.
       </div>
       <div class="summary-page-indicator">
         
@@ -496,10 +488,10 @@
           <img src="/print-it/assets/images/poesie-icon.svg" alt="poesie-icon">
       </div>
       <div class="summary-item-title title-3">
-        Poésie 2.0
+        Poetry 2.0
       </div>
       <div class="summary-item-subtitle">
-        Ça clash online !
+        Online beef!
       </div>
       <div class="summary-page-indicator">
         
@@ -530,10 +522,10 @@
           <img src="/print-it/assets/images/enquete-icon.svg" alt="enquete-icon">
       </div>
       <div class="summary-item-title title-3">
-        Enquête sur…
+        Investigating…
       </div>
       <div class="summary-item-subtitle">
-        GeoCities, l'internet du passé.
+        GeoCities, the internet of the past.
       </div>
       <div class="summary-page-indicator">
           
@@ -550,7 +542,7 @@
         Top 30
       </div>
       <div class="summary-item-subtitle">
-        Des choses a voir sur internet…
+        Things to see on the internet…
       </div>
       <div class="summary-page-indicator">
           
@@ -567,7 +559,7 @@
         Horoscope
       </div>
       <div class="summary-item-subtitle">
-        par la professeure Zerep.
+        by professor Zerep.
       </div>
       <div class="summary-page-indicator">
         
@@ -581,16 +573,16 @@
           <img src="/print-it/assets/images/jeux-icon.svg" alt="jeux-icon">
       </div>
       <div class="summary-item-title title-3">
-        Jeux
+        Games
       </div>
       <div class="summary-item-subtitle">
-        À toi de jouer !
+        Let's play!
       </div>
       <div class="summary-page-indicator">
-          
+        
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 83"><polygon class="bulle" points="23.8 32.4 19.9 13.1 44.3 21.4 47.2 1.1 62.5 20 79.4 3.6 86.2 18.8 105.1 7.6 106.4 27.6 129 39.3 109.9 54.3 114.7 75.4 92.9 63.1 89.3 79 72.4 62.6 56.2 81.9 47.5 60.6 23.3 70.5 24.4 54.9 0.6 44.3 "/></svg>
-          <p>p.30-31</p>
-        </div>
+        <p>p.30-31</p>
+      </div>
     </div>
 
   </div>
@@ -603,9 +595,9 @@
             <div class="running-title">
               Print-it
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              À la découverte d'Internet !
+              Let's discover the Internet !
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              Sommaire
+              Summary
             </div>
             <div class="page-number">
               
@@ -677,29 +669,29 @@
           <div class="print-page-content-wrapper">
             <div class="page-content-full">
   <div class="title-full-page">
-  <div class="title-fp-item">Zoom sur…</div>
-  <div class="title-fp-item">Zoom sur…</div>
-  <div class="title-fp-item">Zoom sur…</div>
-  <div class="title-fp-item">Zoom sur…</div>
-  <div class="title-fp-item">Zoom sur…</div>
-  <div class="title-fp-item">Zoom sur…</div>
-  <div class="title-fp-item">Zoom sur…</div>
-  <div class="title-fp-item">Zoom sur…</div>
-  <div class="title-fp-item">Zoom sur…</div>
-  <div class="title-fp-item">Zoom sur…</div>
+  <div class="title-fp-item">Focus on…</div>
+  <div class="title-fp-item">Focus on…</div>
+  <div class="title-fp-item">Focus on…</div>
+  <div class="title-fp-item">Focus on…</div>
+  <div class="title-fp-item">Focus on…</div>
+  <div class="title-fp-item">Focus on…</div>
+  <div class="title-fp-item">Focus on…</div>
+  <div class="title-fp-item">Focus on…</div>
+  <div class="title-fp-item">Focus on…</div>
+  <div class="title-fp-item">Focus on…</div>
 </div>
 <div class="subtitle-full-page">
   <div class="subtitle-fp-item large title-top">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.1 187">
   <path class="bulle" d="M230 129.7l-29.7-3.3 8.1 23.6 -36.4-8.1 -4 20.6 -24.8-17.5 -3.3 35.2 -27.1-33.3 -10.9 31 -13.1-31L47.2 165l8.9-35.3 -37-0.7 15.4-20.6L1.2 91.5l37.1-17.2L24.4 51l30.6 8L44.7 29.1l40.6 8.3L94-0.2l20.8 36L139.2 17l15.7 24.5 34.3-26.7 1.1 32.5 34.3-2.3 -23.3 30.6 28.5 15 -25 14.6L230 129.7z"/>
 </svg>
-    <span class="title-2-text">La conception d'Objet Papier 007.</span>
+    <span class="title-2-text">The conception of OP007</span>
   </div>
   <div class="subtitle-fp-item large title-bottom">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.1 187">
   <path class="bulle" d="M230 129.7l-29.7-3.3 8.1 23.6 -36.4-8.1 -4 20.6 -24.8-17.5 -3.3 35.2 -27.1-33.3 -10.9 31 -13.1-31L47.2 165l8.9-35.3 -37-0.7 15.4-20.6L1.2 91.5l37.1-17.2L24.4 51l30.6 8L44.7 29.1l40.6 8.3L94-0.2l20.8 36L139.2 17l15.7 24.5 34.3-26.7 1.1 32.5 34.3-2.3 -23.3 30.6 28.5 15 -25 14.6L230 129.7z"/>
 </svg>
-    <span class="title-2-text">La conception d'Objet Papier 007.</span>
+    <span class="title-2-text">The conception of OP007</span>
   </div>
 
 </div>
@@ -711,9 +703,9 @@
             <div class="running-title">
               Print-it
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              À la découverte d'Internet !
+              Let's discover the Internet !
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              Zoom sur…
+              Focus on…
             </div>
             <div class="page-number">
               
@@ -746,12 +738,11 @@
             <div class="page-content-text">
   <div class="zoom-section">
     
-    <h3 class="title-3">Outils de conception web</h3>
+    <h3 class="title-3">Web development tools</h3>
 
     <p class="zoom-intro">
-      On prend sa respiration et on plonge tout de suite dans l’océan obscur 
-      et vertigineux des coulisses de cette édition. N’oublie pas ta lampe 
-      frontale, la connaissance est au bout du périple !
+      Let's hold our breath and dive in the deep and dark ocean lying below Print-it. 
+      Don't forget your headlamp, knowledge is at the end of the journey.
     </p>
     
     
@@ -763,22 +754,22 @@
           <img class="tool-logo" src="/print-it/assets/images/atom-logo.gif" alt="Atom logo">
         </h3>
         <div class="table-text-content zoom-tool-content">
-          Atom est un éditeur de texte pour <span class="ital">mac-os</span>, 
-          <span class="ital">linux</span> <br/>et <span class="ital">Windows</span>. 
-          Il permet d'écrire du <span class="highlight">code source</span>.<br/>
+          Atom is a text editor for <span class="ital">mac-os</span>, 
+          <span class="ital">linux</span> <br/>and <span class="ital">Windows</span>, 
+          built to write <span class="highlight">source code</span>.<br/>
         </div>
         <div class="table-text-small">
-          Atom est l'outil de création de la structure <span class="annotation-origin">HTML</span>, des feuilles <span class="annotation-origin">CSS</span>
-          et du
+          We used Atom to write the <span class="annotation-origin">HTML</span> structure, <span class="annotation-origin">CSS</span> 
+          style sheets and 
           <span class="annotation-origin">Javascript</span>
           <span class="annotation-content annotation-top">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <path class="arrow-stroke" d="M98.5 6.5c-42 0-80 32-83 80"/>
   <polygon class="arrow-head" points="1.9 81.2 29.9 82.8 15.1 96 "/>
 </svg>
-            Découvre le détail de ces acronymes à la page 10.
+            Find out more about those acronyms on page 10.
           </span>
-          qui compose Print-it. Il lui a permis petit à petit de prendre forme.
+          code composing Print-it, shaping it bit by bit.
         </div>
       </div>
     </div>
@@ -793,20 +784,23 @@
           <img class="tool-logo" src="/print-it/assets/images/jekyll-logo.gif" alt="Jekyll logo">
         </h3>
         <div class="table-text-content zoom-tool-content">
-          Jekyll est un générateur de <span class="highlight">site statique</span> 
-          dévéloppé par <span class="ital">Tom Preston-Werner</span>, écrit en <br/><span class="highlight">langage de programmation</span> 
-          <span class="ital">Ruby</span>.
-          <span class="annotation-origin">Sympa comme tout</span>,
+          Jekyll is a <span class="highlight">static site</span> generator, 
+          build by <span class="ital">Tom Preston-Werner</span>, 
+          written in the <span class="highlight">programming language</span> 
+          <span class="ital">Ruby</span>. 
+          <span class="annotation-origin">As friendly as it gets</span>,
           <span class="annotation-content annotation-bottom">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <path class="arrow-stroke" d="M98.5 6.5c-42 0-80 32-83 80"/>
   <polygon class="arrow-head" points="1.9 81.2 29.9 82.8 15.1 96 "/>
 </svg>
-              Jekyll est sympa mais qu’en est-il de Mr Hyde ? :o
-          </span> il est considéré comme un des générateurs de sites statiques les plus populaires. <br/>
+            Jekyll is friendly, but what about Mr Hyde ? :o
+          </span>
+           it is one of the most used static site generator out there.
         </div>
         <div class="table-text-small">
-            Jekyll s'est occupé de synchroniser les différentes parties du code (HTML/CSS/JS…) de Print-it.
+          Jekyll was in charge of synchronizing the different parts 
+          of the code (HTML/CSS/JS) of Print-it.
         </div>
       </div>
     </div>
@@ -822,19 +816,19 @@
           <img class="tool-logo" src="/print-it/assets/images/github-logo.gif" alt="Github logo">
         </h3>
         <div class="table-text-content zoom-tool-content">
-          GitHub est une plateforme d’hébergement
-          et de gestion de <span class="highlight">codes sources</span> basée sur le protocole
-          de <span class="highlight">versionning</span> Git et sur les méthodes
-          de travail collaboratif propre à l’<span class="highlight">open source</span>. <br/>
+          Github is a web platform for code hosting and management, based on the 
+          <span class="highlight">version control</span> software Git. 
+          Version control is a starting point for collaboration workflows often 
+          associated with <span class="highlight">open source</span> projects.<br/>
         </div>
         <div class="table-text-small">
-          Github héberge le code source de Print-it et permet de regrouper et 
-          synchroniser les changements qui lui sont apportés.
+          Github is the host of Print-it's source code, it allows us to regroup 
+          and synchronize all the modifications made on the software.
         </div>
       </div>
     </div>
 
-    <div class="zoom-arrow"></div><div class="zoom-arrow"></div>
+    <div class="zoom-arrow"></div><div class="zoom-arrow"></div><div class="zoom-arrow"></div>
 
     
 
@@ -887,13 +881,13 @@
           <img class="tool-logo" src="/print-it/assets/images/siteleaf-logo.gif" alt="Atom logo">
         </h3>
         <div class="table-text-content">
-            Développé par <span class="ital">Oak Studio</span>, Siteleaf est le compagnon idéal 
-            de Jekyll. Il se connecte à GitHub et héberge le site sur une <span class="highlight">URL</span>. Son 
-            <span class="highlight">CMS</span> facilite la mise à jour du contenu du site.<br/>
+            Developed by <span class="ital">Oak Studio</span>, Siteleaf is the Ideal sidekick of Jekyll. 
+            It connects to Github and hosts the site on a specified <span class="highlight">URL</span>. 
+            It comes with a <span class="highlight">CMS</span>, providing an easy way to update the content of the site.<br/>
         </div>
         <div class="table-text-small">
-            Siteleaf a permis de synchroniser toutes les modifications apportées à Print-it via 
-            le code et via le CMS puis d'afficher le résultat sur une URL.
+          Siteleaf is synchronizing all the modifications we are making to Print-it via 
+          the code and the CMS, and displays the result on our URL: <span class="link">https://objetpapier.fr/print-it/</span>
         </div>
       </div>
     </div>
@@ -907,25 +901,26 @@
           <img class="tool-logo" src="/print-it/assets/images/chrome-logo.gif" alt="Atom logo">
         </h3>
         <div class="table-text-content">
-            Navigateur web développé par 
+            Chrome is a web browser developed by 
             <span class="annotation-origin"><span class="ital">Google</span></span>
             <span class="annotation-content annotation-bottom">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <path class="arrow-stroke" d="M98.5 6.5c-42 0-80 32-83 80"/>
   <polygon class="arrow-head" points="1.9 81.2 29.9 82.8 15.1 96 "/>
 </svg>
-                Cette petite entreprise familiale nous a supplié de leur faire de la pub, on a pas su dire non :/
-            </span>
-            c’est un logiciel conçu pour accéder aux URL et afficher le contenu des pages du
-            <span class="ital">World Wide Web</span>. Le terme «navigateur» est inspiré de <br/><span class="ital">Netscape Navigator</span>, 
-            un navigateur phare apparu au milieu des années 1990. Les navigateurs Web 
-            les plus utilisés à l’heure actuelle sont <span class="ital">Google Chrome</span>, <span class="ital">Mozilla Firefox</span>, 
-            <br/><span class="ital">Microsoft Edge</span> et <span class="ital">Apple Safari</span>. <br/>
+                This small family business begged us to advertise their service, we couldn't refuse :/
+            </span>, it's a software built to access URLs 
+            and display the content of the <span class="ital">World Wide Web</span>. 
+            Fun fact, the french word for browser is "navigateur", which was inspired by 
+            <br/><span class="ital">Netscape Navigator</span>, a major 
+            web browser from the 1990's. Nowadays, the most used browsers are <span class="ital">Google Chrome</span>, 
+            <span class="ital">Mozilla Firefox</span>, 
+            <br/><span class="ital">Microsoft Edge</span> and <span class="ital">Apple Safari</span>. <br/>
         </div>
         <div class="table-text-small">
-            C’est grâce à Chrome que tu peux visualiser l’interface d’accueil de Print-it rien 
-            qu’avec tes yeux. On te recommande l'utilisation de celui-ci pour l’impression car 
-            il est le seul et l’unique navigateur à gérer le CSS print comme un chef ! 
+          Thanks to Chrome you can see the web interface of Print-it's home page with your own eyes. 
+          We highly recommend the use of Chrome for the print process, 
+          because it's the one and only browser supporting CSS print like a boss!
         </div>
       </div>
     </div>
@@ -949,9 +944,9 @@
             <div class="running-title">
               Print-it
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              À la découverte d'Internet !
+              Let's discover the Internet !
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              Zoom sur…
+              Focus on…
             </div>
             <div class="page-number">
               
@@ -984,7 +979,7 @@
             <div class="page-content-text">
   <div class="zoom-section">
 
-    <h3 class="title-3 margin-bottom">Du web au print</h3>
+    <h3 class="title-3 margin-bottom">From Web to Print</h3>
 
     <div class="zoom-tool-print html">
       <div class="table-text">
@@ -993,10 +988,10 @@
           <span class="superscript">HyperText Markup Language</span>
         </h3>
         <div class="table-text-content">
-            Le HTML est un langage de description de données structuré en balises, conçu pour décrire 
-            le contenu d’une page Web. C’est le squelette d’une page web. 
-            Il s’agit de l’une des trois inventions, avec <span class="highlight">HTTP</span> et <span class="highlight">URL</span> 
-            qui ont permis l’existence du Web.
+            HTML is a data description language, structured with tags, 
+            built to organize the content of a web page. It's the backbone 
+            of internet content, and one of the three pillars allowing 
+            the web to exist with <span class="highlight">HTTP</span> and <span class="highlight">URL</span>.
         </div>
       </div>
     </div>
@@ -1016,15 +1011,15 @@
   <path class="arrow-stroke" d="M98.5 6.5c-42 0-80 32-83 80"/>
   <polygon class="arrow-head" points="1.9 81.2 29.9 82.8 15.1 96 "/>
 </svg>
-            Les bas-fonds d’Internet sont remplis de sigles hostiles aux voyelles, on se demande bien ce qu’ils en ont fait.
+            The lowlands of the Internet are full of symbols hostile to vowels, who knows where they are hidden?
           </span>
-          Les feuilles de style en cascade (en français) désignent un langage informatique servant à décrire la présentation de documents Web (généralement des pages Web).
-          C’est le style ou l’apparence d’une page web.
+          Cascading style sheets is the language used to create the layout and graphics of web content. It's responsible for the appearance of a web page.
         </div>
         <h3 class="table-title capital">CSS Print</h3>
         <div class="table-text-content">
-          Le CSS Print est un ensemble d’instructions écrites en langage informatique CSS servant à gérer l’aspect imprimé d’une page Web. 
-          Il est ainsi possible d’utiliser le Web comme un environnement de mise en page et de publication multi-supports.
+          CSS Print is the group of instructions written in CSS, applying to the content when it is printed. 
+          This way it is possible to work on print layout design using a web development environment, 
+          creating a bridge between physical and digital worlds for our content.
 
         </div>
       </div>
@@ -1045,14 +1040,14 @@
   <path class="arrow-stroke" d="M98.5 6.5c-42 0-80 32-83 80"/>
   <polygon class="arrow-head" points="1.9 81.2 29.9 82.8 15.1 96 "/>
 </svg>
-            On s’accroche c’est bientôt l’heure de s’amuser ! 
+            Hold on, the fun is coming your way!
           </span>
-          Plus connu sous son acronyme, le PDF est un langage de description
-          de page présenté par la société <span class="ital">Adobe Systems</span> en 1992 et qui est
-          devenu une norme ISO en 2008. La spécificité de celui-ci est de
-          préserver la mise en page d’un document telle qu'elle a été définie
-          par son auteur, et cela quel que soit le logiciel, le système
-          d'exploitation ou l'ordinateur utilisé pour l’imprimer ou le visualiser.
+          Best known under the acronym than the actual name, a PDF is a file 
+          using a descriptive language to interpret page layout. It was 
+          introduced by <span class="ital">Adobe Systems</span> in 1992 and became an ISO standard 
+          in 2008. It's secret weapon is to be able to preserve the layout exactly 
+          the way the author created it, no matter what the software, 
+          operating system or computer used to display or print it.
         </div>
       </div>
     </div>
@@ -1099,7 +1094,7 @@
             <div class="page-content-text">
   <div class="zoom-section">
 
-    <h3 class="title-3">Lexique</h3>
+    <h3 class="title-3">Glossary</h3>
 
     <img class="xerox printer" src="/print-it/assets/images/xerox-printer.gif" alt="xerox computer">
 
@@ -1109,66 +1104,61 @@
 
 
     <div class="definition">
-      <span class="highlight">Code source</span> 
-      Le code source d’un programme informatique est un texte contenant 
-      des instructions rédigées dans un ou plusieurs langages de programmation, 
-      il est lu par la machine qui exécute ces instructions.<br/>
+      <span class="highlight">Source code</span> 
+      The source code of a computer program is a text containing 
+      instructions written in one or multiple programming languages, 
+      it's interpreted by the machine, which executes those instructions.<br/>
     </div>
 
     <div class="definition">
       <span class="highlight">CMS</span> 
-      (Content Management System) C’est un type de programme permettant 
-      de modifier le contenu d'un site web via une interface graphique.<br/>
+      (Content Management System) A kind of program allowing 
+      the modification of a website's content, through 
+      a graphical user interface.<br/>
     </div>
     
 
     <div class="definition">
-      <span class="highlight">Site statique</span> 
-      Un site statique génère la même page pour tous les internautes à 
-      l’inverse d’un site dynamique qui variera son contenu en fonction 
-      de l’internaute.<br/>
+      <span class="highlight">Static site</span> 
+      A site displaying the same page for every user accessing it on 
+      the internet. In opposition to a dynamic site which can display 
+      specific content for every user.<br/>
     </div>
     
 
     <div class="definition">
-      <span class="highlight">Langage de programmation</span> 
-      C’est un système destiné à l’écriture du code source. 
-      Comme les langues naturelles, chaque langage de programmation 
-      possède un alphabet, une sémantique, un vocabulaire et des règles 
-      syntaxiques spécifiques.<br/>
+      <span class="highlight">Programming language</span> 
+      A logic based system made to write source code. Like natural 
+      language, each programming language uses an alphabet, a semantic, 
+      a vocabulary and a specific syntax.<br/>
     </div>
     
     
     <div class="definition">
       <span class="highlight">URL</span>
-      (Uniform Resource Locator) Désigne l’adresse Web permettant
-      à un navigateur Web de localiser une ressource en ligne
-      (fichier, image, page Web, etc.). Formalisé par Tim Berners-Lee en 1989,
-      le protocole permettant aux URL de fonctionner est une des inventions
-      à la base du World Wide Web.<br />
+      Designates the web address allowing a browser to locate any resource online 
+      (file, image, web page, etc.). Formalized by Tim Berners-Lee in 1989, 
+      the protocol behind URLs is one of the inventions which made the World Wide Web possible.<br />
     </div>
     
 
     <div class="definition"><span class="highlight">HTTP</span> 
-      (Hypertext Transfer Protocol) C'est le moyen de communication 
-      entre le serveur et le navigateur. HTTPS est la variante Sécurisée du HTTP.<br/>
+      (HyperText Transfer Protocol) This is the communication method used by devices 
+      accessing the internet, like a server or a browser. HTTPS is the secure version of the HTTP protocol.<br/>
     </div>
 
     <div class="definition">
       <span class="highlight">Open source</span>
-      En opposition à la philosophie du logiciel propriétaire,
-      l’open source est une méthodologie de développement pragmatique
-      basée sur le travail collaboratif et sur le partage du codes sources.<br />
+      In opposition to the proprietary software philosophy, the open source is a 
+      development method based on collaborative work and source code sharing.<br />
     </div>
     
 
     <div class="definition">
-      <span class="highlight">Versioning</span> 
-      (Gestion de version en français) La gestion de versions 
-      consiste à maintenir l'ensemble des modifications d'un 
-      ou plusieurs fichiers par une ou plusieurs personnes. 
-      Essentiellement utilisée dans le domaine de la création 
-      de logiciels, elle concerne surtout la gestion des codes source.<br/>
+      <span class="highlight">Version control</span> 
+      Consists in maintaining the modifications made to one or multiple files by one 
+      or multiple people. It's mainly used in software design, 
+      in order to maintain and track the evolution of the source code.<br/>
     </div>
     
 
@@ -1181,9 +1171,9 @@
             <div class="running-title">
               Print-it
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              À la découverte d'Internet !
+              Let's discover the Internet !
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              Zoom sur…
+              Focus on…
             </div>
             <div class="page-number">
               
@@ -1219,14 +1209,15 @@
   <div class="poetry-section kaaris">
       <img class="poetry-logo" src="/print-it/assets/images/youtube-logo.gif" alt="">
       <div class="poetry-content kaaris">
-        Kaaris : Tu vois, il y’a aucun mec <br/>de quartier qui se bat sur internet.<br/>
-        On se bat pas sur internet nous,<br/> tout se passe dans la street.
+        You see, there's no O.G. fighting on the internet.<br/>
+        We do not fight on the internet, everything happens in the street.
+
       </div>
       <div class="explanation kaaris">
-          Dans son grief contre le duc (aka Booba) Kaaris partage 
-          en ligne une vidéo de lui dans laquelle il vante les mérites 
-          de sa bande. Eux règlent leurs querelles en bas des blocs, 
-          pas sur Internet. À part cette fois-ci peut être ?
+        In his rivalry against the Duc (aka Booba) Kaaris shares an online 
+        video of him in which he praises the power of his gang. They 
+        solve their problems down in the projects, not on the Internet. 
+        Except this time maybe?
       </div>
   </div>
 
@@ -1234,14 +1225,12 @@
   <div class="poetry-section alkapote">
     <img class="poetry-logo" src="/print-it/assets/images/twitter-logo.gif" alt="">
       <div class="poetry-content alkapote">
-        Alkpote : <span class="at-n-ash">@FrancoisFillon</span> <br/>
-        Tu n’est qu’une simple @#!&
-        <!-- <img class="emoji" src="/print-it/assets/images/emoji-danse.gif" alt="DANCE!"> -->
+        Alkpote: <span class="at-n-ash">@FrancoisFillon</span> <br/>
+        You are just a simple @#!&
       </div>
       <div class="explanation alkapote">
-          Suite à des tweets à l'accent particulièrement conquérant de la part de François Fillon, 
-          le rappeur Alkpote lui répond et lui fait part de son ressenti sur ses propos. 
-          Internet, la communication, le partage…
+        After conquering tweets from François Fillon, rapper Alkpote
+        responds to him and shares his feelings on these remarks. Internet, communication, sharing…
       </div>
   </div>
 
@@ -1250,12 +1239,12 @@
       <img class="poetry-logo" src="/print-it/assets/images/insta-logo.gif" alt="">
       <div class="poetry-content 50cent">
         <img class="insta-post" src="/print-it/assets/images/50cent.gif" alt="50cent seats">
-        50cent : Lol at $15 a pop you can’t lose, I got 200 tickets for 3 bands. XD <span class="at-n-ash">#bellator</span> <span class="at-n-ash">#lecheminduroi</span>
+        50cent: Lol at $15 a pop you can’t lose, I got 200 tickets for 3 bands. XD <span class="at-n-ash">#bellator</span> <span class="at-n-ash">#lecheminduroi</span>
       </div>
       <div class="explanation 50cent">
-          Un aller-retour vieux de plusieurs années. Cette fois, 50cent prétend dans un post 
-          Instagram qu'il s’est procuré les trois premiers rangs du concert de Ja Rule. 
-          Suivi d'un photo-montage illustrant la situation. Avec l'âge vient la sagesse, parfois.
+        A longtime diss story. This time, 50cent claims in an instagram post that 
+        he paid for the first three rows of the next Ja Rule liveshow. Followed 
+        by a photo-montage illustrating the situation. Age brings wisdom, sometimes.
       </div>
   </div>
 
@@ -1298,11 +1287,11 @@
           <div class="print-page-content-wrapper">
             <div class="page-content-text">
   <div class="title-1">
-  <div class="title-1-item">Poesie 2.0</div>
-  <div class="title-1-item">Poesie 2.0</div>
-  <div class="title-1-item">Poesie 2.0</div>
-  <div class="title-1-item">Poesie 2.0</div>
-  <div class="title-1-item">Poesie 2.0</div>
+  <div class="title-1-item">Poetry 2.0</div>
+  <div class="title-1-item">Poetry 2.0</div>
+  <div class="title-1-item">Poetry 2.0</div>
+  <div class="title-1-item">Poetry 2.0</div>
+  <div class="title-1-item">Poetry 2.0</div>
 </div>
 
   <div class="title-2 small">
@@ -1311,18 +1300,17 @@
 </svg>
 
   <div class="title-2-text">
-    Ça clash online !
+    Online beef!
   </div>
 </div>
   <img class="section-icon" src="/print-it/assets/images/poesie-icon.svg" alt="edito-icon">
 
   <div class="poetry-intro small-font">
-      Sur le World Wide Web, <br/>
-      les mots remplacent les poings <br/>
-      et les querelles se transforment <br/>
-      en joutes verbales envolées.<br/> 
-      Quel fabuleux moyen d’aiguiser sa plume 
-      tout en conservant sa dignité ! Qui a dit que le clash n'était pas un «noble art» ?
+      On the World Wide Web, <br/>
+      words replace fists and fights <br/>
+      turn into verbal diss. What a <br/>
+      fabulous way to sharpen your <br/>
+      feather while maintaining your dignity! Who said that the beef was not a noble art?
   </div>
 
   <div class="poetry-section jokekra">
@@ -1331,37 +1319,37 @@
       
       <div class="message left">
         Joke<br/>
-        - C’est de moi que tu <br/>
-        parles dans ton tweet la?
+        - It's me you’re talking <br/>
+        about in your tweet?
       </div>
       <div class="message right">
         Kekra<br/>
-        T ki toi -
+        Who you be -
       </div>
       <div class="message right">
-        Tu ve koi -
+        What you want -
       </div>
       <div class="message right">
-        Il tfallai combien -
+        How much you need -
       </div>
       <div class="message right">
-        Réponds t ki toi -
+        Answer who you be -
       </div>
       <div class="message right">
-        Répond t ki toi -
+        Answer who u be -
       </div>
       <div class="message right">
-        Il tfallai combien -
+        How much -
       </div>
       <div class="message right">
-        Yencli -
+        Sucker -
       </div>
     </div>
     <div class="explanation jokekra">
-        Après la prise de position de Joke sur l'utilisation du <br/>«N-word» français par 
-        les personnes blanches, Kekra se sent visé et dégaine un tweet à l'attention 
-        de ce premier. S'en suit un échange de messages privés moqueurs. Un petit 
-        pas pour la querelle de rappeurs, un grand pas pour le troll.
+      After Joke's opinion on the use of the French "N-word" by white people, 
+      Kekra feels triggered and decided to tweet to his attention. Then, 
+      follows an exchange of mocking private messages. A small step 
+      for the rapper’s clashs, a big step for the troll.
     </div>
   </div>
 
@@ -1369,13 +1357,12 @@
   <div class="poetry-section trump">
       <img class="poetry-logo" src="/print-it/assets/images/twitter-logo.gif" alt="">
       <div class="poetry-content trump">
-        Donald Trump : Can you imagine what <br/>the outcry would be if <span class="at-n-ash">@SnoopDogg</span>, <br/>failing career and all, had aimed and fired <br/>the gun at President Obama? Jail time!
+        Donald Trump: Can you imagine what <br/>the outcry would be if <span class="at-n-ash">@SnoopDogg</span>, 
+        <br/>failing career and all, had aimed and fired <br/>the gun at President Obama? Jail time!
       </div>
       <div class="explanation trump">
-        La politique Trump ne laisse pas indifférent notre ami Snoop Dogg qui,
-        ayant quelques reproches sur celle-ci, se met en scène dans un ses clips
-        en train de tirer avec un pistolet de farces et attrapes sur le politicien.
-        «Bang !» et le twittos tweeta.
+        Our dear friend Snoop Dogg, not exactly in-line with Trump’s politics, directs 
+        himself in a music video shooting trump with a prank gun. "Bang!" then POTUS do what he does best.
       </div>
   </div>
 
@@ -1387,9 +1374,9 @@
             <div class="running-title">
               Print-it
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              À la découverte d'Internet !
+              Let's discover the Internet !
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              Poesie 2.0
+              Poetry 2.0
             </div>
             <div class="page-number">
               
@@ -1493,7 +1480,7 @@
             <div class="running-title">
               Print-it
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              À la découverte d'Internet !
+              Let's discover the Internet !
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
               Arts
             </div>
@@ -1530,17 +1517,21 @@
     <img src="/print-it/assets/images/rossi-2.gif" alt="rossi-1">
     <img src="/print-it/assets/images/rossi-3.gif" alt="rossi-1">
     <p class="art-text">
-      Après de longues études en droit administratif, commerce et tourisme, Antonio Google créa en 2006 Voyagesgratuits.com, la première agence de tourisme en ligne qui permit à des millions de personnes d’accéder à l’évasion et à la découverte de notre chère planète bleue. Afin de proposer des destinations atypiques et gratuites pour tous, Monsieur Google a parcouru le monde à la recherche de lieux insolites et inconnus.
-      Véritable escapade visuelle, Voyagesgratuits.com est considérée aujourd’hui comme une des plus belles créations de notre temps.
+      Through Tourism and Law studies, Antonio Google created the first online travel agency, 
+      Voyages Gratuits, in 2006. This website helped millions of people to gain the feeling of 
+      freedom and discover our dear blue planet. In order to offer interesting and free destination 
+      ideas for everyone, Mister Google travelled the world to find amazing and unknown territories.
+      This amazing visual journey, ‪Voyagesgratuits.com‬, is now the most beautiful 
+      contemporary creation left behind by Antonio Google.
       <span class="annotation-origin"></span>
       <span class="annotation-content annotation-top art-notation">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <path class="arrow-stroke" d="M98.5 6.5c-42 0-80 32-83 80"/>
   <polygon class="arrow-head" points="1.9 81.2 29.9 82.8 15.1 96 "/>
 </svg>
-        Une fiction proposée par Guillaume Rossi avec l’aide de Google Earth.
+        This fictional work has been created by Guillaume Rossi in collaboration with Google Earth.
       </span>
-      Cet article est dédié à la mémoire d’Antonio, disparu en 2015 au cours d’un de ses voyages.<br/><br/>
+      This article has been created in memory of Antonio who passed away in 2015 during one of his travels.<br/><br/>
     </p>
   </div>
   
@@ -1593,7 +1584,7 @@
             <div class="running-title">
               Print-it
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              À la découverte d'Internet !
+              Let's discover the Internet !
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
               Arts
             </div>
@@ -1667,29 +1658,29 @@
           <div class="print-page-content-wrapper">
             <div class="page-content-full">
   <div class="title-full-page">
-  <div class="title-fp-item">Enquête sur…</div>
-  <div class="title-fp-item">Enquête sur…</div>
-  <div class="title-fp-item">Enquête sur…</div>
-  <div class="title-fp-item">Enquête sur…</div>
-  <div class="title-fp-item">Enquête sur…</div>
-  <div class="title-fp-item">Enquête sur…</div>
-  <div class="title-fp-item">Enquête sur…</div>
-  <div class="title-fp-item">Enquête sur…</div>
-  <div class="title-fp-item">Enquête sur…</div>
-  <div class="title-fp-item">Enquête sur…</div>
+  <div class="title-fp-item">Investigating…</div>
+  <div class="title-fp-item">Investigating…</div>
+  <div class="title-fp-item">Investigating…</div>
+  <div class="title-fp-item">Investigating…</div>
+  <div class="title-fp-item">Investigating…</div>
+  <div class="title-fp-item">Investigating…</div>
+  <div class="title-fp-item">Investigating…</div>
+  <div class="title-fp-item">Investigating…</div>
+  <div class="title-fp-item">Investigating…</div>
+  <div class="title-fp-item">Investigating…</div>
 </div>
 <div class="subtitle-full-page">
   <div class="subtitle-fp-item large title-top">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.1 187">
   <path class="bulle" d="M230 129.7l-29.7-3.3 8.1 23.6 -36.4-8.1 -4 20.6 -24.8-17.5 -3.3 35.2 -27.1-33.3 -10.9 31 -13.1-31L47.2 165l8.9-35.3 -37-0.7 15.4-20.6L1.2 91.5l37.1-17.2L24.4 51l30.6 8L44.7 29.1l40.6 8.3L94-0.2l20.8 36L139.2 17l15.7 24.5 34.3-26.7 1.1 32.5 34.3-2.3 -23.3 30.6 28.5 15 -25 14.6L230 129.7z"/>
 </svg>
-    <span class="title-2-text">GeoCities, l'internet du passé.</span>
+    <span class="title-2-text">GeoCities, the internet of the past</span>
   </div>
   <div class="subtitle-fp-item large title-bottom">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.1 187">
   <path class="bulle" d="M230 129.7l-29.7-3.3 8.1 23.6 -36.4-8.1 -4 20.6 -24.8-17.5 -3.3 35.2 -27.1-33.3 -10.9 31 -13.1-31L47.2 165l8.9-35.3 -37-0.7 15.4-20.6L1.2 91.5l37.1-17.2L24.4 51l30.6 8L44.7 29.1l40.6 8.3L94-0.2l20.8 36L139.2 17l15.7 24.5 34.3-26.7 1.1 32.5 34.3-2.3 -23.3 30.6 28.5 15 -25 14.6L230 129.7z"/>
 </svg>
-    <span class="title-2-text">GeoCities, l'internet du passé.</span>
+    <span class="title-2-text">GeoCities, the internet of the past</span>
   </div>
 
 </div>
@@ -1701,9 +1692,9 @@
             <div class="running-title">
               Print-it
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              À la découverte d'Internet !
+              Let's discover the Internet !
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              Enquête sur…
+              Investigating…
             </div>
             <div class="page-number">
               
@@ -1734,50 +1725,49 @@
 
           <div class="print-page-content-wrapper">
             <div class="page-content-text geocities">
-    <div class="title-3">GeoCities, c'est quoi ?</div>
-    Novembre 1994, la société Beverly Hills Internet propose quinze mégaoctets d'hébergement 
-    gratuit sur le web. Si cet espace est dérisoire à l'heure actuelle et n'accueille 
-    guère plus que quelques images, c'est une luxuriante promesse qui attire des dizaines 
-    de milliers d'utilisateurs dès ses premiers mois d'existence. Rapidement rebaptisé 
-    GeoCities le simple
+    <div class="title-3">What is GeoCities?</div>
+    In november 1994, the company Beverly Hills Internet offers a fifteen mega octets hosting space 
+    for free on the web. This paltry amount of storage would be saturated with a few photos 
+    today but it was a lush promise at the time, attracting thousands of users around the 
+    globe in the first few months of the company's existence. The founders changed the name 
+    to GeoCities, and from
     <span class="annotation-origin"></span>
     <span class="annotation-content annotation-bottom">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <path class="arrow-stroke" d="M98.5 6.5c-42 0-80 32-83 80"/>
   <polygon class="arrow-head" points="1.9 81.2 29.9 82.8 15.1 96 "/>
 </svg>
-        Quelle histoire !
+        What a story!
     </span>
-    service d'hébergement se transforme en outil de création de site internet, <br/>et intègre 
-    un «Content Management System» permettant l'édition de contenu via une interface graphique. 
-    Si le CMS GeoCities demande quelques connaissances dans ses premières versions pour créer 
-    en toute liberté, il évolue vers une expérience accessible permettant aux utilisateurs 
-    les moins expérimentés de se faire une place dans cet univers.
-    À la fin des années 90, Internet en est encore à ses balbutiements et convaincre 
-    les utilisateurs demande plus qu'une interface ergonomique. Pour répondre à ce besoin, 
-    les créateurs de GéoCities introduisent une dimension «skeuomorphique» à leur produit, 
-    et mime l'emménagement d'un espace. Lors de la création d'une page, on s'y installe 
-    comme dans la vie réelle, on choisit une ville, <br/>un quartier puis on se voit attribué 
-    un numéro, <br/>le tout définissant l'adresse de notre nouvelle résidence virtuelle, 
-    où l'on peut façonner son coin d’Internet et le partager avec le Monde.
-    GeoCities est un lieu d’expression libre ou les blogs d’adolescents avoisinent les récits de 
-    <span class="annotation-origin">vétérans de guerre et les fansites de popstars japonaises.</span>
+    a simple hosting service, it quickly evolved into a platform we could consider as an ancestor 
+    of blog platforms, where you could customize pretty much everything. If the first iterations 
+    of the service asked for a few developing skills to be fully mastered, it changed overtime 
+    to be more accessible. It's user experience was getting better and better, attracting more 
+    and more users, so you could create your own internet space even without having a programming 
+    background. At the end of the nineties, Internet is still in it's early days, and attracting 
+    users is easier if they can rely on something already known. This goal in mind the creators 
+    of GeoCities introduced a "skeuomorphic" dimension in their product, making you move in your 
+    cyberspace like you move into a new flat. Like in real life you chose a city where to live, 
+    and a neighborhood where you were given a number, creating your address in this digital world, 
+    where you can shape your dream space exactly how you want and share it with the planet. 
+    GeoCities is a free minded place promoting expression, where teenage blogs are adjoining
+    <span class="annotation-origin">war veteran writing their Memoirs and Japanese pop-stars fan-sites.</span>
     <span class="annotation-content annotation-top">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <path class="arrow-stroke" d="M98.5 6.5c-42 0-80 32-83 80"/>
   <polygon class="arrow-head" points="1.9 81.2 29.9 82.8 15.1 96 "/>
 </svg>
-        C’est ce qu’on appelle la convergence des luttes.
-    </span> <br/>Ces sujets divers et variés prennent vie à travers une esthétique marquée 
-    par gifs, typographies et word-arts en «Web Safe Colors» (216 couleurs). Print-it 
-    revient sur cet internet du passé et te donne les clés essentielles d'une page 
-    GeoCities digne de ce nom.
-    <div class="title-3">Les essentiels d’une page GeoCities</div>
+        That's what we call convergence among social struggles
+    </span> <br/>This huge variety of topics is coming to life through an aesthetic of gifs, 
+    fonts and word-arts in "Web Safe Colors" (216 colors). Print-it is reviving this internet 
+    of the past, giving you the keys to create a GeoCities page worthy of it's name.
+    <div class="title-3">The essentials of a GeoCities page</div>
     <ul>
         <li> 
-            <span class="highlight">Fonds en mosaïque</span> 
-            Les images d'arrière plan de 1000&nbsp;pixels de large ne sont pas les meilleures amies du 56k. 
-            En 1994 les fonds sont des répétitions d'une image de petite taille par soucis de bande passante.
+            <span class="highlight">Mosaic backgrounds</span> 
+            1000 pixels wide background images didn’t Do well with 56k connections. 
+            In 1994 backgrounds are made with small images repeated across the page, 
+            a bandwidth love story.
         </li>
     </ul>
 </div>
@@ -1826,9 +1816,9 @@
             <div class="running-title">
               Print-it
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              À la découverte d'Internet !
+              Let's discover the Internet !
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              Enquête sur…
+              Investigating…
             </div>
             <div class="page-number">
               
@@ -1861,53 +1851,53 @@
             <div class="page-content-text geocities">
   <ul>
     <li>
-      <span class="highlight">«Microbars» ou «timbres»</span>
-      Petites images d'une taille spécifique servant à revendiquer une opinion sur l'utilisation
-      d'un navigateur plutôt qu'un autre ; ou simplement clamer son amour pour les chats.
+      <span class="highlight">"Microbars" or "Stamps"</span>
+      It's those small images with a specific size you could find across headers and sidebar with 
+      a purpose of claiming an opinion about which web browser to use; or simply your devotion to cat fluff.
     </li>
     <li>
-      <span class="highlight">Gifs animés</span>
-      Ce format permet d'afficher des animations dans des fichiers très légers,
-      il a fait fureur bien avant snapchat et les réseaux sociaux, surtout sur GeoCities.
+      <span class="highlight">Animated GIFs</span>
+      The graphics interchange format is known for being able to display image sequences 
+      like films in a lightweight format. It was already a killer well before snapchat, mostly on GeoCities.
     </li>
     <li>
-      <span class="highlight">Mention «en construction»</span>
-      Une page GeoCities est une œuvre d'art en constante évolution, il ne faut surtout
-      pas oublier de le préciser, pour faire revenir votre visiteur.
+      <span class="highlight">"Under Construction" section</span>
+      A GeoCities page is a constantly evolving work of art, you should never forget to remind your 
+      user with appropriated graphics. So he does not forget to come back for your next update. The best update.
     </li>
     <li>
-      <span class="highlight">Typographies diverses, souvent en format image</span>
-      L'Internet des années 90 se limitait aux quelques fontes de base,
-      les typographies spécifiques devaient être insérées dans des images.
+      <span class="highlight">Multiple typefaces, in image formats</span>
+      The nineties' internet was a very limited place for fonts, allowing the usage of a few system 
+      font. Your graphic design talent could only be showcased through pixel based images.
     </li>
     <li>
-      <span class="highlight">«Hotlinks»</span>
-      Liens qui utilisent une resource d'un autre site, une image le plus souvent.
-      Cause de beaucoup de lien morts sur GeoCities. Le terme a souvent été utilisé 
-      pour désigner les liens des sites GeoCities, à tort. 
+      <span class="highlight">"Hotlinks"</span>
+      Hotlinks were links using resources from another website, mainly images. Not a good practice 
+      since bandwidth was billed on usage. The word was often misused to define simple page links on GeoCities.
       <!-- http://claire.billaud.free.fr/hotlink.htm -->
     </li>
     <li>
-      <span class="highlight">«Frames»</span>
-      Un frame est une sous fenêtre contenant une autre page html avec son défilement propre.
-      Les frames ont permis des designs plus poussés et des expériences parfois désastreuses pour l'utilisateur.
+      <span class="highlight">"Frames"</span>
+      Defining a subdivision of a webpage containing another html page with it's own scroll. 
+      Allowing more complex designs, often resulting in a catastrophic user experience of the website.
       <!-- http://blog.geocities.institute/archives/2856 -->
     </li>
     <li>
-      <span class="highlight">Mise en page fixe</span>
-      En 1994, l'affichage web est normée par une taille, la consultation s'effectuant
-      le plus souvent sur un moniteur affichant une résolution de 800 pixels de large par 600 de haut.
+      <span class="highlight">Fixed layout</span>
+      Computer monitors didn't have a variety of size like devices nowadays. 
+      The web was much easier to design because of the size norm: 800 pixels wide and 600 pixels high.
     </li>
   </ul>
 
-  <div class="title-3 margin-top">Références à GeoCities</div>
+  <div class="title-3 margin-top">References made to GeoCities</div>
 
-  Métropole virtuelle autrefois surpeuplée et en perpétuelle construction, ses quartiers 
-  sont aujourd'hui déserts, les habitants ayant migré vers un nouvel eldorado porté 
-  sur des interactions plus poussées entre les utilisateurs : les réseaux sociaux. 
-  Faisant place à la navigation «monitoré» et à l'internet marketing, l'expérience 
-  GeoCities a de quoi rendre les internautes des années 90 nostalgiques. Nous avons 
-  sélectionné quelques projets lui rendant hommage, à découvrir ci-contre.
+  A digital metropolis once overcrowded and constantly developing, the neighborhoods 
+  of GeoCities were deserted. It's people fled to a new Eldorado focused on perfected 
+  interactions between users: social networks. Monitored browsing and marketed content 
+  is now the norm of the internet, far from the freedom you could find at the time. 
+  The GeoCities experience regained of it's attractiveness for a lot 90's users, many 
+  worked on projects in reference to this space where free expression was the main goal, 
+  we selected some of them for you to discover on the next page.
 
 </div>
 
@@ -1949,38 +1939,53 @@
     <div>
         <img src=" /print-it/assets/images/camerons.gif " alt="Cameron's world">
         <span class="ital">Cameron's world</span> <br />
-        Véritable lettre d'amour à GeoCities, Cameron's world est l'œuvre du designer néo zélandais Cameron Askin. À travers une page regorgeant de visuels tout droit sortie de la blogosphère de 1996, il nous transporte dans différents quartiers, l'expérience est saisissante, presque plus vraie que nature.<br /><br />
+        The most convincing love letter to GeoCities is undoubtably Cameron's World, a website by Cameron Askin. 
+        A gold mine of content and visual straight out of the 1996's blogosphere, it a journey through 
+        multiple neighborhoods, each one more vivid than the one before. It's a striking experience, 
+        maybe more authentic than the original?
+        <br /><br />
     </div>
     <div>
         <img src=" /print-it/assets/images/deleted-city.gif " alt="Deleted city">
         <span class="ital">Deleted City</span><br />
-        Quinze ans d'activité et 650 Go d'archives, GeoCities est un sacré pavé d'internet, et pas des plus accueillant à explorer. Richard Vijgen nous facilite la tâche avec Deleted City, une carte interactive de l'archive de GeoCities, de quoi visualiser l'intégralité de son contenu et se rendre compte de ses proportions.<br /><br />
+        Fifteen years of service and 650 Go of archives, GeoCities is a hell lot of internet 
+        not the most friendly to exploration. Richard Vijgen is a great help on the subject 
+        with this interactive map of the archive. Deleted city is also the best way to visualize 
+        the actual size of the amount of websites created.
+        <br /><br />
     </div>
     <div>
         <img src=" /print-it/assets/images/cities-izer.gif " alt="GeoCities-izer">
         <span class="ital">GeoCities-izer</span><br />
-        Après avoir parcouru cet article vous ne rêvez que d'une chose : qu'internet tout entier ressemble à GeoCities. Grâce à GeoCities-izer ce rêve devient réalité, il vous suffit d'entrer l'adresse de votre site préféré afin de le transformer en une version «GeoCities ready», pour ne plus se prendre la tête avec l'ergonomie et tout ce bazar.<br /><br />
+        Now that you read this article, the one and only this you're dreaming of: 
+        that the whole internet looks like GeoCities. GeoCities-Izer is making this dream come true, 
+        paste the URL of your favorite website to transform it in a "GeoCities ready version", 
+        so you won't have to deal with usability and all this nonsense.
+        <br /><br />
     </div>
     <div>
         <img src=" /print-it/assets/images/neocities.gif " alt="Neocities">
         <span class="ital">NeoCities</span><br />
-        L'esthétique' des sites geocities peut paraitre daté pour beaucoup d'entre nous, les modes se renouvelles.
-        Ce sont plusieurs milliers d'utilisateurs qui ont créé des versions modèrnes de sites GeoCities, en concervant cette
-        patte graphique si particulière. NeoCities regroupe le travail de tous ces fondus de Netscape.<br /><br />
+        The aesthetic of GeoCities websites can look outdated for a lot of us, the trend is coming back. 
+        Thousand of users created modern versions of GeoCities websites, keeping the visual style and iconic 
+        components, adding all the pop culture created on the internet for the last ten years. NeoCities 
+        is the place where you can find the work of all those NetScape fans.
+        <br /><br />
     </div>
-    <div class="title-3">Les bonnes choses ont une fin</div>
-    Si le service a fermé ses portes en 2009, <br/>The Archive Team a sauvé les 
-    650 Go avant la suppression définitive, l'archive est consultable librement 
+    <div class="title-3">All good things come to an end</div>
+    The service was bought by Yahoo and slowly abandoned by it's users, 
+    to finally be closed in 2009. The Archive Team saved the 650 gigs 
+    archive before the closing, it can be found on multiple websites.
     <span class="annotation-origin"></span>
     <span class="annotation-content annotation-top">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <path class="arrow-stroke" d="M98.5 6.5c-42 0-80 32-83 80"/>
   <polygon class="arrow-head" points="1.9 81.2 29.9 82.8 15.1 96 "/>
 </svg>
-        Une enquête dûment menée par Corentin Moussard.
+        An investigation led by Corentin Moussard
     </span>
-    à différents endroits sur le web. La version japonaise de GeoCities quand a elle aura 
-    subsisté une décennie de plus, elle fermera ses portes en mars 2019.
+    The Japanese version of GeoCities lasted for a decade more, she just 
+    closed in march 2019, perfect timing to celebrate the GeoCities culture.
 
 </div>
 
@@ -1990,9 +1995,9 @@
             <div class="running-title">
               Print-it
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              À la découverte d'Internet !
+              Let's discover the Internet !
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              Enquête sur…
+              Investigating…
             </div>
             <div class="page-number">
               
@@ -2029,7 +2034,7 @@
         <img src="/print-it/assets/images/print-it_top30_image1.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://www.theroadbackhome.net/</span><br/>
-          <span class="top-item-category">expérience visuelle et sonore</span>
+          <span class="top-item-category">Visual and listening experience</span>
         </div>
       </div>
     
@@ -2037,7 +2042,7 @@
         <img src="/print-it/assets/images/print-it_top30_image2.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://www.therestartpage.com/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2045,7 +2050,7 @@
         <img src="/print-it/assets/images/print-it_top30_image3.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://trumpdonald.org/</span><br/>
-          <span class="top-item-category">expérience intéractive et sonore</span>
+          <span class="top-item-category">Interactive listening experience</span>
         </div>
       </div>
     
@@ -2053,7 +2058,7 @@
         <img src="/print-it/assets/images/print-it_top30_image4.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">https://clickclickclick.click</span><br/>
-          <span class="top-item-category">expérience intéractive</span>
+          <span class="top-item-category">Interactive experience</span>
         </div>
       </div>
     
@@ -2061,7 +2066,7 @@
         <img src="/print-it/assets/images/print-it_top30_image5.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://sponsoredspamsponsoredspam.website/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2069,7 +2074,7 @@
         <img src="/print-it/assets/images/print-it_top30_image6.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://www.toiletpapermagazine.org/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2077,7 +2082,7 @@
         <img src="/print-it/assets/images/print-it_top30_image7.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://dinakelberman.tumblr.com/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2085,7 +2090,7 @@
         <img src="/print-it/assets/images/print-it_top30_image8.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://clickheretosavetheworld.com/</span><br/>
-          <span class="top-item-category">expérience intéractive</span>
+          <span class="top-item-category">Interactive experience</span>
         </div>
       </div>
     
@@ -2093,7 +2098,7 @@
         <img src="/print-it/assets/images/print-it_top30_image9.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://rotato.party/</span><br/>
-          <span class="top-item-category">expérience intéractive</span>
+          <span class="top-item-category">Interactive experience</span>
         </div>
       </div>
     
@@ -2101,7 +2106,7 @@
         <img src="/print-it/assets/images/print-it_top30_image10.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">https://rotopo.com/</span><br/>
-          <span class="top-item-category">expérience intéractive</span>
+          <span class="top-item-category">Interactive experience</span>
         </div>
       </div>
     
@@ -2109,7 +2114,7 @@
         <img src="/print-it/assets/images/print-it_top30_image11.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">https://davidliebermann.de/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2117,7 +2122,7 @@
         <img src="/print-it/assets/images/print-it_top30_image12.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">https://scri.ch/</span><br/>
-          <span class="top-item-category">expérience intéractive</span>
+          <span class="top-item-category">Interactive experience</span>
         </div>
       </div>
     
@@ -2125,7 +2130,7 @@
         <img src="/print-it/assets/images/print-it_top30_image13.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://endless.horse/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2133,7 +2138,7 @@
         <img src="/print-it/assets/images/print-it_top30_image14.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://david.li/waves/</span><br/>
-          <span class="top-item-category">expérience intéractive</span>
+          <span class="top-item-category">Interactive experience</span>
         </div>
       </div>
     
@@ -2141,7 +2146,7 @@
         <img src="/print-it/assets/images/print-it_top30_image15.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://www.thebestpageintheuniverse.net</span><br/>
-          <span class="top-item-category">catalogue</span>
+          <span class="top-item-category">catalog</span>
         </div>
       </div>
     
@@ -2149,7 +2154,7 @@
         <img src="/print-it/assets/images/print-it_top30_image16.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">https://fr.akinator.com/</span><br/>
-          <span class="top-item-category">expérience intéractive</span>
+          <span class="top-item-category">Interactive experience</span>
         </div>
       </div>
     
@@ -2157,7 +2162,7 @@
         <img src="/print-it/assets/images/print-it_top30_image17.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://southpark.cc.com/avatar</span><br/>
-          <span class="top-item-category">expérience intéractive</span>
+          <span class="top-item-category">Interactive experience</span>
         </div>
       </div>
     
@@ -2165,7 +2170,7 @@
         <img src="/print-it/assets/images/print-it_top30_image18.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">https://elgoog.im/</span><br/>
-          <span class="top-item-category">expérience intéractive</span>
+          <span class="top-item-category">Interactive experience</span>
         </div>
       </div>
     
@@ -2173,7 +2178,7 @@
         <img src="/print-it/assets/images/print-it_top30_image19.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">https://16colo.rs/</span><br/>
-          <span class="top-item-category">catalogue</span>
+          <span class="top-item-category">catalog</span>
         </div>
       </div>
     
@@ -2181,7 +2186,7 @@
         <img src="/print-it/assets/images/print-it_top30_image20.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">https://brutalistwebsites.com/</span><br/>
-          <span class="top-item-category">catalogue</span>
+          <span class="top-item-category">catalog</span>
         </div>
       </div>
     
@@ -2189,7 +2194,7 @@
         <img src="/print-it/assets/images/print-it_top30_image21.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">https://bob.farm/</span><br/>
-          <span class="top-item-category">expérience intéractive</span>
+          <span class="top-item-category">Interactive experience</span>
         </div>
       </div>
     
@@ -2197,7 +2202,7 @@
         <img src="/print-it/assets/images/print-it_top30_image22.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://www.notneverno.com/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2205,7 +2210,7 @@
         <img src="/print-it/assets/images/print-it_top30_image23.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://www.abstractbrowsing.net/</span><br/>
-          <span class="top-item-category">plug-in visuelle</span>
+          <span class="top-item-category">Visual plug-in</span>
         </div>
       </div>
     
@@ -2213,7 +2218,7 @@
         <img src="/print-it/assets/images/print-it_top30_image24.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://www.staringcaring.com/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2221,7 +2226,7 @@
         <img src="/print-it/assets/images/print-it_top30_image25.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://www.shapesqueeze.com/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2229,7 +2234,7 @@
         <img src="/print-it/assets/images/print-it_top30_image26.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://www.manysome.com/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2237,7 +2242,7 @@
         <img src="/print-it/assets/images/print-it_top30_image27.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://www.startstopgo.com/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2245,7 +2250,7 @@
         <img src="/print-it/assets/images/print-it_top30_image28.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://www.manymoment.com/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2253,7 +2258,7 @@
         <img src="/print-it/assets/images/print-it_top30_image29.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://p-dpa.net/</span><br/>
-          <span class="top-item-category">catalogue</span>
+          <span class="top-item-category">catalog</span>
         </div>
       </div>
     
@@ -2261,7 +2266,7 @@
         <img src="/print-it/assets/images/print-it_top30_image30.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://hypergeography.tumblr.com/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2318,15 +2323,15 @@
 </svg>
 
   <div class="title-2-text">
-    Des choses à voir sur internet
+    Things to see on the Internet
   </div>
 </div>
     <img class="section-icon" src="/print-it/assets/images/top50-icon.svg" alt="top30-icon">
     <div class="top-title-annotation">
         Abracadabra ! <br/>
-        Voilà les 10 que <br/>
-        la magie d'Internet <br/>
-        a trouvé pour toi.
+        Here are the 10 <br/>
+        the Internet magic <br/>
+        found for you.
     </div>
   </div>
   <div class="top-container right">
@@ -2335,7 +2340,7 @@
         <img src="/print-it/assets/images/print-it_top30_image1.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://www.theroadbackhome.net/</span><br/>
-          <span class="top-item-category">expérience visuelle et sonore</span>
+          <span class="top-item-category">Visual and listening experience</span>
         </div>
       </div>
     
@@ -2343,7 +2348,7 @@
         <img src="/print-it/assets/images/print-it_top30_image2.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://www.therestartpage.com/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2351,7 +2356,7 @@
         <img src="/print-it/assets/images/print-it_top30_image3.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://trumpdonald.org/</span><br/>
-          <span class="top-item-category">expérience intéractive et sonore</span>
+          <span class="top-item-category">Interactive listening experience</span>
         </div>
       </div>
     
@@ -2359,7 +2364,7 @@
         <img src="/print-it/assets/images/print-it_top30_image4.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">https://clickclickclick.click</span><br/>
-          <span class="top-item-category">expérience intéractive</span>
+          <span class="top-item-category">Interactive experience</span>
         </div>
       </div>
     
@@ -2367,7 +2372,7 @@
         <img src="/print-it/assets/images/print-it_top30_image5.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://sponsoredspamsponsoredspam.website/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2375,7 +2380,7 @@
         <img src="/print-it/assets/images/print-it_top30_image6.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://www.toiletpapermagazine.org/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2383,7 +2388,7 @@
         <img src="/print-it/assets/images/print-it_top30_image7.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://dinakelberman.tumblr.com/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2391,7 +2396,7 @@
         <img src="/print-it/assets/images/print-it_top30_image8.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://clickheretosavetheworld.com/</span><br/>
-          <span class="top-item-category">expérience intéractive</span>
+          <span class="top-item-category">Interactive experience</span>
         </div>
       </div>
     
@@ -2399,7 +2404,7 @@
         <img src="/print-it/assets/images/print-it_top30_image9.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://rotato.party/</span><br/>
-          <span class="top-item-category">expérience intéractive</span>
+          <span class="top-item-category">Interactive experience</span>
         </div>
       </div>
     
@@ -2407,7 +2412,7 @@
         <img src="/print-it/assets/images/print-it_top30_image10.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">https://rotopo.com/</span><br/>
-          <span class="top-item-category">expérience intéractive</span>
+          <span class="top-item-category">Interactive experience</span>
         </div>
       </div>
     
@@ -2415,7 +2420,7 @@
         <img src="/print-it/assets/images/print-it_top30_image11.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">https://davidliebermann.de/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2423,7 +2428,7 @@
         <img src="/print-it/assets/images/print-it_top30_image12.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">https://scri.ch/</span><br/>
-          <span class="top-item-category">expérience intéractive</span>
+          <span class="top-item-category">Interactive experience</span>
         </div>
       </div>
     
@@ -2431,7 +2436,7 @@
         <img src="/print-it/assets/images/print-it_top30_image13.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://endless.horse/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2439,7 +2444,7 @@
         <img src="/print-it/assets/images/print-it_top30_image14.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://david.li/waves/</span><br/>
-          <span class="top-item-category">expérience intéractive</span>
+          <span class="top-item-category">Interactive experience</span>
         </div>
       </div>
     
@@ -2447,7 +2452,7 @@
         <img src="/print-it/assets/images/print-it_top30_image15.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://www.thebestpageintheuniverse.net</span><br/>
-          <span class="top-item-category">catalogue</span>
+          <span class="top-item-category">catalog</span>
         </div>
       </div>
     
@@ -2455,7 +2460,7 @@
         <img src="/print-it/assets/images/print-it_top30_image16.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">https://fr.akinator.com/</span><br/>
-          <span class="top-item-category">expérience intéractive</span>
+          <span class="top-item-category">Interactive experience</span>
         </div>
       </div>
     
@@ -2463,7 +2468,7 @@
         <img src="/print-it/assets/images/print-it_top30_image17.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://southpark.cc.com/avatar</span><br/>
-          <span class="top-item-category">expérience intéractive</span>
+          <span class="top-item-category">Interactive experience</span>
         </div>
       </div>
     
@@ -2471,7 +2476,7 @@
         <img src="/print-it/assets/images/print-it_top30_image18.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">https://elgoog.im/</span><br/>
-          <span class="top-item-category">expérience intéractive</span>
+          <span class="top-item-category">Interactive experience</span>
         </div>
       </div>
     
@@ -2479,7 +2484,7 @@
         <img src="/print-it/assets/images/print-it_top30_image19.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">https://16colo.rs/</span><br/>
-          <span class="top-item-category">catalogue</span>
+          <span class="top-item-category">catalog</span>
         </div>
       </div>
     
@@ -2487,7 +2492,7 @@
         <img src="/print-it/assets/images/print-it_top30_image20.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">https://brutalistwebsites.com/</span><br/>
-          <span class="top-item-category">catalogue</span>
+          <span class="top-item-category">catalog</span>
         </div>
       </div>
     
@@ -2495,7 +2500,7 @@
         <img src="/print-it/assets/images/print-it_top30_image21.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">https://bob.farm/</span><br/>
-          <span class="top-item-category">expérience intéractive</span>
+          <span class="top-item-category">Interactive experience</span>
         </div>
       </div>
     
@@ -2503,7 +2508,7 @@
         <img src="/print-it/assets/images/print-it_top30_image22.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://www.notneverno.com/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2511,7 +2516,7 @@
         <img src="/print-it/assets/images/print-it_top30_image23.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://www.abstractbrowsing.net/</span><br/>
-          <span class="top-item-category">plug-in visuelle</span>
+          <span class="top-item-category">Visual plug-in</span>
         </div>
       </div>
     
@@ -2519,7 +2524,7 @@
         <img src="/print-it/assets/images/print-it_top30_image24.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://www.staringcaring.com/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2527,7 +2532,7 @@
         <img src="/print-it/assets/images/print-it_top30_image25.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://www.shapesqueeze.com/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2535,7 +2540,7 @@
         <img src="/print-it/assets/images/print-it_top30_image26.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://www.manysome.com/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2543,7 +2548,7 @@
         <img src="/print-it/assets/images/print-it_top30_image27.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://www.startstopgo.com/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2551,7 +2556,7 @@
         <img src="/print-it/assets/images/print-it_top30_image28.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://www.manymoment.com/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2559,7 +2564,7 @@
         <img src="/print-it/assets/images/print-it_top30_image29.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://p-dpa.net/</span><br/>
-          <span class="top-item-category">catalogue</span>
+          <span class="top-item-category">catalog</span>
         </div>
       </div>
     
@@ -2567,7 +2572,7 @@
         <img src="/print-it/assets/images/print-it_top30_image30.gif" alt="top 10 image">
         <div class="top-item-text">
           <span class="link">http://hypergeography.tumblr.com/</span><br/>
-          <span class="top-item-category">expérience visuelle</span>
+          <span class="top-item-category">Visual experience</span>
         </div>
       </div>
     
@@ -2579,7 +2584,7 @@
             <div class="running-title">
               Print-it
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              À la découverte d'Internet !
+              Let's discover the Internet !
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
               Top 30
             </div>
@@ -2614,33 +2619,32 @@
             <div class="page-content-text">
   <img class="section-icon right" src="/print-it/assets/images/follow-icon.svg" alt="social-icon">
   <div class="table-text">
-    <div class="table-title capital">Abonne toi !</div>
+    <div class="table-title capital">Subscribe!</div>
     <div class="table-text-content">
-      Cours au click 
+      Run for the click
       <img class="inline-emoji" src=" /print-it/assets/images/mouse.svg" alt="mouse"> 
       follow, like and share Objet Papier
-      sur les Internets 
+      online 
       <img class="inline-emoji" src=" /print-it/assets/images/keur.gif" alt="Keur"> 
-      et retrouves-y toutes les dernières actus !<br/>
+      and find out about our latest news!<br/>
       <img class="inline-emoji"  src="/print-it/assets/images/fb.gif" alt="Facebook"> : Objet Papier <br/>
       <img class="inline-emoji"  src="/print-it/assets/images/insta-logo.gif" alt="Instagram"> : objet_papier<br/>
       <img class="inline-emoji" src=" /print-it/assets/images/earth.svg" alt="Earth">  : objetpapier.fr<br/>
     </div>
-    <div class="table-title capital">Pas cap ?</div>
+    <div class="table-title capital">Will you dare?</div>
     <div class="table-text-content">
-      Toi qui fait parti de cette génération connectée, poste sur
+      You who belong to this connected generation, post a picture
       <span class="annotation-origin"></span>
       <span class="annotation-content annotation-top">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <path class="arrow-stroke" d="M98.5 6.5c-42 0-80 32-83 80"/>
   <polygon class="arrow-head" points="1.9 81.2 29.9 82.8 15.1 96 "/>
 </svg>
-          Prolonge l'expérience.
+          Extend the experience!
       </span>
-      instagram une photo de ton numéro avec le hashtag #op007.
-      Tu peux aussi l’envoyer sur la boite mail <br/>
+      of your copy on instagram accompanied by #OP007. You can also send it on our mail box<br/>
       <span class="link">hello@objetpapier.fr</span>
-      (ça nous fera chaud au coeur 
+      (nothing would be more heartwarming for us
       <img class="inline-emoji" src=" /print-it/assets/images/keur.gif" alt="Keur">)
     </div>
   </div>
@@ -2695,7 +2699,7 @@
 </svg>
 
   <div class="title-2-text">
-    par la professeure Zerep
+    by professor Zerep
   </div>
 </div>
   <img class="section-icon" src="/print-it/assets/images/horoscope-icon.svg" alt="art-icon">
@@ -2704,61 +2708,58 @@
 
   <div class="horoscope-title-block">
     <div class="kaomoji">( ・_・)ノ<、</div>
-    <div class="title-3">Verseau</div>
-    <div class="horoscope-date">21 janvier&thinsp;-&thinsp;19 février</div>
+    <div class="title-3">Aquarius</div>
+    <div class="horoscope-date">January 21st&thinsp;-&thinsp;february 19th</div>
   </div>
   <p class="horoscope-text">
-      Verseau, arrête de te cacher pour écouter des podcasts. C’est 2019, podcast 
-      is the new cool et on attend que toi : les astres sont réunis pour que 
-      tu te lances dans le game, tu as des trucs à raconter, à montrer, à chanter, 
-      fais-le. On est tous impatients d’avoir ton avis sur le dernier fashion 
-      faux pas de Kim et ton point de vue sur la vie sexuelle des ornithorynques.
+    Aquarius, stop hiding yourself away from the outside world so you can buff up on podcasts. It’s 2019 and podcast is the new cool. We are waiting for you, the stars have aligned and it’s time for you to join the podcast game.
+    You have things to stay, to show and, god help us, sing. 
+    Do it. We can’t wait to hear your take on Kim Kardashian’s latest fashion faux-pas, and who won’t love your views on the sexual misdemeanours of platypuses.
+    
   </p>
   
 
 
   <div class="horoscope-title-block">
     <div class="kaomoji">>( v ￣З￣)&emsp13;</div>
-    <div class="title-3">Poisson</div>
-    <div class="horoscope-date">20 février&thinsp;-&thinsp;20 mars</div>
+    <div class="title-3">Pisces</div>
+    <div class="horoscope-date">February 20th&thinsp;-&thinsp;march 20th</div>
   </div>
   <p class="horoscope-text">
-      Petit poisson, en quête de retweet, de likes, tu cherches le bon mot, 
-      le trait d’esprit, l’angle de vue parfait qui fera décoller ton compte 
-      insta, propulsera ton compte twitter dans la stratosphère des influenceurs. 
-      Et si au lieu de chercher la reconnaissance des autres tu te faisais 
-      d’abord rire toi même&nbsp;?
+    My dear Pisces, chasing retweet after retweet, seeking the wittiest, most poignant word, 
+    waiting for your instagram to take off, desperate for your ‘likes’ counter to launch you 
+    into the influencer-stratosphere. What if instead of seeking recognition from others you were to make yourself laugh first ?
   </p>
 
   <div class="horoscope-title-block">
     <div class="kaomoji">Ｕ´(ェ)ˋＵ&emsp13;</div>
-    <div class="title-3">Bélier</div>
-    <div class="horoscope-date">21 mars&thinsp;-&thinsp;19 avril</div>
+    <div class="title-3">Aries</div>
+    <div class="horoscope-date">March 21st&thinsp;-&thinsp;april 19th</div>
   </div>
   <p class="horoscope-text">
-      En lanceur d’alerte tu continues en 2019 à partager frénétiquement 
-      ces vidéos qui dénoncent, tu pousses le militantisme jusqu’à la machine 
-      à café, dénonçant l’usage des touillettes à usage unique.
-      Ta cause est noble Bélier, mais n’oublie pas d’être indulgent envers 
-      la nature humaine, même si Bernard est végétarien et porte des vestes 
-      en cuir, l’être humain est un être de contradiction, tu l’es aussi. 
-      Et arrête de conseiller des TED si tu veux conserver tes amis.
+    As 2019’s whistleblower, you still frantically share “wake up” videos, forcing your 
+    opinions on any unsuspecting coworker who happens to walk by the work coffee machine 
+    in an attempt to open their eyes to the nonsense of single-use coffee stirrers.
+    You are noble, Aries, but don’t forget to indulge in human kind once in a while.
+    Pete can be a vegetarian and still wear leather jackets. Humans embody the very 
+    meaning of ‘contradiction’ (and ‘bad fashion choices’), as do you. Also, stop 
+    bragging about how many TED videos you watch if you want to keep your friends.
+    
   </p>
   
   
   <div class="horoscope-title-block">
       <div class="kaomoji">╰-(ಠ_ಠ)-╯</div>
-      <div class="title-3">Taureau</div>
-      <div class="horoscope-date">20 avril&thinsp;-&thinsp;20 mai</div>
+      <div class="title-3">Taurus</div>
+      <div class="horoscope-date">April 20th&thinsp;-&thinsp;may 20th</div>
   </div>
   <p class="horoscope-text">
-    Taureau, tu rêves de petit nid douillet, d’emprunt à taux zéro, <br/>
-    de balade en vélo et de soirées Netflix tomate mozza. Laisse moi
-    te dire Taureau que ce n’est pas en datant les profils Tinder
-    les plus jeunes, en rêvant de la meuf de Roméo Elvis (ou de Roméo Elvis)
-    la main dans le slip, que tu y arriveras.
-    Assume ton consumérisme, ou bien émancipe toi de ces désirs préconstruits.
-    Laisse toi surprendre.
+    Taurus, you dream of a cosy flat (with affordable mortgage), cycling in the countryside 
+    (safely) and netflix accompanied by a tomato and mozzarella salad (low fat). Let me 
+    tell you Taurus that swiping ‘yes’ on the youngest tinder profile, dreaming about 
+    ariana grande (or Jack Gyllenhaal), all with your hand down your pants, isn’t going to get you there.
+    Drop this romantic facade and accept your consumerist nature, otherwise free yourself 
+    from these pre-constructed desires that you, yourself, never question.
   </p>
     
 </div>
@@ -2770,7 +2771,7 @@
             <div class="running-title">
               Print-it
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              À la découverte d'Internet !
+              Let's discover the Internet !
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
               Horoscope
             </div>
@@ -2805,76 +2806,69 @@
             <div class="page-content-text">
   <div class="horoscope-title-block">
     <div class="kaomoji">(°ｰ° )\/( °ｰ°)</div>
-    <div class="title-3">Gémeaux</div>
-    <div class="horoscope-date">21 mai&thinsp;-&thinsp;20 juin</div>
+    <div class="title-3">Gemini</div>
+    <div class="horoscope-date">May 21st&thinsp;-&thinsp;June 20th</div>
   </div>
   <p class="horoscope-text">
-    «Un jour, un projet», voici le nom que pourrait avoir ta chaîne youtube, 
-    si le projet du jour consistait à ouvrir une chaine youtube. Gémeaux, on 
-    n’a pas construit Rome sur un coup de tête. Termine ce que tu commences 
-    avant de te lancer dans de nouvelles choses, arrête de te vautrer dans 
-    des posts de citations auto-satisfaisantes sur fond de collages nineties.
+    “One mission a day”; This would be your Youtube channel name, if the mission of the day 
+    was simply to start a youtube channel. Listen Gemini, Rome wasn’t built on an impulse. 
+    Finish the things you’ve started before distracting yourself with yet another “fresh, new idea”. 
+    And stop embarrassing yourself with self-satisfying quotes in tacky font and some nineties-collage background.
   </p>
   
 
   <div class="horoscope-title-block">
     <div class="kaomoji">ω꒦(* _ *)꒦ω</div>
     <div class="title-3">Cancer</div>
-    <div class="horoscope-date">22 juin&thinsp;-&thinsp;22 juillet</div>
+    <div class="horoscope-date">June 22nd&thinsp;-&thinsp;July 22nd</div>
   </div>
   <p class="horoscope-text">
-      Si youtube faisait des stats sur les nombres de vues par signe astro, 
-      on saurait que 75% des vues sur les vidéos de chat effrayés par des 
-      concombres proviendrait des cancers.
-      Cesse de t’identifier à ces chatons, la vie n’est pas un gros concombre effrayant.
-      Un trait de citron, une pincée de sel et une cuillère à soupe de yaourt 
-      grec, croque ton concombre à pleines dents.
+    If we had Youtube’s viewing data in relation to zodiac signs, we’d know that 75% of the population that watch “videos of cats freaking out on cucumbers” are cancerians.
+    Stop identifying yourselves with these kittens; life isn’t a huge, terrifying cucumber.
+    Add a hint of lemon juice, a pinch of salt, a spoon of greek yoghurt, and bite the cucumber of life to the fullest.    
   </p>
   
 
 
   <div class="horoscope-title-block">
     <div class="kaomoji">(  (= ° ｪ ° =)  )</div>
-    <div class="title-3">Lion</div>
-    <div class="horoscope-date">23 juillet&thinsp;-&thinsp;22 août</div>
+    <div class="title-3">Leo</div>
+    <div class="horoscope-date">July 23rd&thinsp;-&thinsp;august 22nd</div>
   </div>
   <p class="horoscope-text">
-      Lion, cesse de faire passer ton absence des réseaux sociaux pour un geste 
-      d’anticonformiste révolutionnaire, tout le monde sais que tu es 
-      terrorisé par le jugement des autres. 
-      Au lieu de prendre un plaisir coupable à lire «Votre profil Linkedin 
-      est apparue dans 23 recherches», prend en main ton e-réputation, 
-      mets moi à jour ce compte Linkedin abandonné dès sa création, félicite 
-      2 ou 3 inconnus pour leur nouveaux postes, et vois tomber les 
-      propositions d’embauches qui te permettront de sortir de ton train train.
+    Leo, stop smugly claiming you’re a non-conformist through your social media 
+    absence. Everybody knows you’re petrified by the idea of others judging you.
+    Instead of the guilty pleasure of reading your linkedin alerts, work on your 
+    reputation, update your linkedin account, congratulate a couple of strangers 
+    on their new positions and watch the job offers fly in and pull you out of 
+    this unproductive routine.
   </p>
 
 
   <div class="horoscope-title-block">
       <div class="kaomoji">_(:3 」∠_&emsp13;</div>
-      <div class="title-3">Vierge</div>
-      <div class="horoscope-date">23 août&thinsp;-&thinsp;22 septembre</div>
+      <div class="title-3">Virgin</div>
+      <div class="horoscope-date">August 23rd&thinsp;-&thinsp;septembre 22nd</div>
     </div>
     <p class="horoscope-text">
-      Tu es un petit poussin fragile tourmenté par la violence des internets, 
-      cesse de regarder ces clashs de youtubeurs, intéresse toi plutôt au poisson 
-      rouge, en effet, as-tu déjà vu un poisson rouge en liberté&nbsp;? D’où vient-il&nbsp;? 
-      A t-il toujours été domestique&nbsp;? L’origine du poisson rouge est bien mystérieuse. 
-      Voilà un sujet qui saura occuper ta curiosité tout en préservant ta sensibilité.
+      You are an adorable, freshly hatched chick, already tormented by the violence thrown 
+      upon you by the internet. Stop watching those pathetic Youtubers clash, it’s 
+      worthless. I know, how about you consider goldfishes instead? Have you ever seen 
+      a wild goldfish? where do they come from? Have they always been domesticated? 
+      Goldfish are quite the mystery. This is a subject that can satisfy curiosity 
+      without threatening your emotional well-being.
     </p>
 
     <div class="horoscope-title-block">
       <div class="kaomoji">┐( ´ д ` )┌&emsp13;</div>
-      <div class="title-3">Balance</div>
-      <div class="horoscope-date">23 septembre&thinsp;-&thinsp;22 octobre</div>
+      <div class="title-3">Libra</div>
+      <div class="horoscope-date">September 23rd&thinsp;-&thinsp;October 22nd</div>
     </div>
     <p class="horoscope-text">
-      Lorsque tu es né balance, l’internet était perçu comme un moyen de mettre
-      à disposition de tous et en instantané des siècles de connaissance humaine.
-      Depuis, les algorithmes de recommandations personnalisées ont enterré
-      la connaissance et entretiennent la stupidité dans un flux circulaire fermé.
-      Tu peux en sortir Balance, ne te laisse pas aller à la facilité des
-      recommandations, sors de ce flux Youtube et deviens ta propre lanterne.
+      When you were born, the internet was thought to be a revolutionary way of sharing, teaching and cultivating the breadth of human knowledge between millions.
+      Since then, recommendation algorithms have abandoned this concept in favour of feeding us inane garbage through a cyclical process.
+      You, Libra, can escape this. Don’t let yourself be influenced by the simple nature of recommendations; break free from the youtube flow. Light your own path.
+
     </p>
 </div>
 
@@ -2917,34 +2911,32 @@
 
   <div class="horoscope-title-block">
     <div class="kaomoji">/╲( •̀ ω •́ )╱\&emsp13;</div>
-    <div class="title-3">Scorpion</div>
-    <div class="horoscope-date">23 octobre&thinsp;-&thinsp;22 novembre</div>
+    <div class="title-3">Scorpio</div>
+    <div class="horoscope-date">October 23rd&thinsp;-&thinsp;november 22nd</div>
   </div>
   <p class="horoscope-text">
-    Hétéro monogame et cisgenre : libertaire, libre penseur, tu aimerais tellement 
-    te reconnaître dans ces grands discours au service des libertés sexuelles 
-    et individuelles, et participer à la grande marche de l’abolition des genres.
-    Tu n’oseras jamais l’avouer mais le droit à la procréation médicale assistée te 
-    colle des sueurs froides, et le fait que des personnes agitant des drapeaux multicolores 
-    en criant «une maman, un lama», annonce que leur genre n’est pas lié à ce qu’ils ont 
-    entre les jambes remet en question l'entièreté de ton être.
-    Détends toi, c’est normal, on t’as appris depuis tout.e petit.e que ce phallus/cet 
-    utérus était ton atout principal et ton déterminant social.
+    Heterosexual, monogamous, and cisgender : as a libertarian free spirit, you wish 
+    you could connect with the great speeches on gender freedom and sexuality, 
+    all whilst being a part of the great walk to end all genders. You will never 
+    admit it but medically assisted reproduction gives you chicken skin. Furthermore, 
+    people waving rainbow flags and shouting “A mama, a llama”, stating that their gender 
+    shouldn’t be denoted by what exists between their legs, brings your entire being into question.
+    Relax, you’ve been taught that this phallus/uterus was your main asset and ultimately determines your social status.
+
   </p>
 
 
   <div class="horoscope-title-block">
     <div class="kaomoji">彡( ︶︿︶)_ψ&emsp13;</div>
-    <div class="title-3">Sagittaire</div>
-    <div class="horoscope-date">23 novembre&thinsp;-&thinsp;21 décembre</div>
+    <div class="title-3">Sagittarius</div>
+    <div class="horoscope-date">November 23rd&thinsp;-&thinsp;december 21st</div>
   </div>
   <p class="horoscope-text">
-    Sur les réseaux comme dans la vie, tu dégaines des tweets plus vite que 
-    ton ombre. Si dans la vie on oublie vite les conneries qui peuvent 
-    sortir de ta bouche, Internet lui n’oublie jamais. 
-    Qui sait peut être qu’un jour tu auras besoin qu’on t’oublie, alors 
-    donne toi la chance de ne pas polluer les internets par de mauvaises 
-    interventions dont tout le monde peut bien se passer.
+    Social media is like life, you tweet quicker than your shadow. The problem is, 
+    whilst we forget half the bullshit that comes out of your mouth, the internet stores it forever. 
+  Who knows, you might need one day to be forgotten. So at least give yourself 
+  a chance by not saturating the internet with your base opinions that we’ll just scroll over anyway.
+
   </p>
   
 
@@ -2952,15 +2944,16 @@
 
   <div class="horoscope-title-block">
     <div class="kaomoji">人(´ (ｪ) `)人&emsp13;</div>
-    <div class="title-3">Capricorne</div>
-    <div class="horoscope-date">22 décembre&thinsp;-&thinsp;20 janvier</div>
+    <div class="title-3">Capricorn</div>
+    <div class="horoscope-date">December 22nd&thinsp;-&thinsp;january 20th</div>
   </div>
   <p class="horoscope-text">
-    Tu préfères vivre toute ta vie dans l’anonymat ou devenir un meme&nbsp;? Une seule 
-    réponse possible pour toute personne sensée ici. Le problème capricorne c’est 
-    que tout pousse à croire qu’il est bien possible que ton visage finisse sur un mug ou un t-shirt.
-    À moins que tu ais répondu oui à la première question, méfie-toi des caméra, 
-    des sondages dans la rue, de ces “amis” qui t’identifient dans leur story en soirée. 
+    What would you rather: an anonymous life, or to be know remembered in a legendary meme? 
+    There’s only one possible answer for someone so gifted with common sense.
+    The problem is that everything else points to your face ending up on a mug, t-shirt or mouse mat. 
+    If you didn’t choose the “meme” destiny, beware of smartphones, street survey camera crews, 
+    and those so called friends who tag your in their stories.
+
   </p>
 </div>
 
@@ -2971,7 +2964,7 @@
             <div class="running-title">
               Print-it
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              À la découverte d'Internet !
+              Let's discover the Internet !
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
               Horoscope
             </div>
@@ -3004,29 +2997,16 @@
 
           <div class="print-page-content-wrapper">
             <div class="page-content-text">
-  <div class="title-3">Coloriage</div>
-  Munis-toi de tes plus beaux<br/>
-  crayons et/ou feutres,<br/>
-  et pimp les faces<br/>
-  de Print-it !<br/>
-  <img class="logo-jeu" src="/print-it/assets/images/logo-alone.svg" alt="logo coloriage">
-  <br/><br/><br/><br/>
-  <span class="annotation-origin"></span>
-  <span class="annotation-content annotation-top annotation-jeux">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <path class="arrow-stroke" d="M98.5 6.5c-42 0-80 32-83 80"/>
-  <polygon class="arrow-head" points="1.9 81.2 29.9 82.8 15.1 96 "/>
-</svg>
-    Hey l'expert ! <br/>
-    Cap de continuer <br/>
-    le jeu sur la <br/>
-    couverture ?<br/>
-  </span>
-  <br/><br/>
-  <div class="title-3">Mots croisés</div>
-  Un mot se cache derrière ces définitions. 
-  Prouve-nous que tu as bien été attentif.ve
-  en les trouvant et complète ces mots croisés.<br/><br/><br/>
+  <div class="title-3">Puzzle</div>
+  If a blue sheet equals a 0 and a white sheet a 1, 
+  what is the binary code of your edition?<br/><br/>
+  …… …… …… …… …… …… …… …… …… …… …… …… …… …… …… ……<br/><br/>
+  Find your binary code in the full sequence 
+  of Print-it on the back cover.
+
+  <div class="title-3">Crosswords</div>
+  A word is hidden behind each definition. Show us 
+  that you learned your lesson by completing these crosswords.<br/><br/><br/>
 
   <img src=" /print-it/assets/images/mot-croise.svg " alt="mots-croisés"><br/><br/><br/>
 
@@ -3034,10 +3014,11 @@
     <div>
       Horizontal<br/>
       <span class="small-font">
-        1 Style d'une page web<br />
-        4 Plateforme d'hébergement et de gestion de code source<br />
-        5 Générateur de site statique<br />
-        7 Éditeur de texte
+        1 Style of a webpage<br />
+        4 Hosting platform<br />
+        5 Static site<br />
+        7 Text editor
+
       </span>
     </div>
     <div>
@@ -3049,13 +3030,13 @@
   <path class="arrow-stroke" d="M98.5 6.5c-42 0-80 32-83 80"/>
   <polygon class="arrow-head" points="1.9 81.2 29.9 82.8 15.1 96 "/>
 </svg>
-          Besoin d'aide ?<br />
-          Rendez-vous P.9-10
+          Need help?<br /> Go p. 9-10.
         </span>
-        1 Navigateur web<br />
-        2 Langage de programmation<br />
-        3 Compagnon idéal du générateur de site statique<br />
-        6 Squelette d'une page web<br />
+          1 Web browser<br />
+          2 Programming language <br />
+          3 Static site’s friend<br />
+          6 Structure of a web page<br />
+
       </span>
     </div>
   </div>
@@ -3097,11 +3078,11 @@
           <div class="print-page-content-wrapper">
             <div class="page-content-text">
   <div class="title-1">
-  <div class="title-1-item">Jeux</div>
-  <div class="title-1-item">Jeux</div>
-  <div class="title-1-item">Jeux</div>
-  <div class="title-1-item">Jeux</div>
-  <div class="title-1-item">Jeux</div>
+  <div class="title-1-item">Games</div>
+  <div class="title-1-item">Games</div>
+  <div class="title-1-item">Games</div>
+  <div class="title-1-item">Games</div>
+  <div class="title-1-item">Games</div>
 </div>
 
   <div class="title-2 small">
@@ -3110,22 +3091,22 @@
 </svg>
 
   <div class="title-2-text">
-    À toi de jouer !
+    Let's play!
   </div>
 </div>
   <img class="section-icon" src="/print-it/assets/images/jeux-icon.svg" alt="jeux-icon">
 
   <div class="space"></div>
 
-  <div class="title-3">À ton crayon ! <span class="zapf">✎</span> </div>
-  Relie les points dans l'ordre des chiffres et des lettres, et découvre qui se cache derrière. <br/><br/><br/>
+  <div class="title-3">Grab your pencil! <span class="zapf">✎</span> </div>
+  Connect the dots in the order of numbers and letters, and find out who is hiding behind. <br/><br/><br/>
   <span class="annotation-origin"></span>
   <span class="annotation-content annotation-bottom">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <path class="arrow-stroke" d="M98.5 6.5c-42 0-80 32-83 80"/>
   <polygon class="arrow-head" points="1.9 81.2 29.9 82.8 15.1 96 "/>
 </svg>
-    C’est notre idole !
+    It's our idol!
   </span>
   <img src="/print-it/assets/images/clippy.svg" alt="relier les points">
 </div>
@@ -3136,9 +3117,9 @@
             <div class="running-title">
               Print-it
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              À la découverte d'Internet !
+              Let's discover the Internet !
               <span class="wingding-3"></span> <!-- arrow to right 3D -->
-              Jeux
+              Games
             </div>
             <div class="page-number">
               
@@ -3169,51 +3150,62 @@
 
           <div class="print-page-content-wrapper">
             <div class="page-content-text ours">
-  <h3 class="title-3">OP007 - Print-it - Free version</h3>
-  Produit à 42 exemplaires<br/>
-  Exemplaire numéro <span class="number-to-append"></span><br/>
-  Généré par Google Chrome<br/>
+  <h3 class="title-3">
+    OP007 - Print-it <br/>
+    Deluxe english version</h3>
+  Printed at 42 copies<br/>
+  Copy number <span class="number-to-append"></span><br/>
+  Generated by Google Chrome<br/>
 
-  Imprimé par <span class="name-to-append"></span>
+  Printed by Jérémy Roques (deluxe couver), <br />
+  Jérémy Zeitouni (deluxe packaging)<br />
+  and <span class="name-to-append"></span> (interior pages)
   <span class="annotation-origin"></span>
   <span class="annotation-content annotation-bottom">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <path class="arrow-stroke" d="M98.5 6.5c-42 0-80 32-83 80"/>
   <polygon class="arrow-head" points="1.9 81.2 29.9 82.8 15.1 96 "/>
 </svg>
-    Hey !<br/> Regarde par ici ;)
-  </span><br/>
-  Relié par <span class="name-to-append"></span><br/>
-  Le <span class="date-to-append"></span><br/><br/>
+    Hey !<br /> over here ;)
+  </span><br />
+  Binded by  <span class="name-to-append"></span> <br />
 
-  <h3 class="title-3">Conception éditoriale</h3>
+  On <span class="date-to-append"></span><br/><br/>
+
+  <h3 class="title-3">Editorial conception</h3>
   Morgane Bartoli, Ronan Deshaies, Corentin Moussard <br/>
-  avec la participation de Sixtyne Perez (Horoscope p.27-29)
-  et Guillaume Rossi (Arts p.14-16).<br/><br/>
+  with the participation of Sixtyne Perez (Horoscope p.27-29)
+  and Guillaume Rossi (Arts p.14-16).<br/><br/>
 
   
-  <h3 class="title-3">Conception graphique</h3>
-  Corentin Moussard et Morgane Bartoli.<br/><br/>
+  <h3 class="title-3">Graphic direction</h3>
+  Corentin Moussard and Morgane Bartoli.<br/><br/>
 
   
-  <h3 class="title-3">Typographie</h3>
-  Snap-it conçu par Corentin Moussard<br/>
-  et Morgane Bartoli<br/>
-  Avara conçu par Raphaël Bastide <br/><br/>
+  <h3 class="title-3">Typefaces</h3>
+  Snap-it by Corentin Moussard<br/>
+  and Morgane Bartoli<br/>
+  Avara by Raphaël Bastide <br/><br/>
 
 
-  <h3 class="title-3">Stack technique</h3>
-  Mise en page en CSS print, réalisé avec Atom, <br/>
-  Jekyll, GitHub, Siteleaf. Code disponible sur : <br/>
+  <h3 class="title-3">Tech stack</h3>
+  CSS print layout made with Atom,  <br/>
+  Jekyll, GitHub, Siteleaf. Code available at: <br/>
   <span class="link">https://gitlab.com/Alune/print-it</span> <br/><br/>
 
 
+
+  <h3 class="title-3">Papers </h3>
+  Cover: Chromolux alu silver 80g/m²<br/>
+  White paper: Clairefontaine Equality 80g/m²<br/>
+  Blue paper: Clairefontaine Trophee 80g/m²<br/><br/>
+
   
-  <h3 class="title-3">Remerciements</h3>
+  <h3 class="title-3">Our Thanks to</h3>
   Ronan Deshaies, Juliette Bernachot, Sixtyne Perez, <br/>
   Guillaume Rossi, Manon Gavalda, Raphaël Bastide,<br/>
   Taxi Nuage, PrePostPrint.<br/>
-  Spéciale dédicace à Virginie Lyobard & la Fanzinothèque de Poitiers.<br/>
+  Special thanks to Virginie Lyobard and la Fanzinothèque de Poitiers.<br/>
 
 
 </div>
@@ -3236,6 +3228,7 @@
     
 
   </div>
+
 
 
 
