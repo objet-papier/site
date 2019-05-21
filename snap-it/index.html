@@ -1,0 +1,163 @@
+---
+layout: snap-it
+---
+
+<div class="snap-it-specimen-container">
+
+  <div class="content-wrapper mgt-m mgb-m">
+    <div class="header flex-row alitems-stretch">
+      <div class="header-text flex-1 mgr-s">
+          A typeface by Morgane Bartoli and Corentin Moussard, created for OP007 Print-it.
+      </div>
+
+      <!-- <div class="header-logo">
+          <img class="op-logo visible" src="{{site.baseurl}}/assets/images/snap-it/op-logo-1.svg" alt="op-logo">
+          <img class="op-logo" src="{{site.baseurl}}/assets/images/snap-it/op-logo-2.svg" alt="op-logo">
+          <img class="op-logo" src="{{site.baseurl}}/assets/images/snap-it/op-logo-3.svg" alt="op-logo">
+          <img class="op-logo" src="{{site.baseurl}}/assets/images/snap-it/op-logo-4.svg" alt="op-logo">
+          <img class="op-logo" src="{{site.baseurl}}/assets/images/snap-it/op-logo-5.svg" alt="op-logo">
+          <img class="op-logo" src="{{site.baseurl}}/assets/images/snap-it/op-logo-6.svg" alt="op-logo">
+      </div> -->
+
+      <div class="theme-button dark-theme-button">
+          <img src="{{site.baseurl}}/assets/images/snap-it/moon-icon.svg" alt="moon icon">
+      </div>
+      <div class="theme-button light-theme-button">
+          <img src="{{site.baseurl}}/assets/images/snap-it/sun-icon.svg" alt="sun icon">
+      </div>
+    </div>
+  </div>
+  
+  <div class="snap-it-hero content-wrapper">
+    <h1 class="hero-large-font">Snap-it</h1> 
+    <h2 class="hero-small-font">A monospaced font without curves.</h2>
+  </div>
+
+
+  <div class="content-wrapper mgt-xl">
+    <div class="introduction flex-row justc-space-b border">
+      <div class="two-third-width intro-text">
+        The Snap-it font was born from a project we worked on for quite some time, we wanted to create 
+        a publication entirely built with CSS print, and let the reader print he's own book. It's now available: 
+        our label Objet Papier's 7th issue: Print-it. With it our font is also out and
+        available to use and modify. One of our main inspiration was the Avara font from Raphaël Bastide, 
+        we wanted to use it for titles and design a body copy font to match it perfectly. 
+        We were talking about computers and print on demand so a monospaced was the go to choice, in 
+        reference to typewriters and computer terminals.
+      </div>
+      <div class="one-quarter-width mgr-l inverted-image" id="printer-animation">
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="content-wrapper snap-wire mgt-xl">
+    <h3 class="subtitle">./trouble-with-the-curve.sh</h3>
+    <img class="mgt-m inverted-image" src="{{site.baseurl}}/assets/images/snap-it/snap-wire-3D.svg" alt="">
+  </div>
+
+
+  <div class="content-wrapper mgt-xl">
+      <div class="full-width flex-row alitems-stretch terminals-wrapper">
+        <div class="one-third-width terminals inverted-image">
+          <img src="{{site.baseurl}}/assets/images/snap-it/y-terminal.svg" alt="y terminal">
+        </div>
+        <div class="one-third-width terminals inverted-image">
+          <img src="{{site.baseurl}}/assets/images/snap-it/h-terminal.svg" alt="h terminal">
+        </div>
+        <div class="one-third-width mgl-m">
+          <h3 class="subtitle mgb-s">./terminals.sh</h3>
+          Like the internet, our dream typeface was serious ans fun at the same time, the no curve design helping the serious
+          and brutalist look, we added broken terminals for the fun part. Ascending terminals are snaped one time, looking
+          like a "cartoon haircut",
+          and descending are snaped twice for a "dancing look".
+        </div>
+      </div>
+  </div>
+
+
+  <div class="content-wrapper mgt-xl">
+    <h3 class="subtitle mgb-s">./grid.sh</h3>
+    <img class="full-width inverted-image" src="{{site.baseurl}}/assets/images/snap-it/specimen-grid.svg" alt="">
+  </div>
+
+
+
+  <div class="content-wrapper mgt-xl">
+      <h3 class="subtitle mgb-m">./inktraps.sh</h3>
+      <div class="full-width flex-row alitems-stretch inktraps-wrapper">
+        <div class="one-third-width terminals inverted-image">
+          <img src="{{site.baseurl}}/assets/images/snap-it/inktrap-m.svg" alt="y terminal">
+        </div>
+        <div class="one-third-width inktrap-text">
+            Letting the readers print our mag themselves was a great challenge in creating an experience
+            that could work on any printer. Font legibility can vary a lot between printers, depending on 
+            their print precision. One of our choices was to add inktraps to the Snap-it font, to make it 
+            as legible as possible in small sizes and when printed in poor quality.
+        </div>
+        <div class="one-third-width terminals inverted-image">
+            <img src="{{site.baseurl}}/assets/images/snap-it/inktrap-q.svg" alt="y terminal">
+        </div>
+      </div>
+  </div>
+
+
+  <div class="content-wrapper mgt-xl">
+    <h3 class="subtitle mgb-m">./rotate.sh</h3>
+    <div class="italic-section">
+      <span class="ital">The Italic is</span><br/>
+      <span class="ital">in the works.</span><br/>
+      <span class="ital">Rotated capitals</span><br/>
+      <span class="ital">for now.</span><br/>
+      
+    </div>
+
+    <div class="italic-code flex-row">
+      <pre class="one-third-width">
+<span class="code-language-name">HTML</span>
+        <code>
+&lt;span class="ital"&gt;
+  This text is italic
+&lt;/span&gt;</code>
+      </pre>
+      
+      
+      <pre class="one-third-width">
+<span class="code-language-name">SCSS</span>
+          <code>
+.ital {
+  display: inline-block;
+
+  .italic-letter {
+    display: inline-block;
+    transform: rotate(15deg);
+    text-transform: uppercase;
+    min-width: .62em;
+    height: .8em;
+  }
+}</code>
+      </pre>
+
+      <pre class="one-third-width">
+<span class="code-language-name">JavaScript</span>
+          <code>
+const ital = document.querySelectorAll(".ital");
+
+for (let i = 0; i < ital.length; i++) {
+  const italElement = ital[i];
+  italElement.innerHTML = '&lt;span class="italic-letter"&gt;' + italElement.innerHTML.split('').join('&lt;/span&gt;&lt;span class="italic-letter"&gt;') + '&lt;/span&gt;';
+}</code>
+      </pre>
+    </div>
+  </div>
+
+
+
+
+  <div class="content-wrapper mgt-xl">
+    <h3 class="subtitle mgb-s">./glyphs.sh</h3>
+    <div class="glyph-list-hidden">AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz1234567890.,;:?!(){}[]""''°-_@%…≥≤^~≠=÷−+¥£€$¶`¨´°—«»"'՚\/|#*•¿¡ÁÂÄÀÃÆÇÉÊËÈÎÏÌñÔÖÚÛÜÙŸâäàéêëèïìôöûüùÿ</div>
+    <div class="glyph-output flex-row wrap"></div>
+  </div>
+
+</div>

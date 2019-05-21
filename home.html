@@ -14,7 +14,7 @@ layout: default
   </div>
   <div class="home-content">
     <div class="content-fake-padding"></div>
-    {% assign release-sort = (site.op-release | sort: 'position') | reverse %}
+    {% assign release-sort = site.op-release | sort: 'position' | reverse %}
     {% for release in release-sort %}
       <div class="release-container">
         <a class="release-link" href="{{ release.url }}">

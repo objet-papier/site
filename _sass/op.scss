@@ -186,17 +186,39 @@ blockquote {
   width: 100%;
   height: 100vh;
   background-color: $dark-color;
+}
 
-  .enter-link {
-    color: white;
-    padding-bottom: $spacing-unit;
-  }
+.landing-snap-it {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.snap-it-cover {
+  display: block;
+  width: 90%;
 }
 
 .enter-link {
   color: black;
   font-family: $gothic-font;
   padding-bottom: $spacing-unit;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-bottom: $spacing-unit;
+  text-align: center;
+
+  &.white {
+    color: white;
+  }
+
+  &.black {
+    color: $dark-color;
+  }
 }
 
 .small-logo {

@@ -28,9 +28,14 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 .landing-enter-link:hover { text-decoration: none; }
 
 .landing-generic { display: flex; flex-direction: column; justify-content: space-between; align-items: center; width: 100%; height: 100vh; background-color: #16181a; }
-.landing-generic .enter-link { color: white; padding-bottom: 30px; }
 
-.enter-link { color: black; font-family: "MadrasBold", Helvetica, Arial, sans-serif; padding-bottom: 30px; }
+.landing-snap-it { background-color: black; min-height: 100vh; display: flex; justify-content: center; align-items: center; }
+
+.snap-it-cover { display: block; width: 90%; }
+
+.enter-link { color: black; font-family: "MadrasBold", Helvetica, Arial, sans-serif; padding-bottom: 30px; position: absolute; left: 0; right: 0; bottom: 0; padding-bottom: 30px; text-align: center; }
+.enter-link.white { color: white; }
+.enter-link.black { color: #16181a; }
 
 .small-logo { width: 30%; max-width: 500px; top: 30px; right: 6%; }
 
@@ -271,8 +276,6 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 .print-it-title img { display: block; width: 100%; max-height: 100%; margin-top: -30px; }
 
 .landing-container { position: relative; }
-
-.enter-link { position: absolute; left: 0; right: 0; bottom: 0; color: #16181a !important; padding-bottom: 30px; text-align: center; }
 
 .print-it-landing-text { position: absolute; top: 0; left: 0; right: 0; font-family: "MadrasBold", Helvetica, Arial, sans-serif; font-size: 22px; color: #fff; padding-top: 30px; text-align: center; line-height: 28px; }
 .print-it-landing-text span { font-size: 18px; }

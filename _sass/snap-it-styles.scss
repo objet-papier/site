@@ -1,0 +1,332 @@
+@font-face {
+  font-family: 'snap-it';
+  src: url('fonts/snap-it-mono-1.6.woff2') format('woff2'),
+       url('fonts/snap-it-mono-1.6.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$base-font-size: 26px;
+$base-line-height: 1.35;
+
+$spacing-unit: 20px;
+
+$laptop: 1400px;
+$tablet: 1080px;
+$phone: 720px;
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@import "snap-it-theme/resets.scss",
+        "snap-it-theme/layout.scss";
+
+
+
+.ital {
+  display: block;
+  margin-bottom: -1.1em;
+  line-height: .8;
+  span {
+    display: inline-block;
+    transform: rotate(15deg);
+    text-transform: uppercase;
+    min-width: .62em;
+    height: .8em;
+  }
+}
+
+.italic-letter {
+  &.animated {
+    animation: italic-animation 1s 1;
+    animation-timing-function: steps(12);
+  }
+}
+
+@keyframes italic-animation {
+  0% {
+    transform: rotate(15deg);
+  }
+  0% {
+    transform: rotate(375deg);
+  }
+}
+
+
+
+.dark-theme {
+  background-color: black;
+  color: white;
+  .border {
+    border-color: white;
+  }
+  *::selection {
+    color: black;
+    background: white;
+  }
+  *::-moz-selection {
+    color: black;
+    background: white; 
+  }
+
+  .glyph-highlight {
+    background-color: black;
+  }
+
+  .dark-theme-button {
+    display: none;
+  }
+}
+
+.light-theme {
+  background-color: white;
+  color: black;
+
+  .border {
+    border-color: black;
+  }
+
+  *::selection {
+    color: white;
+    background: black; /* WebKit/Blink Browsers */
+  }
+  *::-moz-selection {
+    color: white;
+    background: black; /* Gecko Browsers */
+  }
+
+  .inverted-image {
+    filter: invert(1);
+  }
+
+  .glyph-highlight {
+    background-color: white;
+  }
+
+  .light-theme-button {
+    display: none;
+  }
+}
+
+.snap-it-specimen-container {
+  min-height: 100vh;
+  padding-bottom: 400px;
+}
+
+.content-wrapper {
+  width: 100%;
+  padding: 0 3%;
+}
+
+
+
+
+
+
+
+
+
+.header {
+  border: solid 2px;
+}
+
+.header-text {
+  padding: $spacing-unit;
+}
+
+
+.header-logo {
+  padding: $spacing-unit/2;
+}
+
+.op-logo {
+  height: 100%;
+  display: none;
+
+  &.visible {
+    display: block;
+  }
+}
+
+.theme-button {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  padding: $spacing-unit/2;
+  cursor: pointer;
+  
+  img {
+    height: 50px;
+    width: 50px;
+  }
+
+  &.dark-theme-button {
+    background-color: black;
+    border-left: solid 2px;
+  }
+  &.light-theme-button {
+    background-color: white;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-large-font {
+  font-size: 25.5vw;
+  line-height: .9;
+  padding-bottom: $spacing-unit*3;
+}
+
+.hero-small-font {
+  font-size: 10.5vw;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 64px;
+}
+
+
+
+.introduction {
+  border: dashed 2px;
+}
+
+.intro-text {
+  padding: $spacing-unit*4;
+}
+
+
+
+
+
+.snap-wire {
+  img {
+    width: 100%;
+  }
+}
+
+
+
+
+.terminals-wrapper {
+  height: 700px;
+}
+
+.terminals {
+  img {
+    height: 100%;
+    max-width: 100%;
+  }
+}
+
+
+.inktraps-wrapper {
+  border: solid 2px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.inktrap-text {
+  border-left: solid 2px;
+  border-right: solid 2px;
+  padding: $spacing-unit*2;
+}
+
+
+
+
+
+.italic-section {
+  font-size: 9.3vw;
+}
+
+
+.code-language-name {
+  border-bottom: solid 2px;
+}
+
+pre {
+  border: dashed 2px;
+  padding: $spacing-unit;
+  overflow-x: scroll;
+}
+
+
+.glyph-list-hidden {
+  display: none;
+}
+.glyph-output {
+  font-size: 32px;
+
+  .glyph-wrapper {
+    position: relative;
+    width: 6.25%;
+    padding-top: 6.25%;
+    text-align: center;
+    line-height: -20px;
+    border: dashed 2px transparent;
+    z-index: 0;
+
+    p {
+      // display: block;
+      height: 100%;
+      margin-top: -52%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .glyph-highlight {
+      position: absolute;
+      width: 300%;
+      height: 300%;
+      top: 120%;
+      left: -100%;
+      border: solid 2px;
+      display: none;
+      font-size: 14vw;
+      line-height: 16vw;
+      text-align: center;
+      pointer-events: none;
+    }
+
+    &:nth-child(16n+1) {
+      .glyph-highlight {
+        left: 0;
+      }
+    }
+
+    &:nth-child(16n+16) {
+      .glyph-highlight {
+        left: -200%;
+      }
+    }
+
+    &:hover {
+      border: dashed 2px;
+      z-index: 1;
+
+      .glyph-highlight {
+        display: block;
+      }
+    }
+  }
+}
