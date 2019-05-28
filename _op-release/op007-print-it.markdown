@@ -30,7 +30,7 @@ paypal-link: https://www.paypal.me/RDeshaies/4,99
 Conçu comme le paroxysme de notre ligne éditoriale qui consiste à explorer les liens existant entre papier et numérique, cette septième publication s'approprie la technique du CSS-Print permettant de coder un livre ou d'imprimer un site. Un outil secret réconciliant le papier et l’écran pour célébrer dignement les 30 ans du World Wide Web.
 OP007 : Print-it, à la découverte d’Internet ! propose au lecteur de devenir acteur en imprimant et reliant lui-même son magazine avec l'aide d'un kit et d'une notice à partir d’une page web.
 Truffé de références au monde numérique tant sur la forme que sur le fond, tout en s’amusant de codes empruntés à la presse jeunesse, cet Objet Codé Non Identifié imprimé maison propose une expérience unique à la croisée des savoirs.
-Snap-it, la police de caractère déssinée pour cette édition est open source, téléchargez la [ici](https://gitlab.com/Alune/snap-it-mono-font) et trouvez son spécimen web [ici]({{site.baseurl}}/snap-it/)
+Snap-it, la police de caractère dessinée pour cette édition est open source, téléchargez la [ici](https://gitlab.com/Alune/snap-it-mono-font) et trouvez son spécimen web [ici]({{site.baseurl}}/snap-it/)
 
 [C'EST PARTI !](https://objetpapier.fr/print-it)
 
