@@ -21,8 +21,7 @@ nb-pages: 36
 reliure: Japonaise
 impression: Numérique quadri
 exemplaires: 70
-prix: 12
-paypal-link: https://www.paypal.me/RDeshaies/12
+prix: sold out
 ---
 
 Imaginé comme le croisement entre un herbier et un carnet de voyage, "Bali, feuilles rapportées", édition organique et artisanale de l'illustratrice Mamzelle Heing est le récit intime d'un voyage reconstructeur à l'origine d'une renaissance.
