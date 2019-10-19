@@ -33,7 +33,7 @@ $phone: 720px;
   span {
     display: inline-block;
     transform: rotate(15deg);
-    text-transform: uppercase;
+    // text-transform: uppercase;
     min-width: .62em;
     height: .8em;
   }
@@ -60,6 +60,11 @@ $phone: 720px;
 .dark-theme {
   background-color: black;
   color: white;
+
+  a, a:visited {
+    color: white;
+  }
+
   .border {
     border-color: white;
   }
@@ -84,6 +89,10 @@ $phone: 720px;
 .light-theme {
   background-color: white;
   color: black;
+
+  a, a:visited {
+    color: black;
+  }
 
   .border {
     border-color: black;
@@ -113,7 +122,7 @@ $phone: 720px;
 
 .snap-it-specimen-container {
   min-height: 100vh;
-  padding-bottom: 400px;
+  padding-bottom: 120px;
 }
 
 .content-wrapper {
@@ -131,12 +140,37 @@ $phone: 720px;
 
 .header {
   border: solid 2px;
+  position: relative;
+  z-index: 1;
 }
 
-.header-text {
+.header-divider {
+  width: 100%;
+  border-bottom: solid 2px;
+}
+
+.header-section {
   padding: $spacing-unit;
 }
 
+.header-button {
+  padding: $spacing-unit;
+  border-left: solid 2px;
+  cursor: pointer;
+
+  img {
+    height: 30px;
+  }
+
+  &:hover {
+    background-color: white;
+    color: black;
+
+    img {
+      filter: invert(1);
+    }
+  }
+}
 
 .header-logo {
   padding: $spacing-unit/2;
@@ -255,7 +289,7 @@ $phone: 720px;
 
 
 .italic-section {
-  font-size: 9.3vw;
+  font-size: 8.3vw;
 }
 
 
@@ -298,7 +332,7 @@ pre {
       position: absolute;
       width: 300%;
       height: 300%;
-      top: 120%;
+      bottom: 120%;
       left: -100%;
       border: solid 2px;
       display: none;

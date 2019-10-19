@@ -5,25 +5,30 @@ layout: snap-it
 <div class="snap-it-specimen-container">
 
   <div class="content-wrapper mgt-m mgb-m">
-    <div class="header flex-row alitems-stretch">
-      <div class="header-text flex-1 mgr-s">
-          A typeface by Morgane Bartoli and Corentin Moussard, created for OP007 Print-it.
+    <div class="header flex-column">
+      <div class="flex-row alitems-stretch">
+          <div class="header-section flex-1 mgr-s">
+              A typeface by Morgane Bartoli and Corentin Moussard, created for OP007 Print-it.
+          </div>
+    
+          <div class="theme-button dark-theme-button">
+              <img src="{{site.baseurl}}/assets/images/snap-it/moon-icon.svg" alt="moon icon">
+          </div>
+          <div class="theme-button light-theme-button">
+              <img src="{{site.baseurl}}/assets/images/snap-it/sun-icon.svg" alt="sun icon">
+          </div>
       </div>
-
-      <!-- <div class="header-logo">
-          <img class="op-logo visible" src="{{site.baseurl}}/assets/images/snap-it/op-logo-1.svg" alt="op-logo">
-          <img class="op-logo" src="{{site.baseurl}}/assets/images/snap-it/op-logo-2.svg" alt="op-logo">
-          <img class="op-logo" src="{{site.baseurl}}/assets/images/snap-it/op-logo-3.svg" alt="op-logo">
-          <img class="op-logo" src="{{site.baseurl}}/assets/images/snap-it/op-logo-4.svg" alt="op-logo">
-          <img class="op-logo" src="{{site.baseurl}}/assets/images/snap-it/op-logo-5.svg" alt="op-logo">
-          <img class="op-logo" src="{{site.baseurl}}/assets/images/snap-it/op-logo-6.svg" alt="op-logo">
-      </div> -->
-
-      <div class="theme-button dark-theme-button">
-          <img src="{{site.baseurl}}/assets/images/snap-it/moon-icon.svg" alt="moon icon">
-      </div>
-      <div class="theme-button light-theme-button">
-          <img src="{{site.baseurl}}/assets/images/snap-it/sun-icon.svg" alt="sun icon">
+      <div class="header-divider"></div>
+      <div class="flex-row alitems-stretch">
+        <div class="header-section flex-1">
+          Snap-it is an open source font under OFL 1.1
+        </div>
+        <div class="header-button" onclick="window.location='https://gitlab.com/Alune/snap-it-mono-font'">
+          Download
+        </div>
+        <div class="header-button flex-row alitems-center" onclick="window.location='https://objetpapier.fr'">
+            <img class="inverted-image" src="{{site.baseurl}}/assets/images/snap-it/op-logo-1.svg" alt="op-logo">
+        </div>
       </div>
     </div>
   </div>
@@ -107,7 +112,7 @@ layout: snap-it
     <div class="italic-section">
       <span class="ital">The Italic is</span><br/>
       <span class="ital">in the works.</span><br/>
-      <span class="ital">Rotated capitals</span><br/>
+      <span class="ital">Rotated characters</span><br/>
       <span class="ital">for now.</span><br/>
       
     </div>
@@ -131,7 +136,6 @@ layout: snap-it
   .italic-letter {
     display: inline-block;
     transform: rotate(15deg);
-    text-transform: uppercase;
     min-width: .62em;
     height: .8em;
   }
