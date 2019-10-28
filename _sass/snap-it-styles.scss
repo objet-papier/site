@@ -364,3 +364,167 @@ pre {
     }
   }
 }
+
+
+.test-dials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+
+  div {
+    max-width: 31%;
+  }
+}
+
+.test-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: dashed 2px;
+  font-size: 110px;
+  width: 100%;
+  min-height: 800px;
+  height: auto;
+}
+
+.editable-section {
+  display: inline-block;
+  text-align: center;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+
+
+
+//range inputs
+
+input[type=range] {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  width: 100%; /* Specific width is required for Firefox. */
+  background: transparent; /* Otherwise white in Chrome */
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+  outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+
+  /* Hides the slider so custom styles can be added */
+  background: transparent; 
+  border-color: transparent;
+  color: transparent;
+}
+
+
+// Thumb
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 2px solid;
+  height: 16px;
+  width: 16px;
+  border-radius: 16px;
+  cursor: pointer;
+  margin-top: -7px;
+}
+input[type=range]::-moz-range-thumb {
+  border: 2px solid ;
+  height: 16px;
+  width: 16px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+input[type=range]::-ms-thumb {
+  border: 2px solid;
+  height: 16px;
+  width: 16px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.dark-theme {
+  input[type=range]::-webkit-slider-thumb {
+    border: 2px solid white;
+    background: black;
+    
+  }
+  input[type=range]::-moz-range-thumb {
+    border: 2px solid white;
+    background: black;
+    
+  }
+  input[type=range]::-ms-thumb {
+    border: 2px solid white;
+    background: black;
+  }
+}
+
+.light-theme {
+  input[type=range]::-webkit-slider-thumb {
+    border: 2px solid black;
+    background: white;
+  }
+  input[type=range]::-moz-range-thumb {
+    border: 2px solid black;
+    background: white;
+  }
+  input[type=range]::-ms-thumb {
+    border: 2px solid black;
+    background: white;
+  }
+}
+
+
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+}
+
+.dark-theme {
+  input[type=range]::-webkit-slider-runnable-track {
+    background-color: white;
+  }
+  input[type=range]::-moz-range-track {
+    background-color: white;
+  }
+  input[type=range]::-ms-track {
+    background-color: white;
+  }
+}
+.light-theme {
+  input[type=range]::-webkit-slider-runnable-track {
+    background-color: black;
+  }
+  input[type=range]::-moz-range-track {
+    background-color: black;
+  }
+  input[type=range]::-ms-track {
+    background-color: black;
+  }
+}
