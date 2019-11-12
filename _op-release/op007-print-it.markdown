@@ -23,7 +23,7 @@ nb-pages: 32
 reliure: Baguette
 impression: Maison N&B
 exemplaires: 7 x 42
-prix: 8,51 (4,99 + fdp)
+prix: '4,99'
 paypal-link: https://www.paypal.me/RDeshaies/8,51
 ---
 
