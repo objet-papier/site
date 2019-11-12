@@ -24,7 +24,7 @@ reliure: Baguette
 impression: Maison N&B
 exemplaires: 7 x 42
 prix: '4,99'
-paypal-link: https://www.paypal.me/RDeshaies/4,99
+paypal-link: https://www.paypal.me/RDeshaies/8,51
 ---
 
 Conçu comme le paroxysme de notre ligne éditoriale qui consiste à explorer les liens existant entre papier et numérique, cette septième publication s'approprie la technique du CSS-Print permettant de coder un livre ou d'imprimer un site. Un outil secret réconciliant le papier et l’écran pour célébrer dignement les 30 ans du World Wide Web.
