@@ -8,18 +8,18 @@ auteur:
 name: Blurring Policies
 black-cover-image: "/uploads/op002-cover-black.jpg"
 white-cover-image: "/uploads/op002-cover-white.jpg"
+images:
+- "/uploads/op002-1.jpg"
+- "/uploads/op002-2.jpg"
+- "/uploads/op002-3.jpg"
+- "/uploads/op002-4.jpg"
 format: A5
 nb-pages: 20
 reliure: Piqûre à cheval
 impression: Numérique noir et blanc
 exemplaires: 110 numérotés
 prix: 4
-paypal-link: 89JRSZ343WPSC
-images:
-- "/uploads/op002-1.jpg"
-- "/uploads/op002-2.jpg"
-- "/uploads/op002-3.jpg"
-- "/uploads/op002-4.jpg"
+paypal-link: https://www.paypal.me/RDeshaies/5,16
 layout: project
 ---
 

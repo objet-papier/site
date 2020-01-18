@@ -22,6 +22,7 @@ reliure: Piqûre à cheval
 impression: Numérique quadri
 exemplaires: 100 numérotés
 prix: 7
+paypal-link: https://www.paypal.me/RDeshaies/10,52
 video: 235078540
 video-color: c40018
 layout: project
