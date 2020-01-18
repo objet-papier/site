@@ -395,6 +395,10 @@ pre {
 .editable-section {
   display: inline-block;
   text-align: center;
+  text-rendering: optimizeLegibility;
+  moz-osx-font-smoothing: grayscale; /*(For Firefox)*/
+  webkit-font-smoothing: antialiased;
+  font-weight: normal !important;
 
   &:focus {
     outline: none;
