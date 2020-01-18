@@ -2,8 +2,59 @@
 layout: simple
 ---
 
-<div class="landing-generic" onclick="window.location = '{{ site.baseurl }}/home'">
-  <span></span>
-  {% include logo-anim-small.html %}
-  <a class="enter-link" href="{{ site.baseurl }}/home">entrer</a>
+<div class="landing-newspaper-forever">
+  <div class="title">
+    <img src="{{site.baseurl}}/assets/images/nf-landing-type.svg">
+  </div>
+  <div class="illu">
+    <img class="illu-bg" src="{{site.baseurl}}/assets/images/nf-landing-illu.png">
+    <canvas id='canvas' width=668 height=525 ></canvas>
+    <img class="illu-front" src="{{site.baseurl}}/assets/images/nf-landing-ellipse.svg">
+    <img class="illu-mobile" src="{{site.baseurl}}/assets/images/nf-landing-complete.svg">
+  </div>
+  <div class="nf-enter-link">
+    <a href="{{site.baseurl}}/home/">entrer</a>
+  </div>
 </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+  var canvas = document.getElementById('canvas');
+  var ctx = canvas.getContext('2d');
+  var canvasx = $(canvas).offset().left;
+  var canvasy = $(canvas).offset().top;
+  var last_mousex = last_mousey = 0;
+  var mousex = mousey = 0;
+
+  //prepare canvas
+  ctx.fillStyle = '#ffffff'
+  ctx.fillRect(0, 0, 668, 525);
+  // ctx.strokeStyle = 'rgba(0, 0, 0, 1)';
+  
+
+  canvas.onmousemove = function(e) {
+    var rect = this.getBoundingClientRect();
+    // var x = e.clientX - rect.left;
+    // var y = e.clientY - rect.top;
+    
+    // ctx.beginPath();
+    // ctx.moveTo(last_mousex,last_mousey);
+    // ctx.lineTo(mousex,mousey);
+    // ctx.lineJoin = ctx.lineCap = 'round';
+    // ctx.stroke();
+
+    mousex = parseInt(e.clientX-canvasx);
+    mousey = parseInt(e.clientY-canvasy);
+    ctx.beginPath();
+    ctx.globalCompositeOperation = 'destination-out';
+    ctx.lineWidth = 30;
+    ctx.moveTo(last_mousex,last_mousey);
+    ctx.lineTo(mousex,mousey);
+    ctx.lineJoin = ctx.lineCap = 'round';
+    ctx.stroke();
+    last_mousex = mousex;
+    last_mousey = mousey;
+}
+
+</script>

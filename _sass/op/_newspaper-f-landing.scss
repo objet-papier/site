@@ -1,0 +1,67 @@
+.landing-newspaper-forever {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0;
+  color: black;
+
+  .title {
+    width: 300px;
+    height: auto;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .illu {
+    position: relative;
+    width: 668px;
+    height: 525px;
+
+    .illu-mobile {
+      display: none;
+    }
+
+    img, canvas {
+      position: absolute;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .illu-front {
+      pointer-events: none;
+    }
+
+    @media screen and (max-width: 900px) {
+      width: 80%;
+      height: auto;
+
+      img {
+        position: static;
+      }
+
+      .illu-mobile {
+        display: block;
+      }
+      
+      .illu-front, .illu-bg, canvas {
+        display: none;
+      }
+    }
+  }
+
+  .nf-enter-link a {
+    color: black;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}

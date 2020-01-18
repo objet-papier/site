@@ -280,6 +280,21 @@ blockquote { padding: 0 0 0 15px; font-style: italic; opacity: 0.5; margin: 0 0 
 .print-it-landing-text { position: absolute; top: 0; left: 0; right: 0; font-family: "MadrasBold", Helvetica, Arial, sans-serif; font-size: 22px; color: #fff; padding-top: 30px; text-align: center; line-height: 28px; }
 .print-it-landing-text span { font-size: 18px; }
 
+.landing-newspaper-forever { height: 100vh; width: 100%; display: flex; flex-direction: column; justify-content: space-between; align-items: center; padding: 100px 0; color: black; }
+.landing-newspaper-forever .title { width: 300px; height: auto; }
+.landing-newspaper-forever .title img { display: block; width: 100%; }
+.landing-newspaper-forever .illu { position: relative; width: 668px; height: 525px; }
+.landing-newspaper-forever .illu .illu-mobile { display: none; }
+.landing-newspaper-forever .illu img, .landing-newspaper-forever .illu canvas { position: absolute; }
+.landing-newspaper-forever .illu img { width: 100%; }
+.landing-newspaper-forever .illu .illu-front { pointer-events: none; }
+@media screen and (max-width: 900px) { .landing-newspaper-forever .illu { width: 80%; height: auto; }
+  .landing-newspaper-forever .illu img { position: static; }
+  .landing-newspaper-forever .illu .illu-mobile { display: block; }
+  .landing-newspaper-forever .illu .illu-front, .landing-newspaper-forever .illu .illu-bg, .landing-newspaper-forever .illu canvas { display: none; } }
+.landing-newspaper-forever .nf-enter-link a { color: black; }
+.landing-newspaper-forever .nf-enter-link a:hover { opacity: 0.6; }
+
 .lab-title { position: fixed; top: 0px; left: 40px; font-family: "CrimsonText", Times, serif; font-size: 60px; color: #fff; }
 
 .lab-desc { width: 100%; max-width: 600px; margin: 0px auto; height: 100vh; display: flex; justify-content: center; align-items: center; }
