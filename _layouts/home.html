@@ -3,15 +3,25 @@ layout: simple
 ---
 
 <div class="landing-newspaper-forever">
-  <div class="title">
-    <img src="{{site.baseurl}}/assets/images/nf-landing-type.svg">
+  <div class="landing-content-desktop">
+    <div class="title">
+      <img src="{{site.baseurl}}/assets/images/nf-landing-type.svg">
+    </div>
+    <div class="illu">
+      <img class="illu-bg" src="{{site.baseurl}}/assets/images/nf-landing-illu.png">
+      <canvas id='canvas' width=668 height=525 ></canvas>
+      <img class="illu-front" src="{{site.baseurl}}/assets/images/nf-landing-ellipse.svg">
+    </div>
   </div>
-  <div class="illu">
-    <img class="illu-bg" src="{{site.baseurl}}/assets/images/nf-landing-illu.png">
-    <canvas id='canvas' width=668 height=525 ></canvas>
-    <img class="illu-front" src="{{site.baseurl}}/assets/images/nf-landing-ellipse.svg">
+
+  <div class="landing-content-mobile">
+    <div class="title">
+      <img src="{{site.baseurl}}/assets/images/nf-landing-type.svg">
+    </div>
     <img class="illu-mobile" src="{{site.baseurl}}/assets/images/nf-landing-complete.svg">
+    <div></div>
   </div>
+
   <div class="nf-enter-link">
     <a href="{{site.baseurl}}/home/">entrer</a>
   </div>
@@ -34,15 +44,6 @@ layout: simple
   
 
   canvas.onmousemove = function(e) {
-    var rect = this.getBoundingClientRect();
-    // var x = e.clientX - rect.left;
-    // var y = e.clientY - rect.top;
-    
-    // ctx.beginPath();
-    // ctx.moveTo(last_mousex,last_mousey);
-    // ctx.lineTo(mousex,mousey);
-    // ctx.lineJoin = ctx.lineCap = 'round';
-    // ctx.stroke();
 
     mousex = parseInt(e.clientX-canvasx);
     mousey = parseInt(e.clientY-canvasy);

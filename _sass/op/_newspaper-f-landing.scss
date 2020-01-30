@@ -8,15 +8,64 @@
   padding: 100px 0;
   color: black;
 
-  .title {
-    width: 300px;
-    height: auto;
+  @media screen and (max-width: 900px) {
+    padding: 60px 0;
+  }
 
-    img {
-      display: block;
-      width: 100%;
+  .landing-content-desktop {
+    flex: 1;
+    width: 100%;
+    max-width: 2000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px ;
+
+    @media screen and (max-width: 900px) {
+      display: none;
+    }
+
+    .title {
+      flex: 1;
+      height: auto;
+      padding: 0 80px 0 0;
+  
+      img {
+        display: block;
+        width: 100%;
+      }
     }
   }
+
+  .landing-content-mobile {
+    display: none;
+
+    @media screen and (max-width: 900px) {
+      flex: 1;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .title {
+      width: 250px;
+
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+
+    .illu-mobile {
+      display: block;
+      width: 80%;
+      margin: 20px 0;
+    }
+  }
+
+  
 
   .illu {
     position: relative;
