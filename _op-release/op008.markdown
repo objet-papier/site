@@ -2,5 +2,28 @@
 title: OP008
 date: 2020-01-30 21:16:00 Z
 published: false
+number: OP008
+auteur:
+- name: Morgane Bartoli
+  website: https://morganebartoli.com/
+- website: 'Sixtyne Perez '
+  name: 
+name: 'Newspaper forever '
+black-cover-image: "/uploads/op007-cover-black-9f9424.jpg"
+white-cover-image: "/uploads/op007-cover-white-0220fc.jpg"
+images:
+- "/uploads/op007-1-34ca07.jpg"
+- "/uploads/op007-2-9a328c.jpg"
+- "/uploads/op007-3-ec66a0.jpg"
+- "/uploads/op007-4-70b0b0.jpg"
+- "/uploads/op007-5-f3b337.jpg"
+- "/uploads/op007-6-7abc3c.jpg"
+format: 'Tabloïd '
+nb-pages: 16
+reliure: Sans
+impression: Numérique noir seul
+exemplaires: 50
+prix: 6
 ---
 
+Au fil d’une nouvelle amoureuse de Sixtyne Perez accompagnant les illustrations de Morgane Bartoli, Newspaper Forever déclare sa flamme à la presse papier en questionnant son potentiel affectif et son statut d’objet. Un exercice de style graphique et littéraire dans lequel le journal et la passion perdurent parallèlement dans un détournement de leur raison d’être première malgré leur transformation. Un double hommage à une histoire d’amour lentement éreintée par le temps qui dessine en creux une renaissance espiègle et inédite.
