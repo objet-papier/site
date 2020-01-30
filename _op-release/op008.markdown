@@ -6,8 +6,8 @@ number: OP008
 auteur:
 - name: Morgane Bartoli
   website: https://morganebartoli.com/
-- website: "& Sixtyne Perez "
-  name: https://morganebartoli.com/
+- name: "& Sixtyne Perez "
+  website: 
 name: 'Newspaper forever '
 black-cover-image: "/uploads/op007-cover-black-9f9424.jpg"
 white-cover-image: "/uploads/op007-cover-white-0220fc.jpg"
