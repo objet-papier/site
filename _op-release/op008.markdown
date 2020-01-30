@@ -1,6 +1,7 @@
 ---
 title: OP008 Newspaper forever
 date: 2020-01-30 21:16:00 Z
+position: 7
 number: OP008
 auteur:
 - name: Morgane Bartoli
