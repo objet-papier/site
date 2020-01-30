@@ -1,5 +1,5 @@
 ---
-title: OP008
+title: OP008 Newspaper forever
 date: 2020-01-30 21:16:00 Z
 number: OP008
 auteur:
