@@ -6,8 +6,8 @@ number: OP008
 auteur:
 - name: Morgane Bartoli
   website: https://morganebartoli.com/
-- website: 'Sixtyne Perez '
-  name: 
+- website: "& Sixtyne Perez "
+  name: https://morganebartoli.com/
 name: 'Newspaper forever '
 black-cover-image: "/uploads/op007-cover-black-9f9424.jpg"
 white-cover-image: "/uploads/op007-cover-white-0220fc.jpg"
@@ -24,6 +24,7 @@ reliure: Sans
 impression: Numérique noir seul
 exemplaires: 50
 prix: 6
+paypal-link: https://www.paypal.me/RDeshaies/6
 ---
 
-Au fil d’une nouvelle amoureuse de Sixtyne Perez accompagnant les illustrations de Morgane Bartoli, *Newspaper Forever* déclare sa flamme à la presse papier en questionnant son potentiel affectif et son statut d’objet. Un exercice de style graphique et littéraire dans lequel le journal et la passion perdurent parallèlement dans un détournement de leur raison d’être première malgré leur transformation. Un double hommage à une histoire d’amour lentement éreintée par le temps qui dessine en creux une renaissance espiègle et inédite.
+Au fil d’une nouvelle amoureuse de Sixtyne Perez accompagnant les illustrations de Morgane Bartoli, *Newspaper Forever* déclare sa flamme à la presse papier en questionnant son potentiel affectif et son statut d’objet. Un exercice de style graphique et littéraire dans lequel le journal et la passion perdurent parallèlement dans un détournement de leur raison d’être première, malgré leur transformation. Un double hommage à une histoire d’amour lentement éreintée par le temps qui dessine en creux une renaissance espiègle et inédite.
