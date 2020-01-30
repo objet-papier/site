@@ -5,7 +5,7 @@ position: 7
 number: OP008
 auteur:
 - name: Morgane Bartoli
-  website: https://morganebartoli.com/
+  website: 
 - name: "& Sixtyne Perez "
   website: 
 name: 'Newspaper forever '
