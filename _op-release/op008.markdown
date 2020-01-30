@@ -1,7 +1,6 @@
 ---
 title: OP008
 date: 2020-01-30 21:16:00 Z
-published: false
 number: OP008
 auteur:
 - name: Morgane Bartoli
